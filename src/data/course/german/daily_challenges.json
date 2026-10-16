@@ -1,0 +1,378 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "german-foundations-a0-a1",
+  "title": "Spanish Daily Challenges",
+  "delivery": "one challenge per day; 5–10 minutes; no new grammar required",
+  "challenge_rules": {
+    "attempt_before_hints": true,
+    "minimum_recall_items": 3,
+    "review_wrong_items": "return next day",
+    "streak_policy": "award consistency points but never lock educational content behind a streak"
+  },
+  "challenges": [
+    {
+      "id": "dc01",
+      "title": "Identity Ping",
+      "course_day": "Day 1",
+      "prompt": "Say your name and ask another person’s name three times, changing the names. Use 'du' with friends; 'Sie' is the formal form.",
+      "target_pattern": "Ich heiße ____. Wie heißt du?",
+      "review_tags": [
+        "identity"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc02",
+      "title": "Vowel Radar",
+      "course_day": "Day 2",
+      "prompt": "Record yourself saying a, e, i, o, u, then one word for each vowel.",
+      "target_pattern": "a e i o u; Apfel, Bett, Insel, Oma, Uhr",
+      "review_tags": [
+        "pronunciation"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc03",
+      "title": "Origin Exchange",
+      "course_day": "Day 3",
+      "prompt": "Answer where you are from and ask the question back.",
+      "target_pattern": "Ich komme aus ____. Woher kommst du?",
+      "review_tags": [
+        "ser"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc04",
+      "title": "Article Hunt",
+      "course_day": "Day 4",
+      "prompt": "Find or imagine five objects and label each with der, die, das, or die (plural).",
+      "target_pattern": "der Tisch; die Lampe; das Buch; die Häuser",
+      "review_tags": [
+        "articles"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc05",
+      "title": "Human Snapshot",
+      "course_day": "Day 5",
+      "prompt": "Describe one person with a noun and two agreeing adjectives.",
+      "target_pattern": "Das ist mein Freund/meine Freundin. Er/Sie ist ____ und ____.",
+      "review_tags": [
+        "agreement"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc06",
+      "title": "Question Chain",
+      "course_day": "Day 6",
+      "prompt": "Ask qué, quién, dónde, and cómo questions about one scene (use the German equivalents).",
+      "target_pattern": "Was ist das? Wer ist das? Wo ist es? Wie geht es ihm/ihr?",
+      "review_tags": [
+        "questions"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc07",
+      "title": "First Contact",
+      "course_day": "Day 7",
+      "prompt": "Complete a 45-second introduction without reading.",
+      "target_pattern": "Hallo. Ich heiße ____. Ich komme aus ____. Freut mich.",
+      "review_tags": [
+        "week1-review"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc08",
+      "title": "Room Scan",
+      "course_day": "Day 8",
+      "prompt": "Describe three objects using 'es gibt', 'ist', or 'sind'.",
+      "target_pattern": "Es gibt ____. Der/Die ____ ist ____.",
+      "review_tags": [
+        "location"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc09",
+      "title": "Verb Sprint",
+      "course_day": "Day 9",
+      "prompt": "Conjugate sprechen, lernen, and arbeiten for ich, du, and er/sie aloud.",
+      "target_pattern": "spreche/sprichst/spricht; lerne/lernst/lernt; arbeite/arbeitest/arbeitet",
+      "review_tags": [
+        "present"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc10",
+      "title": "People Map",
+      "course_day": "Day 10",
+      "prompt": "Describe three people using mein, dein, sein, or unser.",
+      "target_pattern": "Mein ____. Dein ____. Unser ____.",
+      "review_tags": [
+        "possessives"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc11",
+      "title": "Yes/No Flip",
+      "course_day": "Day 11",
+      "prompt": "Turn three positive sentences into questions and answer each positively and negatively.",
+      "target_pattern": "Sprichst du? Ja, ich spreche. Nein, ich spreche nicht.",
+      "review_tags": [
+        "negation"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc12",
+      "title": "Preposition Walk",
+      "course_day": "Day 12",
+      "prompt": "Describe where you are, where you go, and with whom.",
+      "target_pattern": "Ich bin in ____. Ich gehe nach ____. Ich gehe mit ____.",
+      "review_tags": [
+        "prepositions"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc13",
+      "title": "Routine Relay",
+      "course_day": "Day 13",
+      "prompt": "Give a four-step routine using primero, después, luego, finalmente (use the German equivalents).",
+      "target_pattern": "Zuerst ____. Danach ____. Später ____. Zum Schluss ____.",
+      "review_tags": [
+        "sequence"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc14",
+      "title": "Daily Briefing",
+      "course_day": "Day 14",
+      "prompt": "Give a 60-second report about home, routine, and one negative fact.",
+      "target_pattern": "Ich wohne in ____. Zuerst ____. Ich mache nicht ____.",
+      "review_tags": [
+        "week2-review"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc15",
+      "title": "Café Recall",
+      "course_day": "Day 15",
+      "prompt": "Order two items and reject one item politely.",
+      "target_pattern": "Ich möchte ____, bitte. Ich möchte ____ nicht.",
+      "review_tags": [
+        "querer"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc16",
+      "title": "Help Signal",
+      "course_day": "Day 16",
+      "prompt": "Ask for help, then respond that you can or cannot help.",
+      "target_pattern": "Kannst du mir helfen? Ja, ich kann. / Ich kann noch nicht.",
+      "review_tags": [
+        "ability"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc17",
+      "title": "Number Ladder",
+      "course_day": "Day 17",
+      "prompt": "Count 1–30, then schedule two actions at different times.",
+      "target_pattern": "Ich lerne um ____. Ich arbeite um ____.",
+      "review_tags": [
+        "time"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc18",
+      "title": "Market Mission",
+      "course_day": "Day 18",
+      "prompt": "Point to two items, ask the price of one, and thank the seller.",
+      "target_pattern": "Ich möchte dieses/diese ____. Wie viel kostet das? Danke.",
+      "review_tags": [
+        "shopping"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc19",
+      "title": "Preference Pulse",
+      "course_day": "Day 19",
+      "prompt": "Say one singular preference, one plural preference, and one dislike.",
+      "target_pattern": "Mir gefällt ____. Mir gefallen ____. Ich mag ____ nicht.",
+      "review_tags": [
+        "gustar"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc20",
+      "title": "Needs and Wants",
+      "course_day": "Day 20",
+      "prompt": "Combine quiero, necesito, and me gusta in one mini-dialogue (use German equivalents).",
+      "target_pattern": "Ich möchte ____. Ich brauche ____. Mir gefällt ____.",
+      "review_tags": [
+        "week3-review"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc21",
+      "title": "Tomorrow Board",
+      "course_day": "Day 21",
+      "prompt": "State three plans for tomorrow and ask someone else’s plan.",
+      "target_pattern": "Morgen werde ich ____. Was wirst du machen?",
+      "review_tags": [
+        "future"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc22",
+      "title": "Map Route",
+      "course_day": "Day 22",
+      "prompt": "Give a two-step route to a familiar place.",
+      "target_pattern": "Geh geradeaus und biege nach ____ ab. Es ist in der Nähe.",
+      "review_tags": [
+        "directions"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc23",
+      "title": "Glue Words",
+      "course_day": "Day 23",
+      "prompt": "Join four pairs of sentences using y, pero, porque, or también (use the German equivalents y=und, pero=aber, porque=weil, también=auch).",
+      "target_pattern": "Ich mag ____ weil ____.",
+      "review_tags": [
+        "connectors"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc24",
+      "title": "Irregular Five",
+      "course_day": "Day 24",
+      "prompt": "Use soy, estoy, tengo, voy, and hago in five different sentences (use German equivalents).",
+      "target_pattern": "Ich bin ____. Ich bin ____. Ich habe ____. Ich gehe ____. Ich mache ____.",
+      "review_tags": [
+        "irregulars"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc25",
+      "title": "Turn-Taking",
+      "course_day": "Day 25",
+      "prompt": "Answer a question, ask ¿Y tú? (And you?), and ask one follow-up.",
+      "target_pattern": "Antwort. Und du? Was machst du gern?",
+      "review_tags": [
+        "conversation"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc26",
+      "title": "Three-Pass Listening",
+      "course_day": "Day 26",
+      "prompt": "Listen to a short German clip three times: situation, facts, useful phrase.",
+      "target_pattern": "Situation: ____. Facts: ____. Phrase: ____.",
+      "review_tags": [
+        "listening"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc27",
+      "title": "Paraphrase Rescue",
+      "course_day": "Day 27",
+      "prompt": "Explain one unknown object using 'thing', 'for', and a known verb (use German equivalents).",
+      "target_pattern": "Das ist etwas zum ____.",
+      "review_tags": [
+        "repair"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc28",
+      "title": "Final Voice Note",
+      "course_day": "Day 28",
+      "prompt": "Record a 2–3 minute everyday German voice note using identity, routine, preference, plan, and repair.",
+      "target_pattern": "Hallo. Ich heiße ____. Ich komme aus ____. Mir gefällt ____. Morgen werde ich ____. Kannst du das wiederholen?",
+      "review_tags": [
+        "final"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    }
+  ]
+}

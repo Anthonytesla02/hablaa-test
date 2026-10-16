@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "french-foundations-a0-a1",
+  "language": "fr",
+  "source_language": "en",
+  "title": "French Foundations: First Conversations",
+  "level": "A0-A1 foundation",
+  "description": "A four-week, mastery-gated French course using short lessons, active recall, spaced review, practical scenarios, and cumulative conversation checks.",
+  "lesson_duration": "one week per unit; seven daily lessons per week",
+  "total_days": 28,
+  "weekly_files": [
+    "french_week_1.json",
+    "french_week_2.json",
+    "french_week_3.json",
+    "french_week_4.json"
+  ],
+  "supporting_files": [
+    "daily_challenges.json",
+    "special_challenges.json"
+  ],
+  "review_schedule": {
+    "new_item_intervals_days": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      14
+    ],
+    "wrong_answer": "same_session_and_next_day",
+    "hinted_answer": "retain_current_interval",
+    "correct_no_hint": "promote_to_next_interval"
+  },
+  "mastery_rules": {
+    "daily_activity_accuracy": 0.8,
+    "daily_exit_accuracy": 0.7,
+    "weekly_checkpoint_accuracy": 0.8,
+    "requires_mission": true,
+    "final_roleplay_minimum_task_completion": 0.8
+  },
+  "item_types": [
+    "teach",
+    "retrieval",
+    "listen_select",
+    "listening_comprehension",
+    "matching",
+    "mcq",
+    "cloze",
+    "ordering",
+    "translate",
+    "translation_chain",
+    "error_correction",
+    "transform",
+    "production",
+    "free_response",
+    "speak",
+    "shadowing",
+    "roleplay",
+    "final_roleplay"
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "id": "fr-week-1",
+      "title": "Foundations: First Contact",
+      "file": "french_week_1.json",
+      "lesson_ids": [
+        "fr-w1-d01",
+        "fr-w1-d02",
+        "fr-w1-d03",
+        "fr-w1-d04",
+        "fr-w1-d05",
+        "fr-w1-d06",
+        "fr-w1-d07"
+      ],
+      "checkpoint_lesson_id": "fr-w1-d07",
+      "unlock_rule": "Pass prior checkpoint at required accuracy."
+    },
+    {
+      "week": 2,
+      "id": "fr-week-2",
+      "title": "Sentence Engine: Daily Life",
+      "file": "french_week_2.json",
+      "lesson_ids": [
+        "fr-w2-d08",
+        "fr-w2-d09",
+        "fr-w2-d10",
+        "fr-w2-d11",
+        "fr-w2-d12",
+        "fr-w2-d13",
+        "fr-w2-d14"
+      ],
+      "checkpoint_lesson_id": "fr-w2-d14",
+      "unlock_rule": "Pass prior checkpoint at required accuracy."
+    },
+    {
+      "week": 3,
+      "id": "fr-week-3",
+      "title": "Needs, Preferences, and Transactions",
+      "file": "french_week_3.json",
+      "lesson_ids": [
+        "fr-w3-d15",
+        "fr-w3-d16",
+        "fr-w3-d17",
+        "fr-w3-d18",
+        "fr-w3-d19",
+        "fr-w3-d20",
+        "fr-w3-d21"
+      ],
+      "checkpoint_lesson_id": "fr-w3-d21",
+      "unlock_rule": "Pass prior checkpoint at required accuracy."
+    },
+    {
+      "week": 4,
+      "id": "fr-week-4",
+      "title": "Conversation: Plans and Repair",
+      "file": "french_week_4.json",
+      "lesson_ids": [
+        "fr-w4-d22",
+        "fr-w4-d23",
+        "fr-w4-d24",
+        "fr-w4-d25",
+        "fr-w4-d26",
+        "fr-w4-d27",
+        "fr-w4-d28"
+      ],
+      "checkpoint_lesson_id": "fr-w4-d28",
+      "unlock_rule": "Pass prior checkpoint at required accuracy."
+    }
+  ],
+  "implementation_notes": {
+    "audio": "Resolve each vocabulary audio_key and dialogue audio_key through the app audio service; text remains complete without audio.",
+    "speech": "Use semantic scoring with tolerance for accent variation; require target words and intelligible syntax rather than exact phonetic identity.",
+    "feedback": "Show the first relevant explanation only, then offer a retry; log the error tag for review scheduling.",
+    "language_note": "Teach standard contemporary French for broad accessibility; include register and regional notes only when they help comprehension."
+  }
+}

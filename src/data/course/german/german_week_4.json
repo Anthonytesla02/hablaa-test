@@ -1,0 +1,1589 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "german-foundations-a0-a1",
+  "week": 4,
+  "title": "Conversation: Plans and Repair",
+  "lessons": [
+    {
+      "id": "de-w4-d22",
+      "day": 22,
+      "title": "Plans for Tomorrow",
+      "focus": "werden + Infinitiv (near future)",
+      "estimated_minutes": 20,
+      "objectives": [
+        "talk about immediate future plans",
+        "ask what someone is going to do",
+        "combine a plan with a time and place"
+      ],
+      "teaching": {
+        "explanation": "The high-frequency future pattern is werden + infinitive: Ich werde lernen, du wirst arbeiten, er/sie wird essen. For near future German often also uses the present tense, but lernen the werden-form as a clear chunk for planning.",
+        "pattern": "Ich werde morgen lernen. Was wirst du tun? = What are you going to do?",
+        "note": "German does not repeat a short preposition the way Spanish does; use simple locative phrases like 'in Berlin' or 'ins Café' as appropriate."
+      },
+      "vocabulary": [
+        {
+          "id": "voy-a",
+          "de": "ich werde",
+          "en": "I am going to",
+          "pos": "future chunk",
+          "gender": null,
+          "audio_key": "de.voy-a",
+          "review_tags": [
+            "future"
+          ]
+        },
+        {
+          "id": "vas-a",
+          "de": "du wirst",
+          "en": "you are going to",
+          "pos": "future chunk",
+          "gender": null,
+          "audio_key": "de.vas-a",
+          "review_tags": [
+            "future"
+          ]
+        },
+        {
+          "id": "vamos-a",
+          "de": "wir werden",
+          "en": "we are going to",
+          "pos": "future chunk",
+          "gender": null,
+          "audio_key": "de.vamos-a",
+          "review_tags": [
+            "future"
+          ]
+        },
+        {
+          "id": "hacer",
+          "de": "machen",
+          "en": "to do/make",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.hacer",
+          "review_tags": [
+            "verbs",
+            "future"
+          ]
+        },
+        {
+          "id": "manana",
+          "de": "morgen",
+          "en": "tomorrow",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "de.manana",
+          "review_tags": [
+            "future",
+            "time"
+          ]
+        },
+        {
+          "id": "plan",
+          "de": "Plan",
+          "en": "plan",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "de.plan",
+          "review_tags": [
+            "future"
+          ]
+        },
+        {
+          "id": "descansar",
+          "de": "ausruhen",
+          "en": "to rest",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.descansar",
+          "review_tags": [
+            "routine"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "future",
+        "ir",
+        "plans"
+      ],
+      "examples": [
+        {
+          "de": "Ich werde morgen lernen.",
+          "en": "I am going to study tomorrow.",
+          "analysis": "werden + infinitive"
+        },
+        {
+          "de": "Was wirst du tun?",
+          "en": "What are you going to do?",
+          "analysis": "wirst + infinitive"
+        },
+        {
+          "de": "Wir werden um acht essen.",
+          "en": "We are going to eat at eight.",
+          "analysis": "werden + infinitive + time"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w4d1-a1",
+          "type": "mcq",
+          "prompt": "Choose “I am going to work.”",
+          "answer": "Ich werde arbeiten.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "future"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Ich arbeiten.",
+            "Ich werde arbeiten.",
+            "Ich sehe arbeiten."
+          ]
+        },
+        {
+          "id": "w4d1-a2",
+          "type": "translate",
+          "prompt": "Translate: “What are you going to do tomorrow?”",
+          "answer": "Was wirst du morgen tun?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "future",
+            "questions"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d1-a3",
+          "type": "cloze",
+          "prompt": "Complete: Wir werden ___ um acht essen.",
+          "answer": "um",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "future",
+            "time"
+          ],
+          "difficulty": "core",
+          "options": [
+            "um",
+            "in",
+            "auf"
+          ]
+        },
+        {
+          "id": "w4d1-a4",
+          "type": "ordering",
+          "prompt": "Put in order: lernen / morgen / Ich / werde",
+          "answer": "Ich werde morgen lernen.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "future",
+            "word-order"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d1-a5",
+          "type": "speak",
+          "prompt": "Say three plans for tomorrow using different verbs.",
+          "answer": "Morgen werde ich ____. Danach werde ich _____. Schließlich werde ich ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "future",
+            "sequence"
+          ],
+          "difficulty": "production"
+        }
+      ],
+      "mission": "Make and discuss a simple plan.",
+      "dialogue": {
+        "title": "Planning tomorrow",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Was wirst du morgen tun?",
+            "en": "What are you going to do tomorrow?"
+          },
+          {
+            "speaker": "B",
+            "de": "Ich werde lernen und arbeiten. Und du?",
+            "en": "I am going to study and work. And you?"
+          },
+          {
+            "speaker": "A",
+            "de": "Ich werde mich ausruhen.",
+            "en": "I am going to rest."
+          }
+        ],
+        "learner_turns": [
+          "Make the plans realistic or imaginary.",
+          "Add a time and place."
+        ]
+      },
+      "exit_check": [
+        "Build three immediate-future sentences.",
+        "Ask about another person’s plans.",
+        "Combine a plan with sequence and time."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w4-d23",
+      "day": 23,
+      "title": "Getting Around",
+      "focus": "Directions and movement",
+      "estimated_minutes": 20,
+      "objectives": [
+        "ask where a place is",
+        "understand left, right, straight, and near",
+        "give a two-step direction"
+      ],
+      "teaching": {
+        "explanation": "Direction language is best practiced with a map or visual route. Keep the sentence frame stable while changing only one landmark at a time. Use the formal imperative for polite directions (Gehen Sie geradeaus, Biegen Sie rechts ab); informally use du-forms with peers.",
+        "pattern": "Wo ist die Bank? Gehen Sie geradeaus. Biegen Sie rechts ab. Es ist in der Nähe.",
+        "safety": "For real-world safety, confirm important directions and use a map; this lesson is language practice, not navigation advice."
+      },
+      "vocabulary": [
+        {
+          "id": "perdon",
+          "de": "Entschuldigung",
+          "en": "excuse me/sorry",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "de.perdon",
+          "review_tags": [
+            "repair",
+            "directions"
+          ]
+        },
+        {
+          "id": "izquierda",
+          "de": "links",
+          "en": "left",
+          "pos": "noun/adverb",
+          "gender": "f",
+          "audio_key": "de.izquierda",
+          "review_tags": [
+            "directions"
+          ]
+        },
+        {
+          "id": "derecha",
+          "de": "rechts",
+          "en": "right",
+          "pos": "noun/adverb",
+          "gender": "f",
+          "audio_key": "de.derecha",
+          "review_tags": [
+            "directions"
+          ]
+        },
+        {
+          "id": "recto",
+          "de": "geradeaus",
+          "en": "straight",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "de.recto",
+          "review_tags": [
+            "directions"
+          ]
+        },
+        {
+          "id": "cerca",
+          "de": "in der Nähe",
+          "en": "near",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "de.cerca",
+          "review_tags": [
+            "directions"
+          ]
+        },
+        {
+          "id": "gira",
+          "de": "biegen (Biegen Sie/ Bieg)",
+          "en": "turn",
+          "pos": "verb command",
+          "gender": null,
+          "audio_key": "de.gira",
+          "review_tags": [
+            "directions"
+          ]
+        },
+        {
+          "id": "sigue",
+          "de": "gehen (Gehen Sie/ Geh)",
+          "en": "continue/go",
+          "pos": "verb command",
+          "gender": null,
+          "audio_key": "de.sigue",
+          "review_tags": [
+            "directions"
+          ]
+        },
+        {
+          "id": "estacion",
+          "de": "Bahnhof",
+          "en": "station",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "de.estacion",
+          "review_tags": [
+            "places"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "directions",
+        "estar",
+        "commands"
+      ],
+      "examples": [
+        {
+          "de": "Wo ist die Bank?",
+          "en": "Where is the bank?",
+          "analysis": "location question"
+        },
+        {
+          "de": "Biegen Sie rechts ab.",
+          "en": "Turn right.",
+          "analysis": "direction command"
+        },
+        {
+          "de": "Es ist in der Nähe.",
+          "en": "It is near here.",
+          "analysis": "location + relation"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w4d2-a1",
+          "type": "matching",
+          "prompt": "Match: links = left; rechts = right; geradeaus = straight; in der Nähe = near.",
+          "answer": "links = left; rechts = right; geradeaus = straight; in der Nähe = near.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "directions"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d2-a2",
+          "type": "translate",
+          "prompt": "Translate: “Where is the station?”",
+          "answer": "Wo ist der Bahnhof?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "directions",
+            "estar"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d2-a3",
+          "type": "mcq",
+          "prompt": "Choose “Turn right.”",
+          "answer": "Biegen Sie rechts ab.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "directions"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Biegen Sie links ab.",
+            "Biegen Sie rechts ab.",
+            "Gehen Sie geradeaus."
+          ]
+        },
+        {
+          "id": "w4d2-a4",
+          "type": "ordering",
+          "prompt": "Put in order: geradeaus / Gehen Sie / und / biegen / rechts / ab",
+          "answer": "Gehen Sie geradeaus und biegen Sie rechts ab.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "directions",
+            "connectors"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d2-a5",
+          "type": "roleplay",
+          "prompt": "Give directions from a hotel to a café using two steps.",
+          "answer": "Gehen Sie geradeaus. Biegen Sie nach ___. Es ist in der Nähe.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "directions"
+          ],
+          "difficulty": "production"
+        }
+      ],
+      "mission": "Navigate a short route while asking for clarification.",
+      "dialogue": {
+        "title": "Finding a place",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Entschuldigung, wo ist der Bahnhof?",
+            "en": "Excuse me, where is the station?"
+          },
+          {
+            "speaker": "B",
+            "de": "Gehen Sie geradeaus und biegen Sie rechts ab. Es ist in der Nähe.",
+            "en": "Go straight and turn right. It is nearby."
+          },
+          {
+            "speaker": "A",
+            "de": "Danke.",
+            "en": "Thank you."
+          }
+        ],
+        "learner_turns": [
+          "Replace \"Bahnhof\" with \"Bank\", \"Café\", or \"Hotel\".",
+          "Give directions using a drawn route."
+        ]
+      },
+      "exit_check": [
+        "Retrieve four direction words.",
+        "Ask for a place.",
+        "Give two connected direction steps."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w4-d24",
+      "day": 24,
+      "title": "Conversation Glue",
+      "focus": "connectors and repair strategies",
+      "estimated_minutes": 20,
+      "objectives": [
+        "connect ideas with y, pero, porque, también",
+        "clarify a word or ask for a slower repetition",
+        "give a short reason"
+      ],
+      "teaching": {
+        "explanation": "Conversation becomes less robotic when sentences connect. Start with four glue words and use them repeatedly.",
+        "pattern": "Ich mag Kaffee, weil er gut ist. Ich arbeite und studiere. Ich will keinen Tee, aber ich will Wasser.",
+        "repair": "Was bedeutet ___? = What does ___ mean? Wie sagt man ___? = How do you say ___?"
+      },
+      "vocabulary": [
+        {
+          "id": "porque",
+          "de": "weil",
+          "en": "because",
+          "pos": "conjunction",
+          "gender": null,
+          "audio_key": "de.porque",
+          "review_tags": [
+            "connectors"
+          ]
+        },
+        {
+          "id": "tambien",
+          "de": "auch",
+          "en": "also",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "de.tambien",
+          "review_tags": [
+            "connectors"
+          ]
+        },
+        {
+          "id": "significa",
+          "de": "bedeutet",
+          "en": "means",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.significa",
+          "review_tags": [
+            "repair"
+          ]
+        },
+        {
+          "id": "como-se-dice",
+          "de": "Wie sagt man?",
+          "en": "How do you say it?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.como-se-dice",
+          "review_tags": [
+            "repair"
+          ]
+        },
+        {
+          "id": "que-significa",
+          "de": "Was bedeutet?",
+          "en": "What does it mean?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.que-significa",
+          "review_tags": [
+            "repair"
+          ]
+        },
+        {
+          "id": "bueno",
+          "de": "gut",
+          "en": "good",
+          "pos": "adjective",
+          "gender": "m",
+          "audio_key": "de.bueno",
+          "review_tags": [
+            "adjectives"
+          ]
+        },
+        {
+          "id": "bebida",
+          "de": "Getränk",
+          "en": "drink",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "de.bebida",
+          "review_tags": [
+            "food"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "connectors",
+        "repair",
+        "conversation"
+      ],
+      "examples": [
+        {
+          "de": "Ich mag es, weil es gut ist.",
+          "en": "I like it because it is good.",
+          "analysis": "weil gives a reason"
+        },
+        {
+          "de": "Ich arbeite und studiere.",
+          "en": "I work and study.",
+          "analysis": "und joins actions"
+        },
+        {
+          "de": "Was bedeutet „in der Nähe“?",
+          "en": "What does “cerca” mean?",
+          "analysis": "meaning clarification"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w4d3-a1",
+          "type": "matching",
+          "prompt": "Match: und = and; aber = but; weil = because; auch = also.",
+          "answer": "und = and; aber = but; weil = because; auch = also.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "connectors"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d3-a2",
+          "type": "translate",
+          "prompt": "Translate: “I like tea because it is good.”",
+          "answer": "Ich mag Tee, weil er gut ist.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gustar",
+            "connectors"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d3-a3",
+          "type": "cloze",
+          "prompt": "Complete: Ich will keinen Kaffee, ___ ich will Tee.",
+          "answer": "aber",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "connectors"
+          ],
+          "difficulty": "core",
+          "options": [
+            "und",
+            "aber",
+            "weil",
+            "auch"
+          ]
+        },
+        {
+          "id": "w4d3-a4",
+          "type": "repair",
+          "prompt": "Ask “What does ___ mean?” about the word in der Nähe.",
+          "answer": "Was bedeutet „in der Nähe“?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "repair",
+            "questions"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d3-a5",
+          "type": "speak",
+          "prompt": "Give a preference with a reason and one contrast.",
+          "answer": "Ich mag ____ weil ____. Ich mag ___ nicht, aber ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "connectors",
+            "preferences"
+          ],
+          "difficulty": "production"
+        }
+      ],
+      "mission": "Keep an imperfect conversation moving and make meaning clear.",
+      "dialogue": {
+        "title": "Clarifying a misunderstanding",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Willst du Kaffee?",
+            "en": "Do you want coffee?"
+          },
+          {
+            "speaker": "B",
+            "de": "Ich verstehe nicht. Was bedeutet ‚Kaffee‘?",
+            "en": "I do not understand. What does café mean?"
+          },
+          {
+            "speaker": "A",
+            "de": "Das ist ein Getränk.",
+            "en": "It is a drink."
+          },
+          {
+            "speaker": "B",
+            "de": "Ah, ja. Ich möchte Kaffee, bitte.",
+            "en": "Ah, yes. I want coffee, please."
+          }
+        ],
+        "learner_turns": [
+          "Replace \"Kaffee\" with another item.",
+          "Use \"Kannst du das wiederholen?\" and \"Was bedeutet ...?\""
+        ]
+      },
+      "exit_check": [
+        "Join two ideas with y or pero.",
+        "Give one reason with porque.",
+        "Use two repair strategies without switching languages."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w4-d25",
+      "day": 25,
+      "title": "High-Frequency Irregulars",
+      "focus": "sein, haben, gehen, machen",
+      "estimated_minutes": 20,
+      "objectives": [
+        "recognize essential irregular forms",
+        "use tengo for possession and basic states",
+        "build practical sentences without overgeneralizing regular endings"
+      ],
+      "teaching": {
+        "explanation": "Some of the most useful verbs are irregular. Learn the first-person forms as chunks: ich bin, ich habe, ich gehe, ich mache. Add the subject only when contrast or emphasis helps.",
+        "pattern": "Ich habe Zeit. Ich bin müde. Ich gehe ins Café. Ich stelle eine Frage.",
+        "note": "German adjectives like 'müde' do not change for gender in the same way; accept the basic form."
+      },
+      "vocabulary": [
+        {
+          "id": "tengo",
+          "de": "ich habe",
+          "en": "I have",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.tengo",
+          "review_tags": [
+            "irregulars"
+          ]
+        },
+        {
+          "id": "tiempo",
+          "de": "Zeit",
+          "en": "time",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "de.tiempo",
+          "review_tags": [
+            "time"
+          ]
+        },
+        {
+          "id": "estoy",
+          "de": "ich bin",
+          "en": "I am / I am located",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.estoy",
+          "review_tags": [
+            "irregulars"
+          ]
+        },
+        {
+          "id": "cansado",
+          "de": "müde",
+          "en": "tired masculine",
+          "pos": "adjective",
+          "gender": "m",
+          "audio_key": "de.cansado",
+          "review_tags": [
+            "states"
+          ]
+        },
+        {
+          "id": "cansada",
+          "de": "müde",
+          "en": "tired feminine",
+          "pos": "adjective",
+          "gender": "f",
+          "audio_key": "de.cansada",
+          "review_tags": [
+            "states"
+          ]
+        },
+        {
+          "id": "voy",
+          "de": "ich gehe",
+          "en": "I go / I am going",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.voy",
+          "review_tags": [
+            "irregulars"
+          ]
+        },
+        {
+          "id": "hago",
+          "de": "ich mache",
+          "en": "I do/make",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.hago",
+          "review_tags": [
+            "irregulars"
+          ]
+        },
+        {
+          "id": "al",
+          "de": "ins",
+          "en": "to the masculine singular",
+          "pos": "contraction",
+          "gender": null,
+          "audio_key": "de.al",
+          "review_tags": [
+            "contractions"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "irregulars",
+        "ser-vs-estar",
+        "contractions"
+      ],
+      "examples": [
+        {
+          "de": "Ich habe Zeit.",
+          "en": "I have time.",
+          "analysis": "ich habe = I have"
+        },
+        {
+          "de": "Ich bin müde.",
+          "en": "I am tired.",
+          "analysis": "sein + adjective"
+        },
+        {
+          "de": "Ich gehe ins Café.",
+          "en": "I am going to the café.",
+          "analysis": "ins = in das (contraction)"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w4d4-a1",
+          "type": "retrieval",
+          "prompt": "Write the five first-person chunks: I am (identity), I am (state/location), I have, I go, I do.",
+          "answer": "ich bin, ich bin, ich habe, ich gehe, ich mache",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "irregulars"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d4-a2",
+          "type": "translate",
+          "prompt": "Translate: “I have time.”",
+          "answer": "Ich habe Zeit.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "tener"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d4-a3",
+          "type": "mcq",
+          "prompt": "Choose the sentence for “I am tired” (speaker feminine allowed).",
+          "answer": "Ich bin müde.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "estar"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Ich bin müde.",
+            "Ich habe müde.",
+            "Ich bin müde."
+          ]
+        },
+        {
+          "id": "w4d4-a4",
+          "type": "cloze",
+          "prompt": "Complete: Ich gehe ___ Café.",
+          "answer": "ins",
+          "hint": "",
+          "feedback": "ins = in das (contraction).",
+          "rationale": "",
+          "review_item_ids": [
+            "ir",
+            "contractions"
+          ],
+          "difficulty": "core",
+          "options": [
+            "zu dem",
+            "ins",
+            "im"
+          ]
+        },
+        {
+          "id": "w4d4-a5",
+          "type": "production",
+          "prompt": "Make five short sentences, one with each first-person chunk.",
+          "answer": "Ich bin ____. Ich bin ____. Ich habe ____. Ich gehe ____. Ich mache ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "irregulars"
+          ],
+          "difficulty": "production"
+        }
+      ],
+      "mission": "Give a concise personal status update and ask one practical question.",
+      "dialogue": {
+        "title": "Quick status update",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Wie geht es dir?",
+            "en": "How are you?"
+          },
+          {
+            "speaker": "B",
+            "de": "Mir geht es gut. Ich habe Zeit und ich gehe ins Café.",
+            "en": "I am well. I have time and I am going to the café."
+          },
+          {
+            "speaker": "A",
+            "de": "Was machst du?",
+            "en": "What are you doing?"
+          },
+          {
+            "speaker": "B",
+            "de": "Ich stelle eine Frage: Wo ist der Bahnhof?",
+            "en": "I ask a question: Where is the station?"
+          }
+        ],
+        "learner_turns": [
+          "Change the state, destination, and question.",
+          "Use 'ich bin' only for identity and state/location as appropriate."
+        ]
+      },
+      "exit_check": [
+        "Retrieve soy, estoy, tengo, voy, hago.",
+        "Choose ser or estar in identity/state examples.",
+        "Use al correctly in one sentence."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w4-d26",
+      "day": 26,
+      "title": "People, Places, and Plans",
+      "focus": "integrated conversation",
+      "estimated_minutes": 20,
+      "objectives": [
+        "sustain a conversation for two minutes",
+        "ask follow-up questions",
+        "combine identity, routine, preference, and plans"
+      ],
+      "teaching": {
+        "explanation": "Today trains conversation turns. A conversation is not a speech: answer, ask back, react, and repair. Use \"Und du?\" and \"Was machst du gern?\" to return the turn.",
+        "pattern": "Ich komme aus ____. Ich wohne in ____. Ich arbeite und studiere. Ich mag ____. Morgen werde ich ____. Und du?",
+        "strategy": "When stuck, use one of four moves: repeat, ask meaning, ask the partner a question, or give a simpler answer."
+      },
+      "vocabulary": [
+        {
+          "id": "y-tu",
+          "de": "Und du?",
+          "en": "And you?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.y-tu",
+          "review_tags": [
+            "conversation"
+          ]
+        },
+        {
+          "id": "que-te-gusta",
+          "de": "Was machst du gern?",
+          "en": "What do you like to do?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.que-te-gusta",
+          "review_tags": [
+            "preferences",
+            "conversation"
+          ]
+        },
+        {
+          "id": "vivo",
+          "de": "ich wohne",
+          "en": "I live",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.vivo",
+          "review_tags": [
+            "routine"
+          ]
+        },
+        {
+          "id": "bien",
+          "de": "gut",
+          "en": "well/good",
+          "pos": "adverb/adjective",
+          "gender": null,
+          "audio_key": "de.bien",
+          "review_tags": [
+            "states"
+          ]
+        },
+        {
+          "id": "mal",
+          "de": "schlecht",
+          "en": "badly/not well",
+          "pos": "adverb/adjective",
+          "gender": null,
+          "audio_key": "de.mal",
+          "review_tags": [
+            "states"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "conversation",
+        "integration",
+        "turn-taking"
+      ],
+      "examples": [
+        {
+          "de": "Und du?",
+          "en": "And you?",
+          "analysis": "returns the turn"
+        },
+        {
+          "de": "Was machst du gern?",
+          "en": "What do you like to do?",
+          "analysis": "preference question with infinitive"
+        },
+        {
+          "de": "Morgen werde ich arbeiten.",
+          "en": "Tomorrow I am going to work.",
+          "analysis": "future plan"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w4d5-a1",
+          "type": "retrieval",
+          "prompt": "Write a five-line self-profile from memory.",
+          "answer": "Ich heiße ____. Ich komme aus ____. Ich wohne in ____. Ich mag ____. Morgen werde ich ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "integration"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d5-a2",
+          "type": "listening_comprehension",
+          "prompt": "Listen to a learner profile and identify origin, routine, preference, and plan.",
+          "answer": "profile_facts",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "integration"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d5-a3",
+          "type": "ordering",
+          "prompt": "Order the conversation moves: answer / ask back / repair / close",
+          "answer": "answer, ask back, repair, close",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "conversation"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d5-a4",
+          "type": "free_response",
+          "prompt": "Answer: Was machst du gern? Include a reason with weil.",
+          "answer": "Ich mag ____ weil ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gustar",
+            "connectors"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d5-a5",
+          "type": "roleplay",
+          "prompt": "Hold a two-minute conversation with four required moves.",
+          "answer": "Introduce yourself, ask a question, answer a preference, state a plan, and ask \"Und du?\"",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "conversation"
+          ],
+          "difficulty": "production"
+        }
+      ],
+      "mission": "Sustain a short exchange by answering and asking back.",
+      "dialogue": {
+        "title": "Conversation exchange",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Woher kommst du und was machst du gern?",
+            "en": "Where are you from and what do you like to do?"
+          },
+          {
+            "speaker": "B",
+            "de": "Ich komme aus ____. Ich mag ____ weil ____. Und du?",
+            "en": "I am from ____. I like ____ because ____. And you?"
+          },
+          {
+            "speaker": "A",
+            "de": "Morgen werde ich ____.",
+            "en": "Tomorrow I am going to ____."
+          }
+        ],
+        "learner_turns": [
+          "Change every blank.",
+          "Insert one repair phrase naturally."
+        ]
+      },
+      "exit_check": [
+        "Ask a follow-up rather than ending after one answer.",
+        "Give a preference with a reason.",
+        "State a future plan and return the turn."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w4-d27",
+      "day": 27,
+      "title": "Listening and Comprehension",
+      "focus": "slow authentic-style micro-dialogues",
+      "estimated_minutes": 20,
+      "objectives": [
+        "extract key facts from a short dialogue",
+        "use context to tolerate unknown words",
+        "respond to who, where, when, and what questions"
+      ],
+      "teaching": {
+        "explanation": "Do not demand word-for-word comprehension. First listen for the mission facts: person, place, time, action. Then replay for details. This mirrors real listening, where the learner must act on meaning rather than translate every word.",
+        "pattern": "Who? wer. Where? wo. When? wann. What? was. Why? warum.",
+        "strategy": "Listen once for the situation, once for facts, and a third time for one useful phrase."
+      },
+      "vocabulary": [
+        {
+          "id": "cuando",
+          "de": "wann",
+          "en": "when",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.cuando",
+          "review_tags": [
+            "questions",
+            "time"
+          ]
+        },
+        {
+          "id": "por-que",
+          "de": "warum",
+          "en": "why",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.por-que",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "en-casa",
+          "de": "zu Hause",
+          "en": "at home",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "de.en-casa",
+          "review_tags": [
+            "locations"
+          ]
+        },
+        {
+          "id": "despues",
+          "de": "danach",
+          "en": "afterwards",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "de.despues",
+          "review_tags": [
+            "sequence"
+          ]
+        },
+        {
+          "id": "extraer",
+          "de": "herausfinden",
+          "en": "to extract",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.extraer",
+          "review_tags": [
+            "learning"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "listening",
+        "comprehension",
+        "shadowing"
+      ],
+      "examples": [
+        {
+          "de": "Wann wirst du lernen?",
+          "en": "When are you going to study?",
+          "analysis": "wann + future plan"
+        },
+        {
+          "de": "Ich werde zu Hause lernen.",
+          "en": "I am going to study at home.",
+          "analysis": "future + location"
+        },
+        {
+          "de": "Weil ich Zeit habe.",
+          "en": "Because I have time.",
+          "analysis": "reason"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w4d6-a1",
+          "type": "listening_comprehension",
+          "prompt": "After the first play, choose the main mission: meeting, shopping, or scheduling.",
+          "answer": "scheduling",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "listening"
+          ],
+          "difficulty": "core",
+          "options": [
+            "meeting",
+            "shopping",
+            "scheduling"
+          ]
+        },
+        {
+          "id": "w4d6-a2",
+          "type": "listening_select",
+          "prompt": "After the second play, identify the place.",
+          "answer": "zu Hause",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "locations",
+            "listening"
+          ],
+          "difficulty": "core",
+          "options": [
+            "zu Hause",
+            "im Café",
+            "am Bahnhof"
+          ]
+        },
+        {
+          "id": "w4d6-a3",
+          "type": "listening_select",
+          "prompt": "After the second play, identify the time.",
+          "answer": "um acht",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "time",
+            "listening"
+          ],
+          "difficulty": "core",
+          "options": [
+            "um eins",
+            "um acht",
+            "um zehn"
+          ]
+        },
+        {
+          "id": "w4d6-a4",
+          "type": "retrieval",
+          "prompt": "Write the phrase for “because I have time.”",
+          "answer": "Weil ich Zeit habe.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "porque",
+            "tener"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d6-a5",
+          "type": "shadowing",
+          "prompt": "Replay the dialogue and speak simultaneously with the audio, then repeat from memory.",
+          "answer": "shadowing_complete",
+          "hint": "",
+          "feedback": "Completion is behavioral: the learner must shadow once and produce the key sentence without audio.",
+          "rationale": "",
+          "review_item_ids": [
+            "listening",
+            "pronunciation"
+          ],
+          "difficulty": "production"
+        }
+      ],
+      "mission": "Understand the actionable facts in a short slow dialogue.",
+      "dialogue": {
+        "title": "Listen, extract, act",
+        "audio_script": "Hallo. Morgen werde ich um acht zu Hause lernen, weil ich Zeit habe. Danach gehe ich arbeiten. Und du?",
+        "translation": "Hi. Tomorrow I am going to study at home at eight because I have time. Afterwards I am going to work. And you?",
+        "learner_turns": [
+          "Listen once without text.",
+          "Answer where, when, and why.",
+          "Shadow the audio."
+        ]
+      },
+      "exit_check": [
+        "Identify the main situation before translating.",
+        "Extract place, time, and reason.",
+        "Shadow and reproduce one sentence."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w4-d28",
+      "day": 28,
+      "title": "Week 4 Final Mission",
+      "focus": "integrated beginner conversation",
+      "estimated_minutes": 20,
+      "objectives": [
+        "understand and produce a simple conversation",
+        "form new sentences from known patterns",
+        "demonstrate a sustainable review habit"
+      ],
+      "teaching": {
+        "explanation": "The final mission is a performance check. The learner must use German to meet someone, exchange personal information, describe a routine, express a preference, make a plan, ask for directions or help, and repair one misunderstanding.",
+        "success_definition": "A successful beginner conversation is understandable, responsive, and resilient. It may contain errors; it must not depend on memorizing one exact script.",
+        "next_step": "After Week 4, the learner should enter an A1 continuation course covering more present-tense verbs, direct objects, gender exceptions, past events, expanded listening, and regular speaking practice."
+      },
+      "vocabulary": [
+        {
+          "id": "operacion",
+          "de": "Aufgabe",
+          "en": "operation/mission",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "de.operacion",
+          "review_tags": [
+            "missions"
+          ]
+        },
+        {
+          "id": "cotidiano",
+          "de": "alltäglich",
+          "en": "everyday",
+          "pos": "adjective",
+          "gender": "m",
+          "audio_key": "de.cotidiano",
+          "review_tags": [
+            "missions"
+          ]
+        },
+        {
+          "id": "responder",
+          "de": "antworten",
+          "en": "to answer",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.responder",
+          "review_tags": [
+            "learning"
+          ]
+        },
+        {
+          "id": "preguntar",
+          "de": "fragen",
+          "en": "to ask",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.preguntar",
+          "review_tags": [
+            "learning"
+          ]
+        },
+        {
+          "id": "comprender",
+          "de": "verstehen",
+          "en": "to understand",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.comprender",
+          "review_tags": [
+            "learning"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "final",
+        "integration",
+        "mastery"
+      ],
+      "examples": [
+        {
+          "de": "Ich heiße ____. Ich komme aus ____.",
+          "en": "My name is ____. I am from ____."
+        },
+        {
+          "de": "Ich mag ____ weil ____.",
+          "en": "I like ____ because ____."
+        },
+        {
+          "de": "Morgen werde ich ____.",
+          "en": "Tomorrow I am going to ____."
+        }
+      ],
+      "activities": [
+        {
+          "id": "w4d8-a1",
+          "type": "retrieval",
+          "prompt": "From memory, write a seven-line self-introduction and plan.",
+          "answer": "Hallo. Ich heiße ____. Ich komme aus ____. Ich wohne in ____. Ich mag ____. Morgen werde ich ____. Und du?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "integration"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d8-a2",
+          "type": "listening_comprehension",
+          "prompt": "Listen to a final dialogue and answer who, where, what, when, and why.",
+          "answer": "five_facts_from_audio",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "listening",
+            "questions"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d8-a3",
+          "type": "translation_chain",
+          "prompt": "Translate: “I need help. Where is the station? Can you repeat, please?”",
+          "answer": "Ich brauche Hilfe. Wo ist der Bahnhof? Können Sie das bitte wiederholen?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "needs",
+            "directions",
+            "repair"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d8-a4",
+          "type": "error_correction",
+          "prompt": "Correct two errors in a short paragraph and explain the reason for each.",
+          "answer": "student_specific_corrections",
+          "hint": "",
+          "feedback": "The app should identify agreement, hay/estar, gustar, or word-order errors and show one concise explanation.",
+          "rationale": "",
+          "review_item_ids": [
+            "grammar"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w4d8-a5",
+          "type": "final_roleplay",
+          "prompt": "Complete the final mission with a simulated partner for 3–5 minutes.",
+          "answer": "final_conversation_complete",
+          "hint": "",
+          "feedback": "Pass target: at least 80% task completion, at least two successful repair moves, and understandable responses to follow-up questions.",
+          "rationale": "",
+          "review_item_ids": [
+            "all-week4"
+          ],
+          "difficulty": "final"
+        }
+      ],
+      "mission": "Hold a flexible beginner conversation about familiar needs and plans.",
+      "dialogue": {
+        "title": "Operation: everyday Spanish",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Hallo. Wie heißt du und woher kommst du?",
+            "en": "Hello. What is your name and where are you from?"
+          },
+          {
+            "speaker": "B",
+            "de": "Ich heiße ____. Ich komme aus ____. Ich wohne in ____.",
+            "en": "My name is ____. I am from ____. I live in ____."
+          },
+          {
+            "speaker": "A",
+            "de": "Was machst du gern?",
+            "en": "What do you like to do?"
+          },
+          {
+            "speaker": "B",
+            "de": "Ich mag ____ weil ____. Morgen werde ich ____. Und du?",
+            "en": "I like ____ because ____. Tomorrow I am going to ____. And you?"
+          },
+          {
+            "speaker": "A",
+            "de": "Ich brauche Hilfe. Wo ist der Bahnhof?",
+            "en": "I need help. Where is the station?"
+          },
+          {
+            "speaker": "B",
+            "de": "Geh geradeaus und bieg rechts ab.",
+            "en": "Go straight and turn right."
+          }
+        ],
+        "learner_turns": [
+          "Perform once with prompts.",
+          "Perform again with only the mission card.",
+          "Record or submit a final spoken response if the app supports audio."
+        ]
+      },
+      "exit_check": [
+        "Complete the seven-line self-profile from memory.",
+        "Answer five comprehension questions.",
+        "Pass the final roleplay with two repair strategies and one unscripted substitution."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    }
+  ]
+}

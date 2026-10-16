@@ -1,0 +1,1663 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "german-foundations-a0-a1",
+  "week": 3,
+  "title": "Needs, Preferences, and Transactions",
+  "lessons": [
+    {
+      "id": "de-w3-d15",
+      "day": 15,
+      "title": "Food and Preferences",
+      "focus": "Food vocabulary and möchten",
+      "estimated_minutes": 20,
+      "objectives": [
+        "name common foods and drinks",
+        "say what you want politely",
+        "use ich möchte + noun or ich möchte + infinitive"
+      ],
+      "teaching": {
+        "explanation": "Ich möchte bedeutet „I want.“ Verwende Ich möchte + Nomen für einen Gegenstand oder Ich möchte + Infinitiv für eine Handlung. Höflichkeit fügt man mit bitte hinzu; Grüße machen Bitten wärmer. Beachte: Im Deutschen gibt es 'du' (informell) und 'Sie' (formell).",
+        "pattern": "Ich möchte Wasser. Ich möchte essen. Ich möchte keinen Kaffee.",
+        "culture_note": "In vielen Situationen macht ein Grüß und 'bitte' eine direkte Bitte höflicher; die App sollte sowohl knappe als auch höfliche Antworten belohnen."
+      },
+      "vocabulary": [
+        {
+          "id": "agua",
+          "de": "Wasser",
+          "en": "water",
+          "pos": "noun",
+          "gender": "n",
+          "audio_key": "de.agua",
+          "review_tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "cafe",
+          "de": "Kaffee",
+          "en": "coffee",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "de.cafe",
+          "review_tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "te",
+          "de": "Tee",
+          "en": "tea",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "de.te",
+          "review_tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "pan",
+          "de": "Brot",
+          "en": "bread",
+          "pos": "noun",
+          "gender": "n",
+          "audio_key": "de.pan",
+          "review_tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "arroz",
+          "de": "Reis",
+          "en": "rice",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "de.arroz",
+          "review_tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "fruta",
+          "de": "Obst",
+          "en": "fruit",
+          "pos": "noun",
+          "gender": "n",
+          "audio_key": "de.fruta",
+          "review_tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "comer",
+          "de": "essen",
+          "en": "to eat",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.comer",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "quiero",
+          "de": "Ich möchte",
+          "en": "I want",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.quiero",
+          "review_tags": [
+            "wanting"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "moechten",
+        "food",
+        "requests"
+      ],
+      "examples": [
+        {
+          "es": "Ich möchte Wasser, bitte.",
+          "en": "I want water, please.",
+          "analysis": "ich möchte + noun + courtesy"
+        },
+        {
+          "es": "Ich möchte essen.",
+          "en": "I want to eat.",
+          "analysis": "ich möchte + infinitive"
+        },
+        {
+          "es": "Ich möchte keinen Zucker.",
+          "en": "I do not want sugar.",
+          "analysis": "negation with kein + noun"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w3d1-a1",
+          "type": "mcq",
+          "prompt": "Choose “water.”",
+          "answer": "Wasser",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "food"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Wasser",
+            "Brot",
+            "Reis"
+          ]
+        },
+        {
+          "id": "w3d1-a2",
+          "type": "translate",
+          "prompt": "Translate: “I want coffee, please.”",
+          "answer": "Ich möchte Kaffee, bitte.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "moechten",
+            "courtesy"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Ich möchte Kaffee bitte",
+            "Ich möchte Kaffee, bitte"
+          ]
+        },
+        {
+          "id": "w3d1-a3",
+          "type": "cloze",
+          "prompt": "Complete: Ich ___ keinen Zucker.",
+          "answer": "möchte",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "moechten",
+            "negation"
+          ],
+          "difficulty": "core",
+          "options": [
+            "möchte",
+            "möchtest",
+            "will"
+          ]
+        },
+        {
+          "id": "w3d1-a4",
+          "type": "classification",
+          "prompt": "Which sentence uses möchten + infinitive?",
+          "answer": "Ich möchte essen.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "moechten"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Ich möchte Wasser.",
+            "Ich möchte essen.",
+            "Ich möchte das Brot."
+          ]
+        },
+        {
+          "id": "w3d1-a5",
+          "type": "roleplay",
+          "prompt": "Order one drink and one food item.",
+          "answer": "Ich möchte ____, bitte. Und ich möchte ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "moechten",
+            "food"
+          ],
+          "difficulty": "production"
+        }
+      ],
+      "mission": "Order a simple snack and express one preference.",
+      "dialogue": {
+        "title": "At a café",
+        "lines": [
+          {
+            "speaker": "A",
+            "es": "Hallo. Was möchtest du?",
+            "en": "Hello. What do you want?"
+          },
+          {
+            "speaker": "B",
+            "es": "Ich möchte Wasser und Brot, bitte.",
+            "en": "I want water and bread, please."
+          },
+          {
+            "speaker": "A",
+            "es": "Noch etwas?",
+            "en": "Anything else?"
+          },
+          {
+            "speaker": "B",
+            "es": "Nein, danke.",
+            "en": "No, thank you."
+          }
+        ],
+        "learner_turns": [
+          "Change the order.",
+          "Say the request once with 'Ich möchte' and once with 'Ich möchte nicht'."
+        ]
+      },
+      "exit_check": [
+        "Name six food or drink items.",
+        "Make one positive and one negative request.",
+        "Complete the café roleplay."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w3-d16",
+      "day": 16,
+      "title": "Needs and Ability",
+      "focus": "brauchen, können, and polite requests",
+      "estimated_minutes": 20,
+      "objectives": [
+        "say what you need",
+        "say what you can or cannot do",
+        "combine können/brauchen with infinitives"
+      ],
+      "teaching": {
+        "explanation": "Verwende Ich brauche + Nomen für eine Sache und Ich muss + Infinitiv, um eine Handlung auszudrücken (Anfänger). Ich kann bedeutet „I can“; Ich kann nicht bedeutet „I cannot.“",
+        "pattern": "Ich brauche Hilfe. Ich muss lernen. Kannst du mir helfen? = Can you help me?",
+        "repair": "Wenn du eine Aufgabe noch nicht schaffen kannst, sag Ich kann noch nicht."
+      },
+      "vocabulary": [
+        {
+          "id": "necesito",
+          "de": "Ich brauche",
+          "en": "I need",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.necesito",
+          "review_tags": [
+            "needs"
+          ]
+        },
+        {
+          "id": "necesitar",
+          "de": "brauchen",
+          "en": "to need",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.necesitar",
+          "review_tags": [
+            "needs"
+          ]
+        },
+        {
+          "id": "puedo",
+          "de": "Ich kann",
+          "en": "I can",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.puedo",
+          "review_tags": [
+            "ability"
+          ]
+        },
+        {
+          "id": "puedes",
+          "de": "du kannst",
+          "en": "you can",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.puedes",
+          "review_tags": [
+            "ability"
+          ]
+        },
+        {
+          "id": "ayuda",
+          "de": "Hilfe",
+          "en": "help",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "de.ayuda",
+          "review_tags": [
+            "needs"
+          ]
+        },
+        {
+          "id": "ayudar",
+          "de": "helfen",
+          "en": "to help",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.ayudar",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "ahora",
+          "de": "jetzt",
+          "en": "now",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "de.ahora",
+          "review_tags": [
+            "time"
+          ]
+        },
+        {
+          "id": "todavia",
+          "de": "noch",
+          "en": "yet/still",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "de.todavia",
+          "review_tags": [
+            "time"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "brauchen",
+        "koennen",
+        "requests"
+      ],
+      "examples": [
+        {
+          "es": "Ich brauche Hilfe.",
+          "en": "I need help.",
+          "analysis": "ich brauche + noun"
+        },
+        {
+          "es": "Kannst du mir helfen?",
+          "en": "Can you help me?",
+          "analysis": "kannst + infinitive + mir"
+        },
+        {
+          "es": "Ich kann jetzt nicht.",
+          "en": "I cannot now.",
+          "analysis": "nicht + kann + time word"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w3d2-a1",
+          "type": "translate",
+          "prompt": "Translate: “I need help.”",
+          "answer": "Ich brauche Hilfe.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "brauchen"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d2-a2",
+          "type": "mcq",
+          "prompt": "Choose “Can you help me?”",
+          "answer": "Kannst du mir helfen?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "koennen",
+            "requests"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Willst du mir helfen?",
+            "Kannst du mir helfen?",
+            "Brauchst du mir helfen?"
+          ]
+        },
+        {
+          "id": "w3d2-a3",
+          "type": "cloze",
+          "prompt": "Complete: Ich ___ jetzt.",
+          "answer": "kann",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "koennen",
+            "negation"
+          ],
+          "difficulty": "core",
+          "options": [
+            "kann",
+            "kannst",
+            "kann"
+          ]
+        },
+        {
+          "id": "w3d2-a4",
+          "type": "ordering",
+          "prompt": "Put in order: lernen / Ich muss / heute",
+          "answer": "Ich muss heute lernen.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "brauchen",
+            "word-order"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d2-a5",
+          "type": "speak",
+          "prompt": "Ask for help and respond that you can or cannot help.",
+          "answer": "Kannst du mir helfen? Ja, ich kann. / Ich kann noch nicht.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "koennen",
+            "requests"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Ask for assistance and communicate whether you can complete a task.",
+      "dialogue": {
+        "title": "Asking for help",
+        "lines": [
+          {
+            "speaker": "A",
+            "es": "Kannst du mir helfen?",
+            "en": "Can you help me?"
+          },
+          {
+            "speaker": "B",
+            "es": "Ja, ich kann. Was brauchst du?",
+            "en": "Yes, I can. What do you need?"
+          },
+          {
+            "speaker": "A",
+            "es": "Ich brauche Wasser, bitte.",
+            "en": "I need water, please."
+          }
+        ],
+        "learner_turns": [
+          "Change the needed item.",
+          "Respond once with 'Ja, ich kann' and once with 'Ich kann noch nicht.'"
+        ]
+      },
+      "exit_check": [
+        "Use ich brauche with a noun and an infinitive (Ich muss + infinitive).",
+        "Ask for help using kannst du.",
+        "Say ich kann nicht with a reason or time word."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w3-d17",
+      "day": 17,
+      "title": "Time and Numbers",
+      "focus": "Numbers 0–30, clock time, and schedules",
+      "estimated_minutes": 20,
+      "objectives": [
+        "count to 30",
+        "ask and tell the time in a simple way",
+        "state when an activity happens"
+      ],
+      "teaching": {
+        "explanation": "Verwende 'Wie spät ist es?' für die Uhrzeit. Für eins: Es ist ein Uhr. Für andere Stunden: Es ist zwei Uhr / drei Uhr usw.",
+        "pattern": "Wann? = At what time? Um acht. = At eight. Um eins. = At one.",
+        "memory_tip": "Übe Zahlen als Abrufkette und verwende sie anschließend in sinnvollen Zeitangaben."
+      },
+      "vocabulary": [
+        {
+          "id": "uno",
+          "de": "eins",
+          "en": "one",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "de.uno",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "dos",
+          "de": "zwei",
+          "en": "two",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "de.dos",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "tres",
+          "de": "drei",
+          "en": "three",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "de.tres",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "cuatro",
+          "de": "vier",
+          "en": "four",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "de.cuatro",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "cinco",
+          "de": "fünf",
+          "en": "five",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "de.cinco",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "seis",
+          "de": "sechs",
+          "en": "six",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "de.seis",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "siete",
+          "de": "sieben",
+          "en": "seven",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "de.siete",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "ocho",
+          "de": "acht",
+          "en": "eight",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "de.ocho",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "nueve",
+          "de": "neun",
+          "en": "nine",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "de.nueve",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "diez",
+          "de": "zehn",
+          "en": "ten",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "de.diez",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "hora",
+          "de": "Uhr",
+          "en": "hour/time",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "de.hora",
+          "review_tags": [
+            "time"
+          ]
+        },
+        {
+          "id": "cuando",
+          "de": "wann",
+          "en": "when",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.cuando",
+          "review_tags": [
+            "questions",
+            "time"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "numbers",
+        "time",
+        "schedules"
+      ],
+      "examples": [
+        {
+          "es": "Wie spät ist es?",
+          "en": "What time is it?",
+          "analysis": "what time question"
+        },
+        {
+          "es": "Es ist drei Uhr.",
+          "en": "It is three o’clock.",
+          "analysis": "use 'Uhr' with hours"
+        },
+        {
+          "es": "Ich arbeite um acht.",
+          "en": "I work at eight.",
+          "analysis": "um + time"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w3d3-a1",
+          "type": "retrieval",
+          "prompt": "Write the German numbers 1–10 from memory.",
+          "answer": "eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "numbers"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d3-a2",
+          "type": "translate",
+          "prompt": "Translate: “What time is it?”",
+          "answer": "Wie spät ist es?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "time"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d3-a3",
+          "type": "mcq",
+          "prompt": "Choose the correct phrase for 3:00.",
+          "answer": "Es ist drei Uhr.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "time"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Es ist drei Uhr.",
+            "Es ist drei.",
+            "Drei Uhr."
+          ]
+        },
+        {
+          "id": "w3d3-a4",
+          "type": "cloze",
+          "prompt": "Complete: Ich arbeite ___ acht.",
+          "answer": "um",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "time",
+            "prepositions"
+          ],
+          "difficulty": "core",
+          "options": [
+            "um",
+            "in",
+            "von"
+          ]
+        },
+        {
+          "id": "w3d3-a5",
+          "type": "production",
+          "prompt": "State two activities and times.",
+          "answer": "Ich lerne um ____. Ich arbeite um ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "time",
+            "routine"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Arrange a simple appointment or daily schedule.",
+      "dialogue": {
+        "title": "Arranging a meeting",
+        "lines": [
+          {
+            "speaker": "A",
+            "es": "Wann lernst du?",
+            "en": "At what time do you study?"
+          },
+          {
+            "speaker": "B",
+            "es": "Ich lerne um acht. Und du?",
+            "en": "I study at eight. And you?"
+          },
+          {
+            "speaker": "A",
+            "es": "Ich arbeite um neun.",
+            "en": "I work at nine."
+          }
+        ],
+        "learner_turns": [
+          "Change both times.",
+          "Ask the time and answer with a complete phrase."
+        ]
+      },
+      "exit_check": [
+        "Retrieve numbers 1–10, then 11–30.",
+        "Ask and tell the time.",
+        "Schedule two activities."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w3-d18",
+      "day": 18,
+      "title": "Shopping and Quantities",
+      "focus": "Prices, demonstratives, and polite buying",
+      "estimated_minutes": 20,
+      "objectives": [
+        "ask how much something costs",
+        "use dieser/diese/dieses and plural forms",
+        "buy a small number of items"
+      ],
+      "teaching": {
+        "explanation": "Demonstratives zeigen auf ein Nomen und müssen in Form passen: dieser Tisch, diese Lampe, diese Bücher. Wie viel fragt 'how much'; um nach dem Preis zu fragen, sagt man 'Wie viel kostet das?'.",
+        "pattern": "Wie viel kostet das? = How much does it cost? Ich möchte dieses Buch. = I want this book.",
+        "culture_note": "Ein Gruß und 'bitte' sind hilfreich im Geschäft; Höflichkeit macht direkte Fragen normal."
+      },
+      "vocabulary": [
+        {
+          "id": "cuanto",
+          "de": "wie viel",
+          "en": "how much",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.cuanto",
+          "review_tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "cuesta",
+          "de": "kostet",
+          "en": "costs",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.cuesta",
+          "review_tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "este",
+          "de": "dieser",
+          "en": "this masculine",
+          "pos": "demonstrative",
+          "gender": "m",
+          "audio_key": "de.este",
+          "review_tags": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "esta",
+          "de": "diese",
+          "en": "this feminine",
+          "pos": "demonstrative",
+          "gender": "f",
+          "audio_key": "de.esta",
+          "review_tags": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "estos",
+          "de": "diese",
+          "en": "these masculine plural",
+          "pos": "demonstrative",
+          "gender": "m",
+          "audio_key": "de.estos",
+          "review_tags": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "estas",
+          "de": "diese",
+          "en": "these feminine plural",
+          "pos": "demonstrative",
+          "gender": "f",
+          "audio_key": "de.estas",
+          "review_tags": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "precio",
+          "de": "Preis",
+          "en": "price",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "de.precio",
+          "review_tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "euros",
+          "de": "Euro",
+          "en": "euros",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "de.euros",
+          "review_tags": [
+            "shopping"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "demonstratives",
+        "agreement",
+        "shopping"
+      ],
+      "examples": [
+        {
+          "es": "Wie viel kostet das?",
+          "en": "How much does it cost?",
+          "analysis": "fixed shopping question"
+        },
+        {
+          "es": "Ich möchte diesen Tisch.",
+          "en": "I want this table.",
+          "analysis": "diesen agrees with masculine accusative Tisch"
+        },
+        {
+          "es": "Wie viele Bücher?",
+          "en": "How many books?",
+          "analysis": "wie viele agrees with plural Bücher"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w3d4-a1",
+          "type": "mcq",
+          "prompt": "Choose “this table.”",
+          "answer": "dieser Tisch",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "demonstratives"
+          ],
+          "difficulty": "core",
+          "options": [
+            "dieser Tisch",
+            "diese Tisch",
+            "diese Tische"
+          ]
+        },
+        {
+          "id": "w3d4-a2",
+          "type": "translate",
+          "prompt": "Translate: “How much does it cost?”",
+          "answer": "Wie viel kostet das?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "shopping"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d4-a3",
+          "type": "cloze",
+          "prompt": "Complete: ___ Bücher (how many books).",
+          "answer": "Wie viele",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "quantities",
+            "agreement"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Wie viel",
+            "Wie viele",
+            "Wie vieler",
+            "Wie vielen"
+          ]
+        },
+        {
+          "id": "w3d4-a4",
+          "type": "error_correction",
+          "prompt": "Correct: Ich möchte dieser Tisch.",
+          "answer": "Ich möchte diesen Tisch.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "demonstratives",
+            "agreement"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d4-a5",
+          "type": "roleplay",
+          "prompt": "Buy one item, ask its price, and thank the seller.",
+          "answer": "Hallo. Ich möchte ____. Wie viel kostet das? Danke.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "shopping",
+            "courtesy"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Buy one or two familiar items in German.",
+      "dialogue": {
+        "title": "At a market stall",
+        "lines": [
+          {
+            "speaker": "A",
+            "es": "Hallo. Was möchtest du?",
+            "en": "Hello. What do you want?"
+          },
+          {
+            "speaker": "B",
+            "es": "Ich möchte dieses Obst. Wie viel kostet das?",
+            "en": "I want this fruit. How much does it cost?"
+          },
+          {
+            "speaker": "A",
+            "es": "Vier Euro.",
+            "en": "Four euros."
+          },
+          {
+            "speaker": "B",
+            "es": "Danke.",
+            "en": "Thank you."
+          }
+        ],
+        "learner_turns": [
+          "Change the item and price.",
+          "Use dieser, diese, dieses, or diese correctly."
+        ]
+      },
+      "exit_check": [
+        "Choose demonstratives with gender and case.",
+        "Ask a price question.",
+        "Complete a buying transaction."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w3-d19",
+      "day": 19,
+      "title": "Likes and Dislikes",
+      "focus": "gefallen as a fixed pattern",
+      "estimated_minutes": 20,
+      "objectives": [
+        "say what you like and dislike",
+        "ask another person what they like",
+        "use Mir gefällt with singular nouns and infinitives"
+      ],
+      "teaching": {
+        "explanation": "Behandle 'gefallen' als Muster: Mir gefällt + Singular oder Infinitiv; Mir gefallen + Plural. Das, was gefällt, ist grammatisch das Subjekt und die Person steht im Dativ.",
+        "pattern": "Mir gefällt der Kaffee. Mir gefallen die Früchte. Mir gefällt das Lernen. Warten gefällt mir nicht.",
+        "contrast": "Sage nicht 'Ich gefalle der Kaffee' für 'I like coffee.' Anfänger-Muster ist Mir gefällt der Kaffee."
+      },
+      "vocabulary": [
+        {
+          "id": "gusta",
+          "de": "gefällt",
+          "en": "is pleasing / like singular",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.gusta",
+          "review_tags": [
+            "preferences"
+          ]
+        },
+        {
+          "id": "gustan",
+          "de": "gefallen",
+          "en": "are pleasing / like plural",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.gustan",
+          "review_tags": [
+            "preferences"
+          ]
+        },
+        {
+          "id": "te-gusta",
+          "de": "Gefällt dir das?",
+          "en": "Do you like it?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.te-gusta",
+          "review_tags": [
+            "preferences"
+          ]
+        },
+        {
+          "id": "esperar",
+          "de": "warten",
+          "en": "to wait",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.esperar",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "musica",
+          "de": "Musik",
+          "en": "music",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "de.musica",
+          "review_tags": [
+            "preferences"
+          ]
+        },
+        {
+          "id": "peliculas",
+          "de": "Filme",
+          "en": "movies",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "de.peliculas",
+          "review_tags": [
+            "preferences"
+          ]
+        },
+        {
+          "id": "libros",
+          "de": "Bücher",
+          "en": "books",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "de.libros",
+          "review_tags": [
+            "preferences"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "gefallen",
+        "preferences",
+        "number"
+      ],
+      "examples": [
+        {
+          "es": "Mir gefällt der Tee.",
+          "en": "I like tea.",
+          "analysis": "singular thing + gefällt"
+        },
+        {
+          "es": "Mir gefallen die Bücher.",
+          "en": "I like books.",
+          "analysis": "plural thing + gefallen"
+        },
+        {
+          "es": "Gefällt es dir zu lernen?",
+          "en": "Do you like studying?",
+          "analysis": "gefallen uses dative dir"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w3d5-a1",
+          "type": "mcq",
+          "prompt": "Choose the correct phrase for “I like books.”",
+          "answer": "Mir gefallen die Bücher.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gefallen"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Mir gefällt die Bücher.",
+            "Mir gefallen die Bücher.",
+            "Ich gefalle die Bücher."
+          ]
+        },
+        {
+          "id": "w3d5-a2",
+          "type": "translate",
+          "prompt": "Translate: “I like to study.”",
+          "answer": "Mir gefällt das Lernen.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gefallen",
+            "infinitives"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d5-a3",
+          "type": "cloze",
+          "prompt": "Complete: Warten ___ mir nicht.",
+          "answer": "gefällt",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gefallen",
+            "negation"
+          ],
+          "difficulty": "core",
+          "options": [
+            "gefällt",
+            "gefallen",
+            "gefalle"
+          ]
+        },
+        {
+          "id": "w3d5-a4",
+          "type": "transform",
+          "prompt": "Change to plural: Mir gefällt die Frucht.",
+          "answer": "Mir gefallen die Früchte.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gefallen",
+            "agreement"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d5-a5",
+          "type": "speak",
+          "prompt": "Say two things you like and one thing you do not like.",
+          "answer": "Mir gefällt ____. Mir gefallen ____. Mir gefällt ____ nicht.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gefallen"
+          ],
+          "difficulty": "production"
+        }
+      ],
+      "mission": "Find one shared preference with a conversation partner.",
+      "dialogue": {
+        "title": "Finding common interests",
+        "lines": [
+          {
+            "speaker": "A",
+            "es": "Gefällt dir Kaffee?",
+            "en": "Do you like coffee?"
+          },
+          {
+            "speaker": "B",
+            "es": "Ja, mir gefällt er. Und dir?",
+            "en": "Yes, I do. And you?"
+          },
+          {
+            "speaker": "A",
+            "es": "Mir gefallen die Früchte.",
+            "en": "I like fruit."
+          }
+        ],
+        "learner_turns": [
+          "Swap singular and plural objects.",
+          "Ask and answer with a partner."
+        ]
+      },
+      "exit_check": [
+        "Choose gefällt or gefallen.",
+        "Say a liked singular noun, plural noun, and infinitive.",
+        "Ask a preference question."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w3-d20",
+      "day": 20,
+      "title": "Week 3 Consolidated Review",
+      "focus": "needs, preferences, time, and shopping review",
+      "estimated_minutes": 20,
+      "objectives": [
+        "order or buy food",
+        "state a need and request help",
+        "arrange a time and express one preference"
+      ],
+      "teaching": {
+        "explanation": "Dieser Checkpoint ist praktisch ausgerichtet. Versuche zuerst aus dem Gedächtnis, und nutze das Wortfeld nur für das Wort, das die Kommunikation blockiert.",
+        "pattern": "Ich möchte ____. Wie viel kostet das? Ich brauche ____. Kannst du mir helfen? Mir gefällt ____. Um wie viel Uhr?",
+        "checkpoint": "Schließe ein Café-/Markt-Szenario ab, frage um Hilfe und verabrede eine Zeit unter Verwendung mindestens einer Zahl."
+      },
+      "vocabulary": [
+        {
+          "id": "nos-vemos",
+          "de": "Bis bald",
+          "en": "see you",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "de.nos-vemos",
+          "review_tags": [
+            "greetings",
+            "schedules"
+          ]
+        },
+        {
+          "id": "cuatro",
+          "de": "vier",
+          "en": "four",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "de.cuatro",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "a-las-ocho",
+          "de": "um acht",
+          "en": "at eight",
+          "pos": "time phrase",
+          "gender": null,
+          "audio_key": "de.a-las-ocho",
+          "review_tags": [
+            "time"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "review",
+        "integration",
+        "mastery"
+      ],
+      "examples": [
+        {
+          "es": "Ich möchte Wasser und Brot, bitte.",
+          "en": "I want water and bread, please.",
+          "analysis": "request + courtesy"
+        },
+        {
+          "es": "Kannst du mir helfen? Ich brauche dieses Buch.",
+          "en": "Can you help me? I need this book.",
+          "analysis": "ability question + need + demonstrative"
+        },
+        {
+          "es": "Mir gefällt es, um acht zu lernen.",
+          "en": "I like studying at eight.",
+          "analysis": "gefallen + nominalized verb + time"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w3d6-a1",
+          "type": "retrieval",
+          "prompt": "Retrieve the three patterns: I want, I need, I like.",
+          "answer": "Ich möchte ____. Ich brauche ____. Mir gefällt ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "moechten",
+            "brauchen",
+            "gefallen"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d6-a2",
+          "type": "listening_comprehension",
+          "prompt": "Listen to a market exchange and identify the item, quantity, and price.",
+          "answer": "item_quantity_price",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "shopping",
+            "numbers"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d6-a3",
+          "type": "translation_chain",
+          "prompt": "Translate: “I need help. Can you repeat, please?”",
+          "answer": "Ich brauche Hilfe. Kannst du das bitte wiederholen?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "needs",
+            "repair"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d6-a4",
+          "type": "error_correction",
+          "prompt": "Correct: Mir gefällt die Bücher.",
+          "answer": "Mir gefallen die Bücher.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gefallen",
+            "number"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d6-a5",
+          "type": "roleplay",
+          "prompt": "Complete the mission: order, ask a price, request clarification, and arrange a time.",
+          "answer": "Hallo. Ich möchte ____. Wie viel kostet das? Kannst du das wiederholen? Wir sehen uns um ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "week3"
+          ],
+          "difficulty": "checkpoint"
+        }
+      ],
+      "mission": "Handle a short café, market, and scheduling exchange.",
+      "dialogue": {
+        "title": "Café and schedule mission",
+        "lines": [
+          {
+            "speaker": "A",
+            "es": "Hallo. Was möchtest du?",
+            "en": "Hello. What do you want?"
+          },
+          {
+            "speaker": "B",
+            "es": "Ich möchte ____. Wie viel kostet das?",
+            "en": "I want ____. How much does it cost?"
+          },
+          {
+            "speaker": "A",
+            "es": "Vier Euro.",
+            "en": "Four euros."
+          },
+          {
+            "speaker": "B",
+            "es": "Danke. Wir sehen uns um acht.",
+            "en": "Thank you. See you at eight."
+          }
+        ],
+        "learner_turns": [
+          "Add a repair phrase and a preference.",
+          "Repeat without reading English."
+        ]
+      },
+      "exit_check": [
+        "Complete a transaction with one clarification.",
+        "Use möchten, brauchen, and gefallen correctly.",
+        "Pass the time-and-preference checkpoint."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w3-d21",
+      "day": 21,
+      "title": "Week 3 Field Check",
+      "focus": "needs, preferences, time, and shopping review",
+      "estimated_minutes": 20,
+      "objectives": [
+        "order or buy food",
+        "state a need and request help",
+        "arrange a time and express one preference"
+      ],
+      "teaching": {
+        "explanation": "Dieser Checkpoint ist praktisch ausgerichtet. Versuche zuerst aus dem Gedächtnis, und nutze das Wortfeld nur für das Wort, das die Kommunikation blockiert.",
+        "pattern": "Ich möchte ____. Wie viel kostet das? Ich brauche ____. Kannst du mir helfen? Mir gefällt ____. Um wie viel Uhr?",
+        "checkpoint": "Schließe ein Café-/Markt-Szenario ab, frage um Hilfe und verabrede eine Zeit unter Verwendung mindestens einer Zahl."
+      },
+      "vocabulary": [
+        {
+          "id": "nos-vemos",
+          "de": "Bis bald",
+          "en": "see you",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "de.nos-vemos",
+          "review_tags": [
+            "greetings",
+            "schedules"
+          ]
+        },
+        {
+          "id": "cuatro",
+          "de": "vier",
+          "en": "four",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "de.cuatro",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "a-las-ocho",
+          "de": "um acht",
+          "en": "at eight",
+          "pos": "time phrase",
+          "gender": null,
+          "audio_key": "de.a-las-ocho",
+          "review_tags": [
+            "time"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "review",
+        "integration",
+        "mastery"
+      ],
+      "examples": [
+        {
+          "es": "Ich möchte Wasser und Brot, bitte.",
+          "en": "I want water and bread, please.",
+          "analysis": "request + courtesy"
+        },
+        {
+          "es": "Kannst du mir helfen? Ich brauche dieses Buch.",
+          "en": "Can you help me? I need this book.",
+          "analysis": "ability question + need + demonstrative"
+        },
+        {
+          "es": "Mir gefällt es, um acht zu lernen.",
+          "en": "I like studying at eight.",
+          "analysis": "gefallen + nominalized verb + time"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w3d7-a1",
+          "type": "retrieval",
+          "prompt": "Retrieve the three patterns: I want, I need, I like.",
+          "answer": "Ich möchte ____. Ich brauche ____. Mir gefällt ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "moechten",
+            "brauchen",
+            "gefallen"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d7-a2",
+          "type": "listening_comprehension",
+          "prompt": "Listen to a market exchange and identify the item, quantity, and price.",
+          "answer": "item_quantity_price",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "shopping",
+            "numbers"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d7-a3",
+          "type": "translation_chain",
+          "prompt": "Translate: “I need help. Can you repeat, please?”",
+          "answer": "Ich brauche Hilfe. Kannst du das bitte wiederholen?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "needs",
+            "repair"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d7-a4",
+          "type": "error_correction",
+          "prompt": "Correct: Mir gefällt die Bücher.",
+          "answer": "Mir gefallen die Bücher.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gefallen",
+            "number"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d7-a5",
+          "type": "roleplay",
+          "prompt": "Complete the mission: order, ask a price, request clarification, and arrange a time.",
+          "answer": "Hallo. Ich möchte ____. Wie viel kostet das? Kannst du das wiederholen? Wir sehen uns um ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "week3"
+          ],
+          "difficulty": "checkpoint"
+        }
+      ],
+      "mission": "Handle a short café, market, and scheduling exchange.",
+      "dialogue": {
+        "title": "Café and schedule mission",
+        "lines": [
+          {
+            "speaker": "A",
+            "es": "Hallo. Was möchtest du?",
+            "en": "Hello. What do you want?"
+          },
+          {
+            "speaker": "B",
+            "es": "Ich möchte ____. Wie viel kostet das?",
+            "en": "I want ____. How much does it cost?"
+          },
+          {
+            "speaker": "A",
+            "es": "Vier Euro.",
+            "en": "Four euros."
+          },
+          {
+            "speaker": "B",
+            "es": "Danke. Wir sehen uns um acht.",
+            "en": "Thank you. See you at eight."
+          }
+        ],
+        "learner_turns": [
+          "Add a repair phrase and a preference.",
+          "Repeat without reading English."
+        ]
+      },
+      "exit_check": [
+        "Complete a transaction with one clarification.",
+        "Use möchten, brauchen, and gefallen correctly.",
+        "Pass the time-and-preference checkpoint."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    }
+  ]
+}

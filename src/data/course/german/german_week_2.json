@@ -1,0 +1,1720 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "german-foundations-a0-a1",
+  "week": 2,
+  "title": "Sentence Engine: Daily Life",
+  "lessons": [
+    {
+      "id": "de-w2-d08",
+      "day": 8,
+      "title": "Where Things Are",
+      "focus": "estar, hay, and locations",
+      "estimated_minutes": 20,
+      "objectives": [
+        "say where a person or object is",
+        "distinguish hay from está/están",
+        "use en, aquí, and allí"
+      ],
+      "teaching": {
+        "explanation": "Use 'es gibt' for “there is/there are” when introducing existence. Use 'sein' (ist/sind) for the location of a known singular or plural item.",
+        "pattern": "Es gibt ein Buch auf dem Tisch. = There is a book on the table. Das Buch ist auf dem Tisch. = The book is on the table.",
+        "contrast": "'Es gibt' introduces existence; 'sein' (ist/sind) locates."
+      },
+      "vocabulary": [
+        {
+          "id": "hay",
+          "de": "es gibt",
+          "en": "there is/are",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.hay",
+          "review_tags": [
+            "existence"
+          ]
+        },
+        {
+          "id": "estar",
+          "de": "sein",
+          "en": "to be located/to be",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.estar",
+          "review_tags": [
+            "location"
+          ]
+        },
+        {
+          "id": "esta",
+          "de": "ist",
+          "en": "is located",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.esta",
+          "review_tags": [
+            "location"
+          ]
+        },
+        {
+          "id": "estan",
+          "de": "sind",
+          "en": "are located",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.estan",
+          "review_tags": [
+            "location"
+          ]
+        },
+        {
+          "id": "aqui",
+          "de": "hier",
+          "en": "here",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "de.aqui",
+          "review_tags": [
+            "locations"
+          ]
+        },
+        {
+          "id": "alli",
+          "de": "dort",
+          "en": "there",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "de.alli",
+          "review_tags": [
+            "locations"
+          ]
+        },
+        {
+          "id": "silla",
+          "de": "Stuhl",
+          "en": "chair",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "de.silla",
+          "review_tags": [
+            "room"
+          ]
+        },
+        {
+          "id": "habitacion",
+          "de": "Zimmer",
+          "en": "room",
+          "pos": "noun",
+          "gender": "n",
+          "audio_key": "de.habitacion",
+          "review_tags": [
+            "room"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "estar",
+        "hay",
+        "locations"
+      ],
+      "examples": [
+        {
+          "de": "Es gibt einen Tisch.",
+          "en": "There is a table.",
+          "analysis": "es gibt introduces existence"
+        },
+        {
+          "de": "Das Buch ist hier.",
+          "en": "The book is here.",
+          "analysis": "known singular object + ist"
+        },
+        {
+          "de": "Die Häuser sind dort.",
+          "en": "The houses are there.",
+          "analysis": "known plural objects + sind"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d1-a1",
+          "type": "mcq",
+          "prompt": "Choose the phrase that means “There is a book.”",
+          "answer": "Es gibt ein Buch.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "hay"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Ist ein Buch.",
+            "Es gibt ein Buch.",
+            "Es ist ein Buch."
+          ]
+        },
+        {
+          "id": "w2d1-a2",
+          "type": "translate",
+          "prompt": "Translate: “The table is here.”",
+          "answer": "Der Tisch ist hier.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "estar",
+            "aqui"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Der Tisch ist hier"
+          ]
+        },
+        {
+          "id": "w2d1-a3",
+          "type": "cloze",
+          "prompt": "Complete: Die Häuser ___ dort.",
+          "answer": "sind",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "estan"
+          ],
+          "difficulty": "core",
+          "options": [
+            "ist",
+            "sind",
+            "es gibt",
+            "sind"
+          ]
+        },
+        {
+          "id": "w2d1-a4",
+          "type": "classification",
+          "prompt": "Is this introducing existence or locating a known item? Es gibt einen Stuhl.",
+          "answer": "introducing existence",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "hay"
+          ],
+          "difficulty": "core",
+          "options": [
+            "introducing existence",
+            "locating a known item"
+          ]
+        },
+        {
+          "id": "w2d1-a5",
+          "type": "speak",
+          "prompt": "Describe two things in a room using es gibt and ist/sind.",
+          "answer": "Es gibt ____. Das ____ ist ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "hay",
+            "estar",
+            "locations"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Give a location briefing about a simple room.",
+      "dialogue": {
+        "title": "A room scan",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Was gibt es im Zimmer?",
+            "en": "What is there in the room?"
+          },
+          {
+            "speaker": "B",
+            "de": "Es gibt einen Tisch. Der Tisch ist hier.",
+            "en": "There is a table. The table is here."
+          }
+        ],
+        "learner_turns": [
+          "Name three imaginary objects.",
+          "Use 'dort' for an object farther away."
+        ]
+      },
+      "exit_check": [
+        "Choose hay or está/están in five sentences.",
+        "Locate two known objects.",
+        "Describe a room with one hay sentence and one estar sentence."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w2-d09",
+      "day": 9,
+      "title": "Action Builders",
+      "focus": "Regular -ar verbs in the present",
+      "estimated_minutes": 20,
+      "objectives": [
+        "conjugate common -ar verbs with yo, tú, and él/ella",
+        "make simple subject–verb–object sentences",
+        "recognize the infinitive ending -ar"
+      ],
+      "teaching": {
+        "explanation": "In German regular present-tense verbs usually remove -en and take endings: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en. (Note: some common verbs are irregular.)",
+        "pattern": "lernen: ich lerne, du lernst, er lernt, wir lernen, ihr lernt, sie lernen.",
+        "strategy": "Retrieve the ending from the subject first, then attach it to the verb stem."
+      },
+      "vocabulary": [
+        {
+          "id": "hablar",
+          "de": "sprechen",
+          "en": "to speak",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.hablar",
+          "review_tags": [
+            "verbs",
+            "ar"
+          ]
+        },
+        {
+          "id": "estudiar",
+          "de": "lernen",
+          "en": "to study",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.estudiar",
+          "review_tags": [
+            "verbs",
+            "ar"
+          ]
+        },
+        {
+          "id": "trabajar",
+          "de": "arbeiten",
+          "en": "to work",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.trabajar",
+          "review_tags": [
+            "verbs",
+            "ar"
+          ]
+        },
+        {
+          "id": "vivir",
+          "de": "wohnen",
+          "en": "to live",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.vivir",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "escuchar",
+          "de": "hören",
+          "en": "to listen",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.escuchar",
+          "review_tags": [
+            "verbs",
+            "ar"
+          ]
+        },
+        {
+          "id": "hago",
+          "de": "ich mache",
+          "en": "I do/make",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.hago",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "poco",
+          "de": "ein bisschen",
+          "en": "a little",
+          "pos": "adjective/adverb",
+          "gender": null,
+          "audio_key": "de.poco",
+          "review_tags": [
+            "quantity"
+          ]
+        },
+        {
+          "id": "si",
+          "de": "ja",
+          "en": "yes",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "de.si",
+          "review_tags": [
+            "answers"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "present",
+        "ar-verbs",
+        "word-order"
+      ],
+      "examples": [
+        {
+          "de": "Ich spreche Spanisch.",
+          "en": "I speak Spanish.",
+          "analysis": "sprech- + e"
+        },
+        {
+          "de": "Sie lernt Spanisch.",
+          "en": "She studies Spanish.",
+          "analysis": "lern- + t"
+        },
+        {
+          "de": "Wir arbeiten hier.",
+          "en": "We work here.",
+          "analysis": "arbeit- + en"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d2-a1",
+          "type": "mcq",
+          "prompt": "Choose the yo form of hablar.",
+          "answer": "ich spreche",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "ar-conjugation"
+          ],
+          "difficulty": "core",
+          "options": [
+            "spricht",
+            "ich spreche",
+            "sprechen"
+          ]
+        },
+        {
+          "id": "w2d2-a2",
+          "type": "translate",
+          "prompt": "Translate: “We study Spanish.”",
+          "answer": "Wir lernen Spanisch.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "ar-conjugation",
+            "study"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Wir lernen Spanisch",
+            "Wir studieren Spanisch"
+          ]
+        },
+        {
+          "id": "w2d2-a3",
+          "type": "cloze",
+          "prompt": "Complete: Du ___ Spanisch. (sprechen)",
+          "answer": "sprichst",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "ar-conjugation"
+          ],
+          "difficulty": "core",
+          "options": [
+            "spreche",
+            "sprichst",
+            "spricht",
+            "sprechen"
+          ]
+        },
+        {
+          "id": "w2d2-a4",
+          "type": "ordering",
+          "prompt": "Put in order: hier / arbeite / Ich",
+          "answer": "Ich arbeite hier.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "word-order"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d2-a5",
+          "type": "production",
+          "prompt": "Write one sentence with a subject, regular -ar verb, and place or object.",
+          "answer": "Ich ____ ____.",
+          "hint": "Use spreche, lerne, arbeite, wohne, or höre.",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "ar-conjugation"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Report what you do in a normal day.",
+      "dialogue": {
+        "title": "Daily status report",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Was machst du?",
+            "en": "What do you do?"
+          },
+          {
+            "speaker": "B",
+            "de": "Ich arbeite und lerne Spanisch.",
+            "en": "I work and study Spanish."
+          },
+          {
+            "speaker": "A",
+            "de": "Sprichst du Spanisch?",
+            "en": "Do you speak Spanish?"
+          },
+          {
+            "speaker": "B",
+            "de": "Ja, ich spreche ein bisschen.",
+            "en": "Yes, I speak a little."
+          }
+        ],
+        "learner_turns": [
+          "Substitute your real activities.",
+          "Ask and answer 'Was machst du?' aloud."
+        ]
+      },
+      "exit_check": [
+        "Conjugate sprechen for ich, du, er/sie, wir, ihr.",
+        "Produce two subject–verb sentences.",
+        "Identify the infinitive ending -ar."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w2-d10",
+      "day": 10,
+      "title": "People and Possession",
+      "focus": "Possessives and family",
+      "estimated_minutes": 20,
+      "objectives": [
+        "use mi, tu, su, and nuestro/a in short phrases",
+        "describe one family member or friend",
+        "keep noun and possessive agreement clear"
+      ],
+      "teaching": {
+        "explanation": "Short possessives come before the noun. German equivalents include 'mein' (my), 'dein' (your informal), 'sein/ihr/Ihr' (his/her/formal your), and 'unser' (our). In the nominative singular 'unser' becomes 'unsere' for feminine nouns: unsere Freundin.",
+        "pattern": "Meine Mutter ist freundlich. Unser Freund ist groß. Sein Haus ist hier.",
+        "note": "'sein'/'ihr'/'Ihr' can mean his, her, or your(formal); context and capitalization (Ihr) matter."
+      },
+      "vocabulary": [
+        {
+          "id": "mi",
+          "de": "mein",
+          "en": "my",
+          "pos": "possessive",
+          "gender": null,
+          "audio_key": "de.mi",
+          "review_tags": [
+            "possessives"
+          ]
+        },
+        {
+          "id": "tu",
+          "de": "dein",
+          "en": "your informal",
+          "pos": "possessive",
+          "gender": null,
+          "audio_key": "de.tu",
+          "review_tags": [
+            "possessives"
+          ]
+        },
+        {
+          "id": "su",
+          "de": "sein/ihr/Ihr",
+          "en": "his/her/your formal/their",
+          "pos": "possessive",
+          "gender": null,
+          "audio_key": "de.su",
+          "review_tags": [
+            "possessives"
+          ]
+        },
+        {
+          "id": "nuestro",
+          "de": "unser",
+          "en": "our masculine",
+          "pos": "possessive",
+          "gender": "m",
+          "audio_key": "de.nuestro",
+          "review_tags": [
+            "possessives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "nuestra",
+          "de": "unsere",
+          "en": "our feminine",
+          "pos": "possessive",
+          "gender": "f",
+          "audio_key": "de.nuestra",
+          "review_tags": [
+            "possessives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "madre",
+          "de": "Mutter",
+          "en": "mother",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "de.madre",
+          "review_tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "padre",
+          "de": "Vater",
+          "en": "father",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "de.padre",
+          "review_tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hermano",
+          "de": "Bruder",
+          "en": "brother",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "de.hermano",
+          "review_tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hermana",
+          "de": "Schwester",
+          "en": "sister",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "de.hermana",
+          "review_tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "amable",
+          "de": "freundlich",
+          "en": "kind",
+          "pos": "adjective",
+          "gender": null,
+          "audio_key": "de.amable",
+          "review_tags": [
+            "adjectives"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "possessives",
+        "agreement",
+        "family"
+      ],
+      "examples": [
+        {
+          "de": "Mein Bruder ist Student.",
+          "en": "My brother is a student.",
+          "analysis": "mein + masculine noun"
+        },
+        {
+          "de": "Unsere Freundin kommt aus Chile.",
+          "en": "Our female friend is from Chile.",
+          "analysis": "unsere matches feminine Freundin"
+        },
+        {
+          "de": "Sein Haus ist dort.",
+          "en": "His/her/your formal/their house is there.",
+          "analysis": "sein/ihr is context-dependent"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d3-a1",
+          "type": "mcq",
+          "prompt": "Choose “our female friend.”",
+          "answer": "unsere Freundin",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "possessives",
+            "agreement"
+          ],
+          "difficulty": "core",
+          "options": [
+            "unser Freundin",
+            "unsere Freundin",
+            "unsere Freund"
+          ]
+        },
+        {
+          "id": "w2d3-a2",
+          "type": "translate",
+          "prompt": "Translate: “My brother is a student.”",
+          "answer": "Mein Bruder ist Student.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "possessives",
+            "identity"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Mein Bruder ist Student",
+            "Mein Bruder ist ein Student"
+          ]
+        },
+        {
+          "id": "w2d3-a3",
+          "type": "cloze",
+          "prompt": "Complete: ___ Haus (your informal house).",
+          "answer": "dein",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "possessives"
+          ],
+          "difficulty": "core",
+          "options": [
+            "mein",
+            "dein",
+            "sein",
+            "unser"
+          ]
+        },
+        {
+          "id": "w2d3-a4",
+          "type": "classification",
+          "prompt": "Does unser change here? unsere Freundin",
+          "answer": "yes, to match feminine singular",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "possessives",
+            "agreement"
+          ],
+          "difficulty": "core",
+          "options": [
+            "yes, to match feminine singular",
+            "no, possessives never change"
+          ]
+        },
+        {
+          "id": "w2d3-a5",
+          "type": "speak",
+          "prompt": "Describe a person using a possessive and one adjective.",
+          "answer": "Mein ____ ist ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "possessives",
+            "agreement"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Describe people who belong to you or your social circle.",
+      "dialogue": {
+        "title": "Family photo description",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Wer ist das?",
+            "en": "Who is it?"
+          },
+          {
+            "speaker": "B",
+            "de": "Das ist meine Schwester. Sie ist freundlich.",
+            "en": "She is my sister. She is kind."
+          },
+          {
+            "speaker": "A",
+            "de": "Und sie?",
+            "en": "And them?"
+          },
+          {
+            "speaker": "B",
+            "de": "Das sind unsere Freunde.",
+            "en": "They are our friends."
+          }
+        ],
+        "learner_turns": [
+          "Replace family words and adjectives.",
+          "Say the difference between mein and unsere."
+        ]
+      },
+      "exit_check": [
+        "Choose mein, dein, sein, or unser/unsere.",
+        "Describe one person with a possessive.",
+        "Explain why unsere agrees with Freundin."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w2-d11",
+      "day": 11,
+      "title": "Negation and Yes/No Questions",
+      "focus": "no, sí, and inversion-free questions",
+      "estimated_minutes": 20,
+      "objectives": [
+        "make negative statements with no",
+        "ask yes/no questions with intonation and ¿?",
+        "answer with sí/no plus a full sentence"
+      ],
+      "teaching": {
+        "explanation": "Use 'nicht' to make negative sentences (or 'kein' before an indefinite noun). In German yes/no questions invert the verb and subject: 'Wohnst du hier?'. Answer with 'ja' or 'nein' plus a full clause.",
+        "pattern": "Wohnst du hier? Ja, ich wohne hier. Nein, ich wohne hier nicht.",
+        "strategy": "For active recall, convert statements to questions using inversion and then answer both yes and no versions."
+      },
+      "vocabulary": [
+        {
+          "id": "no",
+          "de": "nicht / nein",
+          "en": "no/not",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "de.no",
+          "review_tags": [
+            "negation"
+          ]
+        },
+        {
+          "id": "pregunta",
+          "de": "Frage",
+          "en": "question",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "de.pregunta",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "vives",
+          "de": "wohnst",
+          "en": "you live",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.vives",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "hablas",
+          "de": "sprichst",
+          "en": "you speak",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.hablas",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "estudias",
+          "de": "lernst",
+          "en": "you study",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.estudias",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "ingles",
+          "de": "Englisch",
+          "en": "English",
+          "pos": "noun",
+          "gender": null,
+          "audio_key": "de.ingles",
+          "review_tags": [
+            "languages"
+          ]
+        },
+        {
+          "id": "frances",
+          "de": "Französisch",
+          "en": "French",
+          "pos": "noun",
+          "gender": null,
+          "audio_key": "de.frances",
+          "review_tags": [
+            "languages"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "negation",
+        "questions",
+        "present"
+      ],
+      "examples": [
+        {
+          "de": "Ich wohne hier nicht.",
+          "en": "I do not live here.",
+          "analysis": "nicht after the verb phrase"
+        },
+        {
+          "de": "Lernst du Spanisch?",
+          "en": "Do you study Spanish?",
+          "analysis": "verb-subject inversion for questions"
+        },
+        {
+          "de": "Ja, ich arbeite.",
+          "en": "Yes, I work.",
+          "analysis": "ja + comma + sentence"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d4-a1",
+          "type": "transform",
+          "prompt": "Make negative: Ich wohne hier.",
+          "answer": "Ich wohne hier nicht.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "negation"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d4-a2",
+          "type": "translate",
+          "prompt": "Translate: “Do you speak Spanish?”",
+          "answer": "Sprichst du Spanisch?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "questions",
+            "ar-conjugation"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Sprichst du Spanisch?"
+          ]
+        },
+        {
+          "id": "w2d4-a3",
+          "type": "mcq",
+          "prompt": "Choose the correct answer to Lernst du Spanisch?",
+          "answer": "Ja, ich lerne Spanisch.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "answers"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Ja, ich lerne Spanisch.",
+            "Nein ist Spanisch.",
+            "Ich bin Spanisch."
+          ]
+        },
+        {
+          "id": "w2d4-a4",
+          "type": "error_correction",
+          "prompt": "Correct: Nicht ich spreche Englisch.",
+          "answer": "Ich spreche nicht Englisch.",
+          "hint": "",
+          "feedback": "In German, 'nicht' usually comes after the verb phrase or at the end; subject pronoun is optional.",
+          "rationale": "",
+          "review_item_ids": [
+            "negation",
+            "word-order"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d4-a5",
+          "type": "speak",
+          "prompt": "Ask yourself three yes/no questions and answer each with ja or nein.",
+          "answer": "____? Ja, ____. / Nein, ____ nicht.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "questions",
+            "negation"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Confirm or correct basic information without switching to English.",
+      "dialogue": {
+        "title": "Confirming information",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Wohnst du hier?",
+            "en": "Do you live here?"
+          },
+          {
+            "speaker": "B",
+            "de": "Ja, ich wohne hier.",
+            "en": "Yes, I live here."
+          },
+          {
+            "speaker": "A",
+            "de": "Arbeitest du hier?",
+            "en": "Do you work here?"
+          },
+          {
+            "speaker": "B",
+            "de": "Nein, ich arbeite hier nicht.",
+            "en": "No, I do not work here."
+          }
+        ],
+        "learner_turns": [
+          "Change the verbs.",
+          "Answer once yes and once no."
+        ]
+      },
+      "exit_check": [
+        "Turn two statements into negative sentences.",
+        "Ask two yes/no questions.",
+        "Answer with sí/no plus a full clause."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w2-d12",
+      "day": 12,
+      "title": "Core Prepositions",
+      "focus": "en, con, para, de, a",
+      "estimated_minutes": 20,
+      "objectives": [
+        "use five core prepositions in useful chunks",
+        "express location, accompaniment, purpose, origin, and movement",
+        "avoid translating each preposition mechanically"
+      ],
+      "teaching": {
+        "explanation": "Prepositions are best learned inside chunks. 'in' often marks location, 'mit' means with, 'für' often marks purpose or recipient, 'aus' marks origin, and 'nach' marks movement toward a city/country.",
+        "pattern": "Ich bin zu Hause. Ich fahre nach Madrid. Kaffee mit Milch. Es ist für Anna. Ich komme aus Peru.",
+        "warning": "English and German prepositions do not map one-to-one in every expression; memorize the high-frequency chunks first."
+      },
+      "vocabulary": [
+        {
+          "id": "en",
+          "de": "in",
+          "en": "in/at",
+          "pos": "preposition",
+          "gender": null,
+          "audio_key": "de.en",
+          "review_tags": [
+            "prepositions"
+          ]
+        },
+        {
+          "id": "con",
+          "de": "mit",
+          "en": "with",
+          "pos": "preposition",
+          "gender": null,
+          "audio_key": "de.con",
+          "review_tags": [
+            "prepositions"
+          ]
+        },
+        {
+          "id": "para",
+          "de": "für",
+          "en": "for/to (purpose)",
+          "pos": "preposition",
+          "gender": null,
+          "audio_key": "de.para",
+          "review_tags": [
+            "prepositions"
+          ]
+        },
+        {
+          "id": "a",
+          "de": "nach",
+          "en": "to",
+          "pos": "preposition",
+          "gender": null,
+          "audio_key": "de.a",
+          "review_tags": [
+            "prepositions"
+          ]
+        },
+        {
+          "id": "cafe",
+          "de": "Kaffee",
+          "en": "café",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "de.cafe",
+          "review_tags": [
+            "places"
+          ]
+        },
+        {
+          "id": "leche",
+          "de": "Milch",
+          "en": "milk",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "de.leche",
+          "review_tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "casa",
+          "de": "Zuhause",
+          "en": "home/house",
+          "pos": "noun",
+          "gender": "n",
+          "audio_key": "de.casa",
+          "review_tags": [
+            "places"
+          ]
+        },
+        {
+          "id": "voy",
+          "de": "ich fahre",
+          "en": "I go",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.voy",
+          "review_tags": [
+            "movement"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "prepositions",
+        "locations",
+        "movement"
+      ],
+      "examples": [
+        {
+          "de": "Ich bin zu Hause.",
+          "en": "I am at home.",
+          "analysis": "in + location"
+        },
+        {
+          "de": "Ich fahre nach Madrid.",
+          "en": "I am going to Madrid.",
+          "analysis": "nach + destination"
+        },
+        {
+          "de": "Es ist für dich.",
+          "en": "It is for you.",
+          "analysis": "für + recipient"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d5-a1",
+          "type": "matching",
+          "prompt": "Match: in = in/at; mit = with; für = for; aus = from/of; nach = to.",
+          "answer": "in = in/at; mit = with; für = for; aus = from/of; nach = to.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "prepositions"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d5-a2",
+          "type": "translate",
+          "prompt": "Translate: “Coffee with milk.”",
+          "answer": "Kaffee mit Milch.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "con"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Kaffee mit Milch",
+            "Kaffee mit Milch"
+          ]
+        },
+        {
+          "id": "w2d5-a3",
+          "type": "cloze",
+          "prompt": "Complete: Ich komme ___ Peru.",
+          "answer": "aus",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "de"
+          ],
+          "difficulty": "core",
+          "options": [
+            "in",
+            "mit",
+            "für",
+            "aus",
+            "nach"
+          ]
+        },
+        {
+          "id": "w2d5-a4",
+          "type": "cloze",
+          "prompt": "Complete: Ich fahre ___ Madrid.",
+          "answer": "nach",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "a"
+          ],
+          "difficulty": "core",
+          "options": [
+            "in",
+            "mit",
+            "für",
+            "aus",
+            "nach"
+          ]
+        },
+        {
+          "id": "w2d5-a5",
+          "type": "production",
+          "prompt": "Say where you are, where you are going, and with whom.",
+          "answer": "Ich bin in ____. Ich fahre nach ____. Ich gehe mit ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "prepositions",
+            "estar"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Explain a simple destination and travel companion.",
+      "dialogue": {
+        "title": "Planning a visit",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Wo bist du?",
+            "en": "Where are you?"
+          },
+          {
+            "speaker": "B",
+            "de": "Ich bin zu Hause. Ich gehe ins Café.",
+            "en": "I am at home. I am going to the café."
+          },
+          {
+            "speaker": "A",
+            "de": "Mit wem?",
+            "en": "With whom?"
+          },
+          {
+            "speaker": "B",
+            "de": "Ich gehe mit meinem Freund.",
+            "en": "I am going with my friend."
+          }
+        ],
+        "learner_turns": [
+          "Replace the places and person.",
+          "Say what something is for: Es ist für ____."
+        ]
+      },
+      "exit_check": [
+        "Choose the correct preposition in five chunks.",
+        "Say where you are and where you are going.",
+        "Use mit to name a companion."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w2-d13",
+      "day": 13,
+      "title": "A Normal Day",
+      "focus": "Routine verbs and sequence words",
+      "estimated_minutes": 20,
+      "objectives": [
+        "describe three daily actions",
+        "use primero, después, luego, and finalmente",
+        "combine a subject, verb, and time or place"
+      ],
+      "teaching": {
+        "explanation": "Routine language becomes easier when ordered. Use sequence words to create a mini-story instead of isolated sentences.",
+        "pattern": "Zuerst frühstücke ich. Danach arbeite ich. Dann ruhe ich mich aus. Schließlich schlafe ich.",
+        "note": "The target is intelligible sequencing, not a complete list of irregular verbs."
+      },
+      "vocabulary": [
+        {
+          "id": "primero",
+          "de": "zuerst",
+          "en": "first",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "de.primero",
+          "review_tags": [
+            "sequence"
+          ]
+        },
+        {
+          "id": "despues",
+          "de": "danach",
+          "en": "afterwards",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "de.despues",
+          "review_tags": [
+            "sequence"
+          ]
+        },
+        {
+          "id": "luego",
+          "de": "dann",
+          "en": "then",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "de.luego",
+          "review_tags": [
+            "sequence"
+          ]
+        },
+        {
+          "id": "finalmente",
+          "de": "schließlich",
+          "en": "finally",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "de.finalmente",
+          "review_tags": [
+            "sequence"
+          ]
+        },
+        {
+          "id": "desayunar",
+          "de": "frühstücken",
+          "en": "to have breakfast",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.desayunar",
+          "review_tags": [
+            "routine"
+          ]
+        },
+        {
+          "id": "descansar",
+          "de": "sich ausruhen",
+          "en": "to rest",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.descansar",
+          "review_tags": [
+            "routine"
+          ]
+        },
+        {
+          "id": "dormir",
+          "de": "schlafen",
+          "en": "to sleep",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "de.dormir",
+          "review_tags": [
+            "routine"
+          ]
+        },
+        {
+          "id": "manana",
+          "de": "Morgen",
+          "en": "morning/tomorrow",
+          "pos": "noun/adverb",
+          "gender": null,
+          "audio_key": "de.manana",
+          "review_tags": [
+            "time"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "routine",
+        "sequence",
+        "present"
+      ],
+      "examples": [
+        {
+          "de": "Zuerst frühstücke ich.",
+          "en": "First I have breakfast.",
+          "analysis": "zuerst marks sequence"
+        },
+        {
+          "de": "Danach arbeite ich.",
+          "en": "Afterwards I work.",
+          "analysis": "danach links the next action"
+        },
+        {
+          "de": "Schließlich ruhe ich mich aus.",
+          "en": "Finally I rest.",
+          "analysis": "finally closes the sequence"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d6-a1",
+          "type": "ordering",
+          "prompt": "Order the sequence: schließlich / danach / zuerst",
+          "answer": "zuerst, danach, schließlich",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "sequence"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d6-a2",
+          "type": "translate",
+          "prompt": "Translate: “First I study, then I work.”",
+          "answer": "Zuerst lerne ich, dann arbeite ich.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "routine",
+            "sequence"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Zuerst lerne ich, dann arbeite ich",
+            "Zuerst lerne ich, danach arbeite ich"
+          ]
+        },
+        {
+          "id": "w2d6-a3",
+          "type": "cloze",
+          "prompt": "Complete: ___ ruhe ich mich aus. (Finally)",
+          "answer": "Schließlich",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "sequence"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Zuerst",
+            "Danach",
+            "Schließlich"
+          ]
+        },
+        {
+          "id": "w2d6-a4",
+          "type": "production",
+          "prompt": "Write three actions in sequence.",
+          "answer": "Zuerst ____. Danach ____. Schließlich ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "routine",
+            "sequence"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d6-a5",
+          "type": "speak",
+          "prompt": "Tell a partner about your day for 20 seconds.",
+          "answer": "Zuerst ____. Dann ____. Danach ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "routine"
+          ],
+          "difficulty": "production"
+        }
+      ],
+      "mission": "Give a short report of your normal day.",
+      "dialogue": {
+        "title": "Routine briefing",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Was machst du morgens?",
+            "en": "What do you do in the morning?"
+          },
+          {
+            "speaker": "B",
+            "de": "Zuerst frühstücke ich. Danach lerne ich. Dann arbeite ich.",
+            "en": "First I have breakfast. Then I study. Afterwards I work."
+          }
+        ],
+        "learner_turns": [
+          "Make your own three-step routine.",
+          "Say it once slowly and once at natural speed."
+        ]
+      },
+      "exit_check": [
+        "Put four sequence words in order.",
+        "Produce a three-sentence routine.",
+        "Speak the routine without reading it."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w2-d14",
+      "day": 14,
+      "title": "Week 2 Field Check",
+      "focus": "Locations, routines, possession, and questions",
+      "estimated_minutes": 20,
+      "objectives": [
+        "describe a room or neighborhood",
+        "state a routine with sequence words",
+        "ask and answer three questions about daily life"
+      ],
+      "teaching": {
+        "explanation": "This checkpoint requires recombination. The learner should choose vocabulary and make new sentences, not merely repeat the dialogue.",
+        "pattern": "Es gibt ____. Es ist ____. Zuerst ____. Danach ____. Wohnst du hier? Ja/Nein, ____.",
+        "checkpoint": "Complete a 90-second “daily life” mission with location, routine, possession, and one negative answer."
+      },
+      "vocabulary": [
+        {
+          "id": "pero",
+          "de": "aber",
+          "en": "but",
+          "pos": "conjunction",
+          "gender": null,
+          "audio_key": "de.pero",
+          "review_tags": [
+            "connectors"
+          ]
+        },
+        {
+          "id": "donde-vives",
+          "de": "Wo wohnst du?",
+          "en": "Where do you live?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.donde-vives",
+          "review_tags": [
+            "questions",
+            "routine"
+          ]
+        },
+        {
+          "id": "que-haces",
+          "de": "Was machst du?",
+          "en": "What do you do?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.que-haces",
+          "review_tags": [
+            "questions",
+            "routine"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "review",
+        "integration",
+        "mastery"
+      ],
+      "examples": [
+        {
+          "de": "Es gibt einen Tisch im Zimmer.",
+          "en": "There is a table in the room.",
+          "analysis": "existence + location"
+        },
+        {
+          "de": "Zuerst lerne ich und danach arbeite ich.",
+          "en": "First I study and then I work.",
+          "analysis": "sequence + coordinated actions"
+        },
+        {
+          "de": "Ich wohne hier nicht; ich wohne in ____.",
+          "en": "I do not live here; I live in ____.",
+          "analysis": "negation + correction"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d7-a1",
+          "type": "retrieval",
+          "prompt": "Retrieve five prepositions and use each in a phrase.",
+          "answer": "in, mit, für, aus, nach",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "prepositions"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d7-a2",
+          "type": "listening_comprehension",
+          "prompt": "Listen to a room description and identify two objects and their locations.",
+          "answer": "two_objects_and_locations",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "hay",
+            "estar",
+            "locations"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d7-a3",
+          "type": "translation_chain",
+          "prompt": "Translate: “My friend lives here, but I work there.”",
+          "answer": "Mein Freund wohnt hier, aber ich arbeite dort.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "possessives",
+            "locations",
+            "connectors"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Mein Freund wohnt hier, aber ich arbeite dort"
+          ]
+        },
+        {
+          "id": "w2d7-a4",
+          "type": "error_correction",
+          "prompt": "Correct: Es gibt das Buch auf dem Tisch.",
+          "answer": "Das Buch ist auf dem Tisch. / Es gibt ein Buch auf dem Tisch.",
+          "hint": "",
+          "feedback": "Use 'es gibt' with an indefinite item or 'ist' with a known item.",
+          "rationale": "",
+          "review_item_ids": [
+            "hay",
+            "estar"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d7-a5",
+          "type": "roleplay",
+          "prompt": "Complete a daily-life briefing with a partner.",
+          "answer": "Es gibt ____. Ich wohne in ____. Zuerst ____. Danach ____. Und du?",
+          "hint": "",
+          "feedback": "Pass when you locate an object, describe your routine, ask a question, and repair one mistake.",
+          "rationale": "",
+          "review_item_ids": [
+            "week2"
+          ],
+          "difficulty": "checkpoint"
+        }
+      ],
+      "mission": "Give a practical briefing about where you live and what you do.",
+      "dialogue": {
+        "title": "Daily-life briefing",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Wo wohnst du?",
+            "en": "Where do you live?"
+          },
+          {
+            "speaker": "B",
+            "de": "Ich wohne in ____. Es gibt ____.",
+            "en": "I live in ____. There is/are ____."
+          },
+          {
+            "speaker": "A",
+            "de": "Was machst du zuerst?",
+            "en": "What do you do first?"
+          },
+          {
+            "speaker": "B",
+            "de": "Zuerst ____. Danach ____.",
+            "en": "First ____. Afterwards ____."
+          }
+        ],
+        "learner_turns": [
+          "Perform without English.",
+          "Change at least four details."
+        ]
+      },
+      "exit_check": [
+        "Use es gibt and ist/sind accurately.",
+        "Sequence three routine actions.",
+        "Pass the roleplay and cumulative checkpoint."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    }
+  ]
+}

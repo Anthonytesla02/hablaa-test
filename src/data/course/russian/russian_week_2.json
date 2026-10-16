@@ -1,0 +1,1722 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "russian-foundations-a0-a1",
+  "week": 2,
+  "title": "Sentence Engine: Daily Life",
+  "lessons": [
+    {
+      "id": "ru-w2-d08",
+      "day": 8,
+      "title": "Where Things Are",
+      "focus": "есть, находится, and locations",
+      "estimated_minutes": 20,
+      "objectives": [
+        "say where a person or object is",
+        "distinguish есть from находится/находятся",
+        "use в/здесь and там"
+      ],
+      "teaching": {
+        "explanation": "Use 'есть' for “there is/there are” when introducing existence. Use 'находится' or 'находятся' to state the location of a known singular or plural item.",
+        "pattern": "На столе есть книга. Книга на столе. = There is a book on the table. The book is on the table.",
+        "contrast": "'есть' introduces existence; 'находится/находятся' locates."
+      },
+      "vocabulary": [
+        {
+          "id": "hay",
+          "ru": "есть",
+          "en": "there is/are",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.hay",
+          "review_tags": [
+            "existence"
+          ]
+        },
+        {
+          "id": "estar",
+          "ru": "находиться",
+          "en": "to be located/to be",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "ru.estar",
+          "review_tags": [
+            "location"
+          ]
+        },
+        {
+          "id": "esta",
+          "ru": "находится",
+          "en": "is located",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.esta",
+          "review_tags": [
+            "location"
+          ]
+        },
+        {
+          "id": "estan",
+          "ru": "находятся",
+          "en": "are located",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.estan",
+          "review_tags": [
+            "location"
+          ]
+        },
+        {
+          "id": "aqui",
+          "ru": "здесь",
+          "en": "here",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "ru.aqui",
+          "review_tags": [
+            "locations"
+          ]
+        },
+        {
+          "id": "alli",
+          "ru": "там",
+          "en": "there",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "ru.alli",
+          "review_tags": [
+            "locations"
+          ]
+        },
+        {
+          "id": "silla",
+          "ru": "стул",
+          "en": "chair",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "ru.silla",
+          "review_tags": [
+            "room"
+          ]
+        },
+        {
+          "id": "habitacion",
+          "ru": "комната",
+          "en": "room",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "ru.habitacion",
+          "review_tags": [
+            "room"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "estar",
+        "hay",
+        "locations"
+      ],
+      "examples": [
+        {
+          "ru": "В комнате есть стол.",
+          "en": "There is a table.",
+          "analysis": "'есть' introduces existence"
+        },
+        {
+          "ru": "Книга здесь.",
+          "en": "The book is here.",
+          "analysis": "known singular object + находится/here"
+        },
+        {
+          "ru": "Дома находятся там.",
+          "en": "The houses are there.",
+          "analysis": "known plural objects + находятся"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d1-a1",
+          "type": "mcq",
+          "prompt": "Choose the phrase that means “There is a book.”",
+          "answer": "Есть книга.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "hay"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Книга есть.",
+            "Есть книга.",
+            "Это книга."
+          ]
+        },
+        {
+          "id": "w2d1-a2",
+          "type": "translate",
+          "prompt": "Translate: “The table is here.”",
+          "answer": "Стол здесь.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "estar",
+            "aqui"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Стол находится здесь",
+            "Стол здесь"
+          ]
+        },
+        {
+          "id": "w2d1-a3",
+          "type": "cloze",
+          "prompt": "Complete: Дома ___ там.",
+          "answer": "находятся",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "estan"
+          ],
+          "difficulty": "core",
+          "options": [
+            "находится",
+            "находятся",
+            "есть",
+            "являются"
+          ]
+        },
+        {
+          "id": "w2d1-a4",
+          "type": "classification",
+          "prompt": "Is this introducing existence or locating a known item? Есть стул.",
+          "answer": "introducing existence",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "hay"
+          ],
+          "difficulty": "core",
+          "options": [
+            "introducing existence",
+            "locating a known item"
+          ]
+        },
+        {
+          "id": "w2d1-a5",
+          "type": "speak",
+          "prompt": "Describe two things in a room using 'есть' and 'находится/находятся'.",
+          "answer": "Есть ____. ___ находится ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "hay",
+            "estar",
+            "locations"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Give a location briefing about a simple room.",
+      "dialogue": {
+        "title": "A room scan",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Что есть в комнате?",
+            "en": "What is there in the room?"
+          },
+          {
+            "speaker": "B",
+            "ru": "В комнате есть стол. Стол здесь.",
+            "en": "There is a table. The table is here."
+          }
+        ],
+        "learner_turns": [
+          "Name three imaginary objects.",
+          "Use 'там' for an object farther away."
+        ]
+      },
+      "exit_check": [
+        "Choose 'есть' or 'находится/находятся' in five sentences.",
+        "Locate two known objects.",
+        "Describe a room with one 'есть' sentence and one 'находится/находятся' sentence."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "ru-w2-d09",
+      "day": 9,
+      "title": "Action Builders",
+      "focus": "Present tense verb conjugation (я, ты, он/она)",
+      "estimated_minutes": 20,
+      "objectives": [
+        "conjugate common verbs with я, ты, and он/она",
+        "make simple subject–verb–object sentences",
+        "recognize the infinitive ending -ть"
+      ],
+      "teaching": {
+        "explanation": "In Russian present tense, remove the infinitive ending -ть and add endings that depend on the verb conjugation. For many -ать verbs: я -ю/-у, ты -ешь, он/она -ет, мы -ем, вы -ете, они -ют/-ут. Focus on common regular verbs. Note: use Вы (formal) vs ты (informal); conjugate with the вы form for polite address.",
+        "pattern": "работать: работаю, работаешь, работает, работаем, работаете, работают.",
+        "strategy": "Retrieve the verb stem (remove -ть), then attach the ending matching the subject."
+      },
+      "vocabulary": [
+        {
+          "id": "hablar",
+          "ru": "говорить",
+          "en": "to speak",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "ru.hablar",
+          "review_tags": [
+            "verbs",
+            "ar"
+          ]
+        },
+        {
+          "id": "estudiar",
+          "ru": "изучать",
+          "en": "to study",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "ru.estudiar",
+          "review_tags": [
+            "verbs",
+            "ar"
+          ]
+        },
+        {
+          "id": "trabajar",
+          "ru": "работать",
+          "en": "to work",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "ru.trabajar",
+          "review_tags": [
+            "verbs",
+            "ar"
+          ]
+        },
+        {
+          "id": "vivir",
+          "ru": "жить",
+          "en": "to live",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "ru.vivir",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "escuchar",
+          "ru": "слушать",
+          "en": "to listen",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "ru.escuchar",
+          "review_tags": [
+            "verbs",
+            "ar"
+          ]
+        },
+        {
+          "id": "hago",
+          "ru": "делаю",
+          "en": "I do/make",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.hago",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "poco",
+          "ru": "немного",
+          "en": "a little",
+          "pos": "adjective/adverb",
+          "gender": null,
+          "audio_key": "ru.poco",
+          "review_tags": [
+            "quantity"
+          ]
+        },
+        {
+          "id": "si",
+          "ru": "да",
+          "en": "yes",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "ru.si",
+          "review_tags": [
+            "answers"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "present",
+        "conjugation",
+        "word-order"
+      ],
+      "examples": [
+        {
+          "ru": "Я говорю по-испански.",
+          "en": "I speak Spanish.",
+          "analysis": "говор- + ю"
+        },
+        {
+          "ru": "Она изучает испанский.",
+          "en": "She studies Spanish.",
+          "analysis": "изуча- + ет"
+        },
+        {
+          "ru": "Мы работаем здесь.",
+          "en": "We work here.",
+          "analysis": "работа- + ем"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d2-a1",
+          "type": "mcq",
+          "prompt": "Choose the 'я' form of 'говорить'.",
+          "answer": "говорю",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "ar-conjugation"
+          ],
+          "difficulty": "core",
+          "options": [
+            "говорит",
+            "говорю",
+            "говорят"
+          ]
+        },
+        {
+          "id": "w2d2-a2",
+          "type": "translate",
+          "prompt": "Translate: “We study Spanish.”",
+          "answer": "Мы изучаем испанский.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "ar-conjugation",
+            "study"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Мы изучаем испанский",
+            "Изучаем испанский"
+          ]
+        },
+        {
+          "id": "w2d2-a3",
+          "type": "cloze",
+          "prompt": "Complete: Ты ___ по-испански. (говорить)",
+          "answer": "говоришь",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "ar-conjugation"
+          ],
+          "difficulty": "core",
+          "options": [
+            "говорю",
+            "говоришь",
+            "говорит",
+            "говорят"
+          ]
+        },
+        {
+          "id": "w2d2-a4",
+          "type": "ordering",
+          "prompt": "Put in order: здесь / работаю / Я",
+          "answer": "Я работаю здесь.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "word-order"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d2-a5",
+          "type": "production",
+          "prompt": "Write one sentence with a subject, regular verb, and place or object.",
+          "answer": "Я ____ ____.",
+          "hint": "Use говорю, изучаю, работаю, живу, or слушаю.",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "ar-conjugation"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Report what you do in a normal day.",
+      "dialogue": {
+        "title": "Daily status report",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Что ты делаешь?",
+            "en": "What do you do?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Я работаю и изучаю испанский.",
+            "en": "I work and study Spanish."
+          },
+          {
+            "speaker": "A",
+            "ru": "Ты говоришь по-испански?",
+            "en": "Do you speak Spanish?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Да, я говорю немного.",
+            "en": "Yes, I speak a little."
+          }
+        ],
+        "learner_turns": [
+          "Substitute your real activities.",
+          "Ask and answer 'Что ты делаешь?' aloud."
+        ]
+      },
+      "exit_check": [
+        "Conjugate 'говорить' for я, ты, он/она, мы, вы.",
+        "Produce two subject–verb sentences.",
+        "Identify the infinitive ending -ть."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "ru-w2-d10",
+      "day": 10,
+      "title": "People and Possession",
+      "focus": "Possessives and family",
+      "estimated_minutes": 20,
+      "objectives": [
+        "use мой, твой, его/её/наш/наша in short phrases",
+        "describe one family member or friend",
+        "keep noun and possessive agreement clear"
+      ],
+      "teaching": {
+        "explanation": "Possessive adjectives come before the noun and agree in gender and number: мой/моя/моё/мои; твой/твоя/твоё/твои; наш/наша/наше/наши. 'его' and 'её' do not change for gender. 'Ваш' can be used for polite/formal address and follows agreement patterns.",
+        "pattern": "Моя мать добра. Наш друг высокий. Его дом здесь.",
+        "note": "'su' in Spanish maps to 'его/её/Ваш/их' in Russian; context supplies the meaning."
+      },
+      "vocabulary": [
+        {
+          "id": "mi",
+          "ru": "мой",
+          "en": "my",
+          "pos": "possessive",
+          "gender": null,
+          "audio_key": "ru.mi",
+          "review_tags": [
+            "possessives"
+          ]
+        },
+        {
+          "id": "tu",
+          "ru": "твой",
+          "en": "your informal",
+          "pos": "possessive",
+          "gender": null,
+          "audio_key": "ru.tu",
+          "review_tags": [
+            "possessives"
+          ]
+        },
+        {
+          "id": "su",
+          "ru": "его/её/Ваш/их",
+          "en": "his/her/your formal/their",
+          "pos": "possessive",
+          "gender": null,
+          "audio_key": "ru.su",
+          "review_tags": [
+            "possessives"
+          ]
+        },
+        {
+          "id": "nuestro",
+          "ru": "наш",
+          "en": "our masculine",
+          "pos": "possessive",
+          "gender": "m",
+          "audio_key": "ru.nuestro",
+          "review_tags": [
+            "possessives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "nuestra",
+          "ru": "наша",
+          "en": "our feminine",
+          "pos": "possessive",
+          "gender": "f",
+          "audio_key": "ru.nuestra",
+          "review_tags": [
+            "possessives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "madre",
+          "ru": "мать",
+          "en": "mother",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "ru.madre",
+          "review_tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "padre",
+          "ru": "отец",
+          "en": "father",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "ru.padre",
+          "review_tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hermano",
+          "ru": "брат",
+          "en": "brother",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "ru.hermano",
+          "review_tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hermana",
+          "ru": "сестра",
+          "en": "sister",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "ru.hermana",
+          "review_tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "amable",
+          "ru": "добрая",
+          "en": "kind",
+          "pos": "adjective",
+          "gender": null,
+          "audio_key": "ru.amable",
+          "review_tags": [
+            "adjectives"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "possessives",
+        "agreement",
+        "family"
+      ],
+      "examples": [
+        {
+          "ru": "Мой брат — студент.",
+          "en": "My brother is a student.",
+          "analysis": "мой + masculine noun"
+        },
+        {
+          "ru": "Наша подруга из Чили.",
+          "en": "Our female friend is from Chile.",
+          "analysis": "наша matches feminine подруга"
+        },
+        {
+          "ru": "Их дом там.",
+          "en": "His/her/your formal/their house is there.",
+          "analysis": "'его/её/Ваш/их' is context-dependent"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d3-a1",
+          "type": "mcq",
+          "prompt": "Choose “our female friend.”",
+          "answer": "наша подруга",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "possessives",
+            "agreement"
+          ],
+          "difficulty": "core",
+          "options": [
+            "наш подруга",
+            "наша подруга",
+            "наши друг"
+          ]
+        },
+        {
+          "id": "w2d3-a2",
+          "type": "translate",
+          "prompt": "Translate: “My brother is a student.”",
+          "answer": "Мой брат — студент.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "possessives",
+            "identity"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Мой брат студент",
+            "Мой брат — студент"
+          ]
+        },
+        {
+          "id": "w2d3-a3",
+          "type": "cloze",
+          "prompt": "Complete: ___ дом (your informal house).",
+          "answer": "твой",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "possessives"
+          ],
+          "difficulty": "core",
+          "options": [
+            "мой",
+            "твой",
+            "его",
+            "наш"
+          ]
+        },
+        {
+          "id": "w2d3-a4",
+          "type": "classification",
+          "prompt": "Does 'наш' change here? 'наша подруга'",
+          "answer": "yes, to match feminine singular",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "possessives",
+            "agreement"
+          ],
+          "difficulty": "core",
+          "options": [
+            "yes, to match feminine singular",
+            "no, possessives never change"
+          ]
+        },
+        {
+          "id": "w2d3-a5",
+          "type": "speak",
+          "prompt": "Describe a person using a possessive and one adjective.",
+          "answer": "Мой ____ — ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "possessives",
+            "agreement"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Describe people who belong to you or your social circle.",
+      "dialogue": {
+        "title": "Family photo description",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Кто это?",
+            "en": "Who is it?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Это моя сестра. Она добрая.",
+            "en": "She is my sister. She is kind."
+          },
+          {
+            "speaker": "A",
+            "ru": "А они?",
+            "en": "And them?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Это наши друзья.",
+            "en": "They are our friends."
+          }
+        ],
+        "learner_turns": [
+          "Replace family words and adjectives.",
+          "Say the difference between 'мой' and 'наша'."
+        ]
+      },
+      "exit_check": [
+        "Choose мой, твой, его/её/их, or наш/наша.",
+        "Describe one person with a possessive.",
+        "Explain why 'наша' agrees with 'подруга'."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "ru-w2-d11",
+      "day": 11,
+      "title": "Negation and Yes/No Questions",
+      "focus": "не, да/нет, and intonation questions",
+      "estimated_minutes": 20,
+      "objectives": [
+        "make negative statements with не",
+        "ask yes/no questions with intonation or ли",
+        "answer with да/нет plus a full sentence"
+      ],
+      "teaching": {
+        "explanation": "Put не directly before the conjugated verb: Я не говорю по-английски. Yes/no questions in Russian often keep the same word order as a statement; rising intonation signals the question. For formal questions, you can use the particle 'ли'.",
+        "pattern": "Ты говоришь по-испански? Да, я говорю по-испански. Нет, я не говорю по-французски.",
+        "strategy": "For active recall, convert statements to questions and then answer both yes and no versions."
+      },
+      "vocabulary": [
+        {
+          "id": "no",
+          "ru": "не",
+          "en": "no/not",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "ru.no",
+          "review_tags": [
+            "negation"
+          ]
+        },
+        {
+          "id": "pregunta",
+          "ru": "вопрос",
+          "en": "question",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "ru.pregunta",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "vives",
+          "ru": "живёшь",
+          "en": "you live",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.vives",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "hablas",
+          "ru": "говоришь",
+          "en": "you speak",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.hablas",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "estudias",
+          "ru": "изучаешь",
+          "en": "you study",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.estudias",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "ingles",
+          "ru": "английский",
+          "en": "English",
+          "pos": "noun",
+          "gender": null,
+          "audio_key": "ru.ingles",
+          "review_tags": [
+            "languages"
+          ]
+        },
+        {
+          "id": "frances",
+          "ru": "французский",
+          "en": "French",
+          "pos": "noun",
+          "gender": null,
+          "audio_key": "ru.frances",
+          "review_tags": [
+            "languages"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "negation",
+        "questions",
+        "present"
+      ],
+      "examples": [
+        {
+          "ru": "Я не живу здесь.",
+          "en": "I do not live here.",
+          "analysis": "не before verb"
+        },
+        {
+          "ru": "Ты изучаешь испанский?",
+          "en": "Do you study Spanish?",
+          "analysis": "same order as statement, rising intonation"
+        },
+        {
+          "ru": "Да, я работаю.",
+          "en": "Yes, I work.",
+          "analysis": "да + comma + sentence"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d4-a1",
+          "type": "transform",
+          "prompt": "Make negative: Vivo aquí.",
+          "answer": "Я не живу здесь.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "negation"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d4-a2",
+          "type": "translate",
+          "prompt": "Translate: “Do you speak Spanish?”",
+          "answer": "Ты говоришь по-испански?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "questions",
+            "ar-conjugation"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Ты говоришь по-испански?"
+          ]
+        },
+        {
+          "id": "w2d4-a3",
+          "type": "mcq",
+          "prompt": "Choose the correct answer to 'Ты изучаешь испанский?'",
+          "answer": "Да, я изучаю испанский.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "answers"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Да, я изучаю испанский.",
+            "Нет это испанский.",
+            "Я испанский."
+          ]
+        },
+        {
+          "id": "w2d4-a4",
+          "type": "error_correction",
+          "prompt": "Correct: Не я говорю английский.",
+          "answer": "Я не говорю по-английски.",
+          "hint": "",
+          "feedback": "Не goes immediately before the conjugated verb; 'я' is optional.",
+          "rationale": "",
+          "review_item_ids": [
+            "negation",
+            "word-order"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d4-a5",
+          "type": "speak",
+          "prompt": "Ask yourself three yes/no questions and answer each with 'да' or 'нет'.",
+          "answer": "____? Да, ____./ Нет, не ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "questions",
+            "negation"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Confirm or correct basic information without switching to English.",
+      "dialogue": {
+        "title": "Confirming information",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Ты живёшь здесь?",
+            "en": "Do you live here?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Да, я живу здесь.",
+            "en": "Yes, I live here."
+          },
+          {
+            "speaker": "A",
+            "ru": "Ты работаешь здесь?",
+            "en": "Do you work here?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Нет, я здесь не работаю.",
+            "en": "No, I do not work here."
+          }
+        ],
+        "learner_turns": [
+          "Change the verbs.",
+          "Answer once yes and once no."
+        ]
+      },
+      "exit_check": [
+        "Turn two statements into negative sentences.",
+        "Ask two yes/no questions.",
+        "Answer with да/нет plus a full clause."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "ru-w2-d12",
+      "day": 12,
+      "title": "Core Prepositions",
+      "focus": "в, с, для, из, к",
+      "estimated_minutes": 20,
+      "objectives": [
+        "use five core prepositions in useful chunks",
+        "express location, accompaniment, purpose, origin, and movement",
+        "avoid translating each preposition mechanically"
+      ],
+      "teaching": {
+        "explanation": "Prepositions are best learned inside chunks. 'в' often marks location or movement into a place, 'с' means with, 'для' often marks purpose or recipient, 'из' marks origin, and 'к' marks movement toward a person or place.",
+        "pattern": "Я дома. Я еду в Мадрид. Кофе с молоком. Это для Ани. Я из Перу.",
+        "warning": "English and Russian prepositions do not map one-to-one in every expression; memorize the high-frequency chunks first."
+      },
+      "vocabulary": [
+        {
+          "id": "en",
+          "ru": "в",
+          "en": "in/at",
+          "pos": "preposition",
+          "gender": null,
+          "audio_key": "ru.en",
+          "review_tags": [
+            "prepositions"
+          ]
+        },
+        {
+          "id": "con",
+          "ru": "с",
+          "en": "with",
+          "pos": "preposition",
+          "gender": null,
+          "audio_key": "ru.con",
+          "review_tags": [
+            "prepositions"
+          ]
+        },
+        {
+          "id": "para",
+          "ru": "для",
+          "en": "for/to (purpose)",
+          "pos": "preposition",
+          "gender": null,
+          "audio_key": "ru.para",
+          "review_tags": [
+            "prepositions"
+          ]
+        },
+        {
+          "id": "a",
+          "ru": "к/в",
+          "en": "to",
+          "pos": "preposition",
+          "gender": null,
+          "audio_key": "ru.a",
+          "review_tags": [
+            "prepositions"
+          ]
+        },
+        {
+          "id": "cafe",
+          "ru": "кофе",
+          "en": "café",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "ru.cafe",
+          "review_tags": [
+            "places"
+          ]
+        },
+        {
+          "id": "leche",
+          "ru": "молоко",
+          "en": "milk",
+          "pos": "noun",
+          "gender": "n",
+          "audio_key": "ru.leche",
+          "review_tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "casa",
+          "ru": "дом",
+          "en": "home/house",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "ru.casa",
+          "review_tags": [
+            "places"
+          ]
+        },
+        {
+          "id": "voy",
+          "ru": "я иду/я еду",
+          "en": "I go",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.voy",
+          "review_tags": [
+            "movement"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "prepositions",
+        "locations",
+        "movement"
+      ],
+      "examples": [
+        {
+          "ru": "Я дома.",
+          "en": "I am at home.",
+          "analysis": "в/at location"
+        },
+        {
+          "ru": "Я еду в Мадрид.",
+          "en": "I am going to Madrid.",
+          "analysis": "в + destination"
+        },
+        {
+          "ru": "Это для тебя.",
+          "en": "It is for you.",
+          "analysis": "для + recipient"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d5-a1",
+          "type": "matching",
+          "prompt": "Match: в = in/at; с = with; для = for; из = from/of; к = to.",
+          "answer": "в = in/at; с = with; для = for; из = from/of; к = to.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "prepositions"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d5-a2",
+          "type": "translate",
+          "prompt": "Translate: “Coffee with milk.”",
+          "answer": "Кофе с молоком.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "con"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Кофе с молоком",
+            "Кофе с молоком"
+          ]
+        },
+        {
+          "id": "w2d5-a3",
+          "type": "cloze",
+          "prompt": "Complete: Я ___ Перу.",
+          "answer": "из",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "de"
+          ],
+          "difficulty": "core",
+          "options": [
+            "в",
+            "с",
+            "для",
+            "из",
+            "к"
+          ]
+        },
+        {
+          "id": "w2d5-a4",
+          "type": "cloze",
+          "prompt": "Complete: Я еду ___ Мадрид.",
+          "answer": "в",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "a"
+          ],
+          "difficulty": "core",
+          "options": [
+            "в",
+            "с",
+            "для",
+            "из",
+            "к"
+          ]
+        },
+        {
+          "id": "w2d5-a5",
+          "type": "production",
+          "prompt": "Say where you are, where you are going, and with whom.",
+          "answer": "Я в ____. Я еду в ____. Я с ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "prepositions",
+            "estar"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Explain a simple destination and travel companion.",
+      "dialogue": {
+        "title": "Planning a visit",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Где ты?",
+            "en": "Where are you?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Я дома. Я иду в кафе.",
+            "en": "I am at home. I am going to the café."
+          },
+          {
+            "speaker": "A",
+            "ru": "С кем?",
+            "en": "With whom?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Я иду с моим другом.",
+            "en": "I am going with my friend."
+          }
+        ],
+        "learner_turns": [
+          "Replace the places and person.",
+          "Say what something is for: 'Это для ____.'"
+        ]
+      },
+      "exit_check": [
+        "Choose the correct preposition in five chunks.",
+        "Say where you are and where you are going.",
+        "Use 'с' to name a companion."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "ru-w2-d13",
+      "day": 13,
+      "title": "A Normal Day",
+      "focus": "Routine verbs and sequence words",
+      "estimated_minutes": 20,
+      "objectives": [
+        "describe three daily actions",
+        "use сначала, потом, затем, and наконец",
+        "combine a subject, verb, and time or place"
+      ],
+      "teaching": {
+        "explanation": "Routine language becomes easier when ordered. Use sequence words to create a mini-story instead of isolated sentences.",
+        "pattern": "Сначала я завтракаю. Потом я работаю. Затем отдыхаю. Наконец я сплю.",
+        "note": "The target is intelligible sequencing, not a complete list of irregular verbs."
+      },
+      "vocabulary": [
+        {
+          "id": "primero",
+          "ru": "сначала",
+          "en": "first",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "ru.primero",
+          "review_tags": [
+            "sequence"
+          ]
+        },
+        {
+          "id": "despues",
+          "ru": "потом",
+          "en": "afterwards",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "ru.despues",
+          "review_tags": [
+            "sequence"
+          ]
+        },
+        {
+          "id": "luego",
+          "ru": "затем",
+          "en": "then",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "ru.luego",
+          "review_tags": [
+            "sequence"
+          ]
+        },
+        {
+          "id": "finalmente",
+          "ru": "наконец",
+          "en": "finally",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "ru.finalmente",
+          "review_tags": [
+            "sequence"
+          ]
+        },
+        {
+          "id": "desayunar",
+          "ru": "завтракать",
+          "en": "to have breakfast",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "ru.desayunar",
+          "review_tags": [
+            "routine"
+          ]
+        },
+        {
+          "id": "descansar",
+          "ru": "отдыхать",
+          "en": "to rest",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "ru.descansar",
+          "review_tags": [
+            "routine"
+          ]
+        },
+        {
+          "id": "dormir",
+          "ru": "спать",
+          "en": "to sleep",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "ru.dormir",
+          "review_tags": [
+            "routine"
+          ]
+        },
+        {
+          "id": "manana",
+          "ru": "утро",
+          "en": "morning/tomorrow",
+          "pos": "noun/adverb",
+          "gender": null,
+          "audio_key": "ru.manana",
+          "review_tags": [
+            "time"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "routine",
+        "sequence",
+        "present"
+      ],
+      "examples": [
+        {
+          "ru": "Сначала я завтракаю.",
+          "en": "First I have breakfast.",
+          "analysis": "сначала marks sequence"
+        },
+        {
+          "ru": "Потом я работаю.",
+          "en": "Afterwards I work.",
+          "analysis": "потом links the next action"
+        },
+        {
+          "ru": "Наконец я отдыхаю.",
+          "en": "Finally I rest.",
+          "analysis": "наконец closes the sequence"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d6-a1",
+          "type": "ordering",
+          "prompt": "Order the sequence: наконец / потом / сначала",
+          "answer": "сначала, потом, наконец",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "sequence"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d6-a2",
+          "type": "translate",
+          "prompt": "Translate: “First I study, then I work.”",
+          "answer": "Сначала я учусь, затем я работаю.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "routine",
+            "sequence"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Сначала я учусь, затем я работаю",
+            "Сначала я учусь, потом я работаю"
+          ]
+        },
+        {
+          "id": "w2d6-a3",
+          "type": "cloze",
+          "prompt": "Complete: ___ отдыхаю. (Finally)",
+          "answer": "Наконец",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "sequence"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Сначала",
+            "Потом",
+            "Наконец"
+          ]
+        },
+        {
+          "id": "w2d6-a4",
+          "type": "production",
+          "prompt": "Write three actions in sequence.",
+          "answer": "Сначала ____. Потом ____. Наконец ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "routine",
+            "sequence"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d6-a5",
+          "type": "speak",
+          "prompt": "Tell a partner about your day for 20 seconds.",
+          "answer": "Сначала ____. Затем ____. Потом ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "routine"
+          ],
+          "difficulty": "production"
+        }
+      ],
+      "mission": "Give a short report of your normal day.",
+      "dialogue": {
+        "title": "Routine briefing",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Что ты делаешь по утрам?",
+            "en": "What do you do in the morning?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Сначала я завтракаю. Потом я учусь. Затем я работаю.",
+            "en": "First I have breakfast. Then I study. Afterwards I work."
+          }
+        ],
+        "learner_turns": [
+          "Make your own three-step routine.",
+          "Say it once slowly and once at natural speed."
+        ]
+      },
+      "exit_check": [
+        "Put four sequence words in order.",
+        "Produce a three-sentence routine.",
+        "Speak the routine without reading it."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "ru-w2-d14",
+      "day": 14,
+      "title": "Week 2 Field Check",
+      "focus": "Locations, routines, possession, and questions",
+      "estimated_minutes": 20,
+      "objectives": [
+        "describe a room or neighborhood",
+        "state a routine with sequence words",
+        "ask and answer three questions about daily life"
+      ],
+      "teaching": {
+        "explanation": "This checkpoint requires recombination. The learner should choose vocabulary and make new sentences, not merely repeat the dialogue.",
+        "pattern": "Есть ____. ___ находится ____. Сначала ____. Потом ____. Ты живёшь здесь? Да/Нет, ____.",
+        "checkpoint": "Complete a 90-second “daily life” mission with location, routine, possession, and one negative answer."
+      },
+      "vocabulary": [
+        {
+          "id": "pero",
+          "ru": "но",
+          "en": "but",
+          "pos": "conjunction",
+          "gender": null,
+          "audio_key": "ru.pero",
+          "review_tags": [
+            "connectors"
+          ]
+        },
+        {
+          "id": "donde-vives",
+          "ru": "Где ты живёшь?",
+          "en": "Where do you live?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "ru.donde-vives",
+          "review_tags": [
+            "questions",
+            "routine"
+          ]
+        },
+        {
+          "id": "que-haces",
+          "ru": "Что ты делаешь?",
+          "en": "What do you do?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "ru.que-haces",
+          "review_tags": [
+            "questions",
+            "routine"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "review",
+        "integration",
+        "mastery"
+      ],
+      "examples": [
+        {
+          "ru": "В комнате есть стол.",
+          "en": "There is a table in the room.",
+          "analysis": "existence + location"
+        },
+        {
+          "ru": "Сначала я учусь, потом я работаю.",
+          "en": "First I study and then I work.",
+          "analysis": "sequence + coordinated actions"
+        },
+        {
+          "ru": "Я здесь не живу; я живу в ____. ",
+          "en": "I do not live here; I live in ____.",
+          "analysis": "negation + correction"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d7-a1",
+          "type": "retrieval",
+          "prompt": "Retrieve five prepositions and use each in a phrase.",
+          "answer": "в, с, для, из, к",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "prepositions"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d7-a2",
+          "type": "listening_comprehension",
+          "prompt": "Listen to a room description and identify two objects and their locations.",
+          "answer": "two_objects_and_locations",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "hay",
+            "estar",
+            "locations"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d7-a3",
+          "type": "translation_chain",
+          "prompt": "Translate: “My friend lives here, but I work there.”",
+          "answer": "Мой друг живёт здесь, но я работаю там.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "possessives",
+            "locations",
+            "connectors"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Мой друг живёт здесь, но я работаю там",
+            "Мой друг живит здесь, но я работаю там"
+          ]
+        },
+        {
+          "id": "w2d7-a4",
+          "type": "error_correction",
+          "prompt": "Correct: Hay el libro en la mesa.",
+          "answer": "Книга на столе. / На столе есть книга.",
+          "hint": "",
+          "feedback": "Use 'есть' with an indefinite item or 'находится' with a known item.",
+          "rationale": "",
+          "review_item_ids": [
+            "hay",
+            "estar"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d7-a5",
+          "type": "roleplay",
+          "prompt": "Complete a daily-life briefing with a partner.",
+          "answer": "Есть ____. Я живу в ____. Сначала ____. Потом ____. А ты?",
+          "hint": "",
+          "feedback": "Pass when you locate an object, describe your routine, ask a question, and repair one mistake.",
+          "rationale": "",
+          "review_item_ids": [
+            "week2"
+          ],
+          "difficulty": "checkpoint"
+        }
+      ],
+      "mission": "Give a practical briefing about where you live and what you do.",
+      "dialogue": {
+        "title": "Daily-life briefing",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Где ты живёшь?",
+            "en": "Where do you live?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Я живу в ____. Есть ____.",
+            "en": "I live in ____. There is/are ____."
+          },
+          {
+            "speaker": "A",
+            "ru": "Что ты делаешь сначала?",
+            "en": "What do you do first?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Сначала ____. Потом ____.",
+            "en": "First ____. Afterwards ____."
+          }
+        ],
+        "learner_turns": [
+          "Perform without English.",
+          "Change at least four details."
+        ]
+      },
+      "exit_check": [
+        "Use 'есть' and 'находится/находятся' accurately.",
+        "Sequence three routine actions.",
+        "Pass the roleplay and cumulative checkpoint."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    }
+  ]
+}

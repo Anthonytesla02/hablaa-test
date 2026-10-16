@@ -1,0 +1,378 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "russian-foundations-a0-a1",
+  "title": "Ежедневные задания по русскому",
+  "delivery": "one challenge per day; 5–10 minutes; no new grammar required",
+  "challenge_rules": {
+    "attempt_before_hints": true,
+    "minimum_recall_items": 3,
+    "review_wrong_items": "return next day",
+    "streak_policy": "award consistency points but never lock educational content behind a streak"
+  },
+  "challenges": [
+    {
+      "id": "dc01",
+      "title": "Identity Ping",
+      "course_day": "Day 1",
+      "prompt": "Say your name and ask another person’s name three times, changing the names.",
+      "target_pattern": "Меня зовут ____. А как тебя зовут?",
+      "review_tags": [
+        "identity"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc02",
+      "title": "Vowel Radar",
+      "course_day": "Day 2",
+      "prompt": "Record yourself saying а, е, и, о, у, then one word for each vowel.",
+      "target_pattern": "а е и о у; аптека, еда, игра, окно, улыбка",
+      "review_tags": [
+        "pronunciation"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc03",
+      "title": "Origin Exchange",
+      "course_day": "Day 3",
+      "prompt": "Answer where you are from and ask the question back.",
+      "target_pattern": "Я из ____. А ты откуда?",
+      "review_tags": [
+        "ser"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc04",
+      "title": "Article Hunt",
+      "course_day": "Day 4",
+      "prompt": "Find or imagine five objects and label each with мужской род, женский род, or множественное число.",
+      "target_pattern": "книга; стол; карты; дома; окно",
+      "review_tags": [
+        "articles"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc05",
+      "title": "Human Snapshot",
+      "course_day": "Day 5",
+      "prompt": "Describe one person with a noun and two agreeing adjectives.",
+      "target_pattern": "Это мой друг/моя подруга. Он/Она ____ и ____.",
+      "review_tags": [
+        "agreement"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc06",
+      "title": "Question Chain",
+      "course_day": "Day 6",
+      "prompt": "Ask что, кто, где, and как questions about one scene.",
+      "target_pattern": "Что это? Кто это? Где это? Как (он/она)?",
+      "review_tags": [
+        "questions"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc07",
+      "title": "First Contact",
+      "course_day": "Day 7",
+      "prompt": "Complete a 45-second introduction without reading.",
+      "target_pattern": "Привет. Меня зовут ____. Я из ____. Приятно познакомиться.",
+      "review_tags": [
+        "week1-review"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc08",
+      "title": "Room Scan",
+      "course_day": "Day 8",
+      "prompt": "Describe three objects using есть, находится, or находятся.",
+      "target_pattern": "Есть ____. ____ находится ____.",
+      "review_tags": [
+        "location"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc09",
+      "title": "Verb Sprint",
+      "course_day": "Day 9",
+      "prompt": "Conjugate говорить, изучать, and работать for я, ты, and он/она aloud.",
+      "target_pattern": "говорю/говоришь/говорит; изучаю/изучаешь/изучает; работаю/работаешь/работает",
+      "review_tags": [
+        "present"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc10",
+      "title": "People Map",
+      "course_day": "Day 10",
+      "prompt": "Describe three people using мой, твой, его/ее, or наш/наша.",
+      "target_pattern": "Мой ____. Твой ____. Наш/Наша ____.",
+      "review_tags": [
+        "possessives"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc11",
+      "title": "Yes/No Flip",
+      "course_day": "Day 11",
+      "prompt": "Turn three positive sentences into questions and answer each positively and negatively.",
+      "target_pattern": "Ты говоришь? Да, я говорю. Нет, я не говорю.",
+      "review_tags": [
+        "negation"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc12",
+      "title": "Preposition Walk",
+      "course_day": "Day 12",
+      "prompt": "Describe where you are, where you go, and with whom.",
+      "target_pattern": "Я в ____. Я иду в ____. Я иду с ____.",
+      "review_tags": [
+        "prepositions"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc13",
+      "title": "Routine Relay",
+      "course_day": "Day 13",
+      "prompt": "Give a four-step routine using сначала, потом, затем, and наконец.",
+      "target_pattern": "Сначала ____. Потом ____. Затем ____. Наконец ____.",
+      "review_tags": [
+        "sequence"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc14",
+      "title": "Daily Briefing",
+      "course_day": "Day 14",
+      "prompt": "Give a 60-second report about home, routine, and one negative fact.",
+      "target_pattern": "Я живу в ____. Сначала ____. Я не ____.",
+      "review_tags": [
+        "week2-review"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc15",
+      "title": "Café Recall",
+      "course_day": "Day 15",
+      "prompt": "Order two items and reject one item politely.",
+      "target_pattern": "Можно мне ____, пожалуйста. Нет, спасибо.",
+      "review_tags": [
+        "querer"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc16",
+      "title": "Help Signal",
+      "course_day": "Day 16",
+      "prompt": "Ask for help, then respond that you can or cannot help.",
+      "target_pattern": "Вы можете мне помочь? Да, могу. / Пока не могу.",
+      "review_tags": [
+        "ability"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc17",
+      "title": "Number Ladder",
+      "course_day": "Day 17",
+      "prompt": "Count 1–30, then schedule two actions at different times.",
+      "target_pattern": "Я учусь в __ часов. Я работаю в __ часов.",
+      "review_tags": [
+        "time"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc18",
+      "title": "Market Mission",
+      "course_day": "Day 18",
+      "prompt": "Point to two items, ask the price of one, and thank the seller.",
+      "target_pattern": "Я хочу этот/эту ____. Сколько стоит? Спасибо.",
+      "review_tags": [
+        "shopping"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc19",
+      "title": "Preference Pulse",
+      "course_day": "Day 19",
+      "prompt": "Say one singular preference, one plural preference, and one dislike.",
+      "target_pattern": "Мне нравится ____. Мне нравятся ____. Мне не нравится ____.",
+      "review_tags": [
+        "gustar"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc20",
+      "title": "Needs and Wants",
+      "course_day": "Day 20",
+      "prompt": "Combine хочу, нужно, and мне нравится in one mini-dialogue.",
+      "target_pattern": "Я хочу ____. Мне нужно ____. Мне нравится ____.",
+      "review_tags": [
+        "week3-review"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc21",
+      "title": "Tomorrow Board",
+      "course_day": "Day 21",
+      "prompt": "State three plans for tomorrow and ask someone else’s plan.",
+      "target_pattern": "Завтра я буду ____. А ты что будешь делать?",
+      "review_tags": [
+        "future"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc22",
+      "title": "Map Route",
+      "course_day": "Day 22",
+      "prompt": "Give a two-step route to a familiar place.",
+      "target_pattern": "Идите прямо и поверните на ____. Это рядом.",
+      "review_tags": [
+        "directions"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc23",
+      "title": "Glue Words",
+      "course_day": "Day 23",
+      "prompt": "Join four pairs of sentences using и, но, потому что, or также.",
+      "target_pattern": "Мне нравится __, потому что ____.",
+      "review_tags": [
+        "connectors"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc24",
+      "title": "Irregular Five",
+      "course_day": "Day 24",
+      "prompt": "Use быть, находиться, у меня есть, идти, and делать in five different sentences.",
+      "target_pattern": "Я ____. Я нахожусь ____. У меня есть ____. Я иду ____. Я делаю ____.",
+      "review_tags": [
+        "irregulars"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc25",
+      "title": "Turn-Taking",
+      "course_day": "Day 25",
+      "prompt": "Answer a question, ask А ты?, and ask one follow-up.",
+      "target_pattern": "Ответ. А ты? Что ты любишь делать?",
+      "review_tags": [
+        "conversation"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc26",
+      "title": "Three-Pass Listening",
+      "course_day": "Day 26",
+      "prompt": "Listen to a short Russian clip three times: situation, facts, useful phrase.",
+      "target_pattern": "Ситуация: ____. Факты: ____. Фраза: ____.",
+      "review_tags": [
+        "listening"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc27",
+      "title": "Paraphrase Rescue",
+      "course_day": "Day 27",
+      "prompt": "Explain one unknown object using вещь, для, and a known verb.",
+      "target_pattern": "Это вещь для ____.",
+      "review_tags": [
+        "repair"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    },
+    {
+      "id": "dc28",
+      "title": "Final Voice Note",
+      "course_day": "Day 28",
+      "prompt": "Record a 2–3 minute everyday Russian voice note using identity, routine, preference, plan, and repair.",
+      "target_pattern": "Привет. Меня зовут ____. Я из ____. Мне нравится ____. Завтра я буду ____. Можете повторить?",
+      "review_tags": [
+        "final"
+      ],
+      "estimated_minutes": 7,
+      "active_recall": true,
+      "completion_check": "Learner submits a response or passes the structured evaluator; hints are shown only after first attempt."
+    }
+  ]
+}

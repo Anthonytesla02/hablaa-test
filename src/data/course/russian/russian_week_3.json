@@ -1,0 +1,1663 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "russian-foundations-a0-a1",
+  "week": 3,
+  "title": "Needs, Preferences, and Transactions",
+  "lessons": [
+    {
+      "id": "ru-w3-d15",
+      "day": 15,
+      "title": "Food and Preferences",
+      "focus": "Food vocabulary and querer",
+      "estimated_minutes": 20,
+      "objectives": [
+        "name common foods and drinks",
+        "say what you want politely",
+        "use quiero + noun or infinitive"
+      ],
+      "teaching": {
+        "explanation": "Я хочу means “I want.” Use «я хочу» + noun for an item or «я хочу» + infinitive for an action. A polite request can add пожалуйста.",
+        "pattern": "Я хочу воду. Я хочу есть. Я не хочу кофе.",
+        "culture_note": "In many contexts, пожалуйста and a greeting make a direct request sound warmer; the app should reward both concise and polite answers."
+      },
+      "vocabulary": [
+        {
+          "id": "agua",
+          "ru": "вода",
+          "en": "water",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "ru.agua",
+          "review_tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "cafe",
+          "ru": "кофе",
+          "en": "coffee",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "ru.cafe",
+          "review_tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "te",
+          "ru": "чай",
+          "en": "tea",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "ru.te",
+          "review_tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "pan",
+          "ru": "хлеб",
+          "en": "bread",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "ru.pan",
+          "review_tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "arroz",
+          "ru": "рис",
+          "en": "rice",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "ru.arroz",
+          "review_tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "fruta",
+          "ru": "фрукт",
+          "en": "fruit",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "ru.fruta",
+          "review_tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "comer",
+          "ru": "есть",
+          "en": "to eat",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "ru.comer",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "quiero",
+          "ru": "я хочу",
+          "en": "I want",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.quiero",
+          "review_tags": [
+            "wanting"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "querer",
+        "food",
+        "requests"
+      ],
+      "examples": [
+        {
+          "ru": "Я хочу воды, пожалуйста.",
+          "en": "I want water, please.",
+          "analysis": "«я хочу» + noun (accusative) + courtesy"
+        },
+        {
+          "ru": "Я хочу есть.",
+          "en": "I want to eat.",
+          "analysis": "«я хочу» + infinitive"
+        },
+        {
+          "ru": "Я не хочу сахара.",
+          "en": "I do not want sugar.",
+          "analysis": "negation: не before «хочу»"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w3d1-a1",
+          "type": "mcq",
+          "prompt": "Choose “water.”",
+          "answer": "вода",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "food"
+          ],
+          "difficulty": "core",
+          "options": [
+            "вода",
+            "хлеб",
+            "рис"
+          ]
+        },
+        {
+          "id": "w3d1-a2",
+          "type": "translate",
+          "prompt": "Translate: “I want coffee, please.”",
+          "answer": "Я хочу кофе, пожалуйста.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "querer",
+            "courtesy"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Я хочу кофе пожалуйста",
+            "Я хочу кофе, пожалуйста"
+          ]
+        },
+        {
+          "id": "w3d1-a3",
+          "type": "cloze",
+          "prompt": "Complete: Не ___ сахара.",
+          "answer": "хочу",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "querer",
+            "negation"
+          ],
+          "difficulty": "core",
+          "options": [
+            "хочу",
+            "хочешь",
+            "хочет"
+          ]
+        },
+        {
+          "id": "w3d1-a4",
+          "type": "classification",
+          "prompt": "Which sentence uses хотеть + infinitive?",
+          "answer": "Я хочу есть.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "querer"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Я хочу воду.",
+            "Я хочу есть.",
+            "Я хочу хлеб."
+          ]
+        },
+        {
+          "id": "w3d1-a5",
+          "type": "roleplay",
+          "prompt": "Order one drink and one food item.",
+          "answer": "Я хочу ____, пожалуйста. И я хочу ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "querer",
+            "food"
+          ],
+          "difficulty": "production"
+        }
+      ],
+      "mission": "Order a simple snack and express one preference.",
+      "dialogue": {
+        "title": "At a café",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Здравствуйте. Что вы хотите?",
+            "en": "Hello. What do you want?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Я хочу воду и хлеб, пожалуйста.",
+            "en": "I want water and bread, please."
+          },
+          {
+            "speaker": "A",
+            "ru": "Что-нибудь ещё?",
+            "en": "Anything else?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Нет, спасибо.",
+            "en": "No, thank you."
+          }
+        ],
+        "learner_turns": [
+          "Change the order.",
+          "Say the request once with 'хочу' and once with 'не хочу'."
+        ]
+      },
+      "exit_check": [
+        "Name six food or drink items.",
+        "Make one positive and one negative request.",
+        "Complete the café roleplay."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "ru-w3-d16",
+      "day": 16,
+      "title": "Needs and Ability",
+      "focus": "necesitar, poder, and polite requests",
+      "estimated_minutes": 20,
+      "objectives": [
+        "say what you need",
+        "say what you can or cannot do",
+        "combine poder/necesitar with infinitives"
+      ],
+      "teaching": {
+        "explanation": "Use «мне нужно» + noun for a thing and «мне нужно» + infinitive for an action. «Я могу» means “I can”; «я не могу» means “I cannot.” For polite requests toward strangers use Вы: «Вы можете помочь?»",
+        "pattern": "Мне нужна помощь. Мне нужно учиться. Вы можете помочь мне? = Can you help me?",
+        "repair": "If you cannot complete a task, say «Я пока не могу.» = I cannot yet."
+      },
+      "vocabulary": [
+        {
+          "id": "necesito",
+          "ru": "мне нужно",
+          "en": "I need",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.necesito",
+          "review_tags": [
+            "needs"
+          ]
+        },
+        {
+          "id": "necesitar",
+          "ru": "нуждаться",
+          "en": "to need",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "ru.necesitar",
+          "review_tags": [
+            "needs"
+          ]
+        },
+        {
+          "id": "puedo",
+          "ru": "я могу",
+          "en": "I can",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.puedo",
+          "review_tags": [
+            "ability"
+          ]
+        },
+        {
+          "id": "puedes",
+          "ru": "ты можешь",
+          "en": "you can",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.puedes",
+          "review_tags": [
+            "ability"
+          ]
+        },
+        {
+          "id": "ayuda",
+          "ru": "помощь",
+          "en": "help",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "ru.ayuda",
+          "review_tags": [
+            "needs"
+          ]
+        },
+        {
+          "id": "ayudar",
+          "ru": "помочь",
+          "en": "to help",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "ru.ayudar",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "ahora",
+          "ru": "сейчас",
+          "en": "now",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "ru.ahora",
+          "review_tags": [
+            "time"
+          ]
+        },
+        {
+          "id": "todavia",
+          "ru": "ещё",
+          "en": "yet/still",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "ru.todavia",
+          "review_tags": [
+            "time"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "necesitar",
+        "poder",
+        "requests"
+      ],
+      "examples": [
+        {
+          "ru": "Мне нужна помощь.",
+          "en": "I need help.",
+          "analysis": "«мне нужно» + noun"
+        },
+        {
+          "ru": "Вы можете помочь мне?",
+          "en": "Can you help me?",
+          "analysis": "вы/ты + можете/можешь + infinitive + me"
+        },
+        {
+          "ru": "Я не могу сейчас.",
+          "en": "I cannot now.",
+          "analysis": "negation: не + могу + time word"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w3d2-a1",
+          "type": "translate",
+          "prompt": "Translate: “I need help.”",
+          "answer": "Мне нужна помощь.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "necesitar"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d2-a2",
+          "type": "mcq",
+          "prompt": "Choose “Can you help me?”",
+          "answer": "Ты можешь помочь мне?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "poder",
+            "requests"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Ты хочешь помочь мне?",
+            "Ты можешь помочь мне?",
+            "Тебе нужно помочь мне?"
+          ]
+        },
+        {
+          "id": "w3d2-a3",
+          "type": "cloze",
+          "prompt": "Complete: Я не ___ сейчас.",
+          "answer": "могу",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "poder",
+            "negation"
+          ],
+          "difficulty": "core",
+          "options": [
+            "могу",
+            "можешь",
+            "может"
+          ]
+        },
+        {
+          "id": "w3d2-a4",
+          "type": "ordering",
+          "prompt": "Put in order: estudiar / Necesito / hoy",
+          "answer": "Мне нужно учиться сегодня.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "necesitar",
+            "word-order"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d2-a5",
+          "type": "speak",
+          "prompt": "Ask for help and respond that you can or cannot help.",
+          "answer": "Ты можешь помочь мне? Да, я могу. / Я пока не могу.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "poder",
+            "requests"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Ask for assistance and communicate whether you can complete a task.",
+      "dialogue": {
+        "title": "Asking for help",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Вы можете мне помочь?",
+            "en": "Can you help me?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Да, я могу. Что вам нужно?",
+            "en": "Yes, I can. What do you need?"
+          },
+          {
+            "speaker": "A",
+            "ru": "Мне нужна вода, пожалуйста.",
+            "en": "I need water, please."
+          }
+        ],
+        "learner_turns": [
+          "Change the needed item.",
+          "Respond once with 'Да, я могу' and once with 'Я не могу'."
+        ]
+      },
+      "exit_check": [
+        "Use necesito with a noun and an infinitive.",
+        "Ask for help using puedes.",
+        "Say no puedo with a reason or time word."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "ru-w3-d17",
+      "day": 17,
+      "title": "Time and Numbers",
+      "focus": "Numbers 0–30, clock time, and schedules",
+      "estimated_minutes": 20,
+      "objectives": [
+        "count to 30",
+        "ask and tell the time in a simple way",
+        "state when an activity happens"
+      ],
+      "teaching": {
+        "explanation": "Use «Который час?» or «Сколько времени?» for the time. For a simple beginner response, use «Сейчас час» for one o’clock and «Сейчас два/три/etc. часа» for other hours; use «в + number» for scheduled times (В восемь).",
+        "pattern": "Во сколько? = At what time? В восемь. = At eight. В час. = At one.",
+        "memory_tip": "Practice numbers as a retrieval chain, then use them in meaningful time phrases."
+      },
+      "vocabulary": [
+        {
+          "id": "uno",
+          "ru": "один",
+          "en": "one",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "ru.uno",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "dos",
+          "ru": "два",
+          "en": "two",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "ru.dos",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "tres",
+          "ru": "три",
+          "en": "three",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "ru.tres",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "cuatro",
+          "ru": "четыре",
+          "en": "four",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "ru.cuatro",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "cinco",
+          "ru": "пять",
+          "en": "five",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "ru.cinco",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "seis",
+          "ru": "шесть",
+          "en": "six",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "ru.seis",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "siete",
+          "ru": "семь",
+          "en": "seven",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "ru.siete",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "ocho",
+          "ru": "восемь",
+          "en": "eight",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "ru.ocho",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "nueve",
+          "ru": "девять",
+          "en": "nine",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "ru.nueve",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "diez",
+          "ru": "десять",
+          "en": "ten",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "ru.diez",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "hora",
+          "ru": "час",
+          "en": "hour/time",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "ru.hora",
+          "review_tags": [
+            "time"
+          ]
+        },
+        {
+          "id": "cuando",
+          "ru": "когда",
+          "en": "when",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "ru.cuando",
+          "review_tags": [
+            "questions",
+            "time"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "numbers",
+        "time",
+        "schedules"
+      ],
+      "examples": [
+        {
+          "ru": "Который час?",
+          "en": "What time is it?",
+          "analysis": "question asking time"
+        },
+        {
+          "ru": "Сейчас три часа.",
+          "en": "It is three o’clock.",
+          "analysis": "use 'Сейчас' + hour phrase"
+        },
+        {
+          "ru": "Я работаю в восемь.",
+          "en": "I work at eight.",
+          "analysis": "'в' + time for schedules"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w3d3-a1",
+          "type": "retrieval",
+          "prompt": "Write the Russian numbers 1–10 from memory.",
+          "answer": "один, два, три, четыре, пять, шесть, семь, восемь, девять, десять",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "numbers"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d3-a2",
+          "type": "translate",
+          "prompt": "Translate: “What time is it?”",
+          "answer": "Который час?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "time"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d3-a3",
+          "type": "mcq",
+          "prompt": "Choose the correct phrase for 3:00.",
+          "answer": "Сейчас три часа.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "time"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Это три.",
+            "Сейчас три часа.",
+            "Есть три."
+          ]
+        },
+        {
+          "id": "w3d3-a4",
+          "type": "cloze",
+          "prompt": "Complete: Я работаю ___ в восемь.",
+          "answer": "в",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "time",
+            "prepositions"
+          ],
+          "difficulty": "core",
+          "options": [
+            "в",
+            "на",
+            "с"
+          ]
+        },
+        {
+          "id": "w3d3-a5",
+          "type": "production",
+          "prompt": "State two activities and times.",
+          "answer": "Я учусь в ____. Я работаю в ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "time",
+            "routine"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Arrange a simple appointment or daily schedule.",
+      "dialogue": {
+        "title": "Arranging a meeting",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Во сколько ты учишься?",
+            "en": "At what time do you study?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Я учусь в восемь. А ты?",
+            "en": "I study at eight. And you?"
+          },
+          {
+            "speaker": "A",
+            "ru": "Я работаю в девять.",
+            "en": "I work at nine."
+          }
+        ],
+        "learner_turns": [
+          "Change both times.",
+          "Ask the time and answer with a complete phrase."
+        ]
+      },
+      "exit_check": [
+        "Retrieve numbers 1–10, then 11–30.",
+        "Ask and tell the time.",
+        "Schedule two activities."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "ru-w3-d18",
+      "day": 18,
+      "title": "Shopping and Quantities",
+      "focus": "Prices, demonstratives, and polite buying",
+      "estimated_minutes": 20,
+      "objectives": [
+        "ask how much something costs",
+        "use este/esta and estos/estas",
+        "buy a small number of items"
+      ],
+      "teaching": {
+        "explanation": "Demonstratives point to a noun and in Russian they agree by form: этот стол (masc), эта книга (fem), эти книги (plural). Сколько asks “how much”; forms change by number when asking quantity.",
+        "pattern": "Сколько стоит? = How much does it cost? Я хочу эту книгу. = I want this book.",
+        "culture_note": "A greeting and пожалуйста are useful in a real shop; directness is normal when paired with courtesy."
+      },
+      "vocabulary": [
+        {
+          "id": "cuanto",
+          "ru": "сколько",
+          "en": "how much",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "ru.cuanto",
+          "review_tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "cuesta",
+          "ru": "стоит",
+          "en": "costs",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.cuesta",
+          "review_tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "este",
+          "ru": "этот",
+          "en": "this masculine",
+          "pos": "demonstrative",
+          "gender": "m",
+          "audio_key": "ru.este",
+          "review_tags": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "esta",
+          "ru": "эта",
+          "en": "this feminine",
+          "pos": "demonstrative",
+          "gender": "f",
+          "audio_key": "ru.esta",
+          "review_tags": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "estos",
+          "ru": "эти",
+          "en": "these masculine plural",
+          "pos": "demonstrative",
+          "gender": "m",
+          "audio_key": "ru.estos",
+          "review_tags": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "estas",
+          "ru": "эти",
+          "en": "these feminine plural",
+          "pos": "demonstrative",
+          "gender": "f",
+          "audio_key": "ru.estas",
+          "review_tags": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "precio",
+          "ru": "цена",
+          "en": "price",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "ru.precio",
+          "review_tags": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "euros",
+          "ru": "евро",
+          "en": "euros",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "ru.euros",
+          "review_tags": [
+            "shopping"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "demonstratives",
+        "agreement",
+        "shopping"
+      ],
+      "examples": [
+        {
+          "ru": "Сколько стоит?",
+          "en": "How much does it cost?",
+          "analysis": "fixed shopping question"
+        },
+        {
+          "ru": "Я хочу эту столешницу.",
+          "en": "I want this table.",
+          "analysis": "this agrees with the noun in gender/case (use accusative)"
+        },
+        {
+          "ru": "Сколько книг?",
+          "en": "How many books?",
+          "analysis": "сколько + noun in genitive for quantity"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w3d4-a1",
+          "type": "mcq",
+          "prompt": "Choose “this table.”",
+          "answer": "этот стол",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "demonstratives"
+          ],
+          "difficulty": "core",
+          "options": [
+            "этот стол",
+            "эта стол",
+            "эти стол"
+          ]
+        },
+        {
+          "id": "w3d4-a2",
+          "type": "translate",
+          "prompt": "Translate: “How much does it cost?”",
+          "answer": "Сколько стоит?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "shopping"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d4-a3",
+          "type": "cloze",
+          "prompt": "Complete: ___ книг (how many books).",
+          "answer": "Сколько",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "quantities",
+            "agreement"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Сколько",
+            "Сколько (ж.)",
+            "Сколько (мн.)",
+            "Как много"
+          ]
+        },
+        {
+          "id": "w3d4-a4",
+          "type": "error_correction",
+          "prompt": "Correct: Я хочу эта стол.",
+          "answer": "Я хочу этот стол.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "demonstratives",
+            "agreement"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d4-a5",
+          "type": "roleplay",
+          "prompt": "Buy one item, ask its price, and thank the seller.",
+          "answer": "Здравствуйте. Я хочу ____. Сколько стоит? Спасибо.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "shopping",
+            "courtesy"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Buy one or two familiar items in Russian.",
+      "dialogue": {
+        "title": "At a market stall",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Здравствуйте. Что вы хотите?",
+            "en": "Hello. What do you want?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Я хочу этот фрукт. Сколько стоит?",
+            "en": "I want this fruit. How much does it cost?"
+          },
+          {
+            "speaker": "A",
+            "ru": "Четыре евро.",
+            "en": "Four euros."
+          },
+          {
+            "speaker": "B",
+            "ru": "Спасибо.",
+            "en": "Thank you."
+          }
+        ],
+        "learner_turns": [
+          "Change the item and price.",
+          "Use 'этот', 'эта', or 'эти' correctly."
+        ]
+      },
+      "exit_check": [
+        "Choose demonstratives with gender and number.",
+        "Ask a price question.",
+        "Complete a buying transaction."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "ru-w3-d19",
+      "day": 19,
+      "title": "Likes and Dislikes",
+      "focus": "gustar as a fixed pattern",
+      "estimated_minutes": 20,
+      "objectives": [
+        "say what you like and dislike",
+        "ask another person what they like",
+        "use me gusta with singular nouns and infinitives"
+      ],
+      "teaching": {
+        "explanation": "Treat 'нравиться' as a pattern: Мне нравится + singular noun or infinitive; Мне нравятся + plural noun. The thing liked is expressed after the verb. For asking another person use 'Тебе нравится?' (informal) or 'Вам нравится?' (polite).",
+        "pattern": "Мне нравится кофе. Мне нравятся фрукты. Мне нравится учиться. Мне не нравится ждать.",
+        "contrast": "Do not say 'Я нравлюсь кофе' for “I like coffee.” The beginner pattern is 'Мне нравится кофе.'"
+      },
+      "vocabulary": [
+        {
+          "id": "gusta",
+          "ru": "нравится",
+          "en": "is pleasing / like singular",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.gusta",
+          "review_tags": [
+            "preferences"
+          ]
+        },
+        {
+          "id": "gustan",
+          "ru": "нравятся",
+          "en": "are pleasing / like plural",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.gustan",
+          "review_tags": [
+            "preferences"
+          ]
+        },
+        {
+          "id": "te-gusta",
+          "ru": "Тебе нравится?",
+          "en": "Do you like it?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "ru.te-gusta",
+          "review_tags": [
+            "preferences"
+          ]
+        },
+        {
+          "id": "esperar",
+          "ru": "ждать",
+          "en": "to wait",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "ru.esperar",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "musica",
+          "ru": "музыка",
+          "en": "music",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "ru.musica",
+          "review_tags": [
+            "preferences"
+          ]
+        },
+        {
+          "id": "peliculas",
+          "ru": "фильмы",
+          "en": "movies",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "ru.peliculas",
+          "review_tags": [
+            "preferences"
+          ]
+        },
+        {
+          "id": "libros",
+          "ru": "книги",
+          "en": "books",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "ru.libros",
+          "review_tags": [
+            "preferences"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "gustar",
+        "preferences",
+        "number"
+      ],
+      "examples": [
+        {
+          "ru": "Мне нравится чай.",
+          "en": "I like tea.",
+          "analysis": "singular thing + нравится"
+        },
+        {
+          "ru": "Мне нравятся книги.",
+          "en": "I like books.",
+          "analysis": "plural thing + нравятся"
+        },
+        {
+          "ru": "Тебе нравится учиться?",
+          "en": "Do you like studying?",
+          "analysis": "Тебе нравится asks an informal person"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w3d5-a1",
+          "type": "mcq",
+          "prompt": "Choose the correct phrase for “I like books.”",
+          "answer": "Мне нравятся книги.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gustar"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Мне нравится книги.",
+            "Мне нравятся книги.",
+            "Я нравлюсь книги."
+          ]
+        },
+        {
+          "id": "w3d5-a2",
+          "type": "translate",
+          "prompt": "Translate: “I like to study.”",
+          "answer": "Мне нравится учиться.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gustar",
+            "infinitives"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d5-a3",
+          "type": "cloze",
+          "prompt": "Complete: Мне не ___ ждать.",
+          "answer": "нравится",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gustar",
+            "negation"
+          ],
+          "difficulty": "core",
+          "options": [
+            "нравится",
+            "нравятся",
+            "нравлюсь"
+          ]
+        },
+        {
+          "id": "w3d5-a4",
+          "type": "transform",
+          "prompt": "Change to plural: Мне нравится фрукт.",
+          "answer": "Мне нравятся фрукты.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gustar",
+            "agreement"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d5-a5",
+          "type": "speak",
+          "prompt": "Say two things you like and one thing you do not like.",
+          "answer": "Мне нравится ____. Мне нравятся ____. Мне не нравится ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gustar"
+          ],
+          "difficulty": "production"
+        }
+      ],
+      "mission": "Find one shared preference with a conversation partner.",
+      "dialogue": {
+        "title": "Finding common interests",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Тебе нравится кофе?",
+            "en": "Do you like coffee?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Да, мне нравится. А тебе?",
+            "en": "Yes, I do. And you?"
+          },
+          {
+            "speaker": "A",
+            "ru": "Мне нравятся фрукты.",
+            "en": "I like fruit."
+          }
+        ],
+        "learner_turns": [
+          "Swap singular and plural objects.",
+          "Ask and answer with a partner."
+        ]
+      },
+      "exit_check": [
+        "Choose нравится or нравятся.",
+        "Say a liked singular noun, plural noun, and infinitive.",
+        "Ask a preference question."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "ru-w3-d20",
+      "day": 20,
+      "title": "Week 3 Consolidated Review",
+      "focus": "needs, preferences, time, and shopping review",
+      "estimated_minutes": 20,
+      "objectives": [
+        "order or buy food",
+        "state a need and request help",
+        "arrange a time and express one preference"
+      ],
+      "teaching": {
+        "explanation": "This checkpoint is intentionally practical. Use memory first, then consult the word bank only for the item that blocked communication.",
+        "pattern": "Я хочу ____. Сколько стоит? Мне нужно ____. Вы можете помочь мне? Мне нравится ____. Во сколько?",
+        "checkpoint": "Complete a café/market scenario, ask for help, and arrange a time using at least one number."
+      },
+      "vocabulary": [
+        {
+          "id": "nos-vemos",
+          "ru": "до встречи",
+          "en": "see you",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "ru.nos-vemos",
+          "review_tags": [
+            "greetings",
+            "schedules"
+          ]
+        },
+        {
+          "id": "cuatro",
+          "ru": "четыре",
+          "en": "four",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "ru.cuatro",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "a-las-ocho",
+          "ru": "в восемь",
+          "en": "at eight",
+          "pos": "time phrase",
+          "gender": null,
+          "audio_key": "ru.a-las-ocho",
+          "review_tags": [
+            "time"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "review",
+        "integration",
+        "mastery"
+      ],
+      "examples": [
+        {
+          "ru": "Я хочу воду и хлеб, пожалуйста.",
+          "en": "I want water and bread, please.",
+          "analysis": "request + courtesy"
+        },
+        {
+          "ru": "Вы можете мне помочь? Мне нужна эта книга.",
+          "en": "Can you help me? I need this book.",
+          "analysis": "ability question + need + demonstrative"
+        },
+        {
+          "ru": "Мне нравится учиться в восемь.",
+          "en": "I like studying at eight.",
+          "analysis": "нравится + infinitive + time"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w3d6-a1",
+          "type": "retrieval",
+          "prompt": "Retrieve the three patterns: I want, I need, I like.",
+          "answer": "Я хочу ____. Мне нужно ____. Мне нравится ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "querer",
+            "necesitar",
+            "gustar"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d6-a2",
+          "type": "listening_comprehension",
+          "prompt": "Listen to a market exchange and identify the item, quantity, and price.",
+          "answer": "item_quantity_price",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "shopping",
+            "numbers"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d6-a3",
+          "type": "translation_chain",
+          "prompt": "Translate: “I need help. Can you repeat, please?”",
+          "answer": "Мне нужна помощь. Вы можете повторить, пожалуйста?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "needs",
+            "repair"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d6-a4",
+          "type": "error_correction",
+          "prompt": "Correct: Мне нравится книги.",
+          "answer": "Мне нравятся книги.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gustar",
+            "number"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d6-a5",
+          "type": "roleplay",
+          "prompt": "Complete the mission: order, ask a price, request clarification, and arrange a time.",
+          "answer": "Здравствуйте. Я хочу ____. Сколько стоит? Вы можете повторить? До встречи в ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "week3"
+          ],
+          "difficulty": "checkpoint"
+        }
+      ],
+      "mission": "Handle a short café, market, and scheduling exchange.",
+      "dialogue": {
+        "title": "Café and schedule mission",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Здравствуйте. Что вы хотите?",
+            "en": "Hello. What do you want?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Я хочу ____. Сколько стоит?",
+            "en": "I want ____. How much does it cost?"
+          },
+          {
+            "speaker": "A",
+            "ru": "Четыре евро.",
+            "en": "Four euros."
+          },
+          {
+            "speaker": "B",
+            "ru": "Спасибо. До встречи в восемь.",
+            "en": "Thank you. See you at eight."
+          }
+        ],
+        "learner_turns": [
+          "Add a repair phrase and a preference.",
+          "Repeat without reading English."
+        ]
+      },
+      "exit_check": [
+        "Complete a transaction with one clarification.",
+        "Use querer, necesitar, and gustar correctly.",
+        "Pass the time-and-preference checkpoint."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "ru-w3-d21",
+      "day": 21,
+      "title": "Week 3 Field Check",
+      "focus": "needs, preferences, time, and shopping review",
+      "estimated_minutes": 20,
+      "objectives": [
+        "order or buy food",
+        "state a need and request help",
+        "arrange a time and express one preference"
+      ],
+      "teaching": {
+        "explanation": "This checkpoint is intentionally practical. Use memory first, then consult the word bank only for the item that blocked communication.",
+        "pattern": "Я хочу ____. Сколько стоит? Мне нужно ____. Вы можете помочь мне? Мне нравится ____. Во сколько?",
+        "checkpoint": "Complete a café/market scenario, ask for help, and arrange a time using at least one number."
+      },
+      "vocabulary": [
+        {
+          "id": "nos-vemos",
+          "ru": "до встречи",
+          "en": "see you",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "ru.nos-vemos",
+          "review_tags": [
+            "greetings",
+            "schedules"
+          ]
+        },
+        {
+          "id": "cuatro",
+          "ru": "четыре",
+          "en": "four",
+          "pos": "number",
+          "gender": null,
+          "audio_key": "ru.cuatro",
+          "review_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "id": "a-las-ocho",
+          "ru": "в восемь",
+          "en": "at eight",
+          "pos": "time phrase",
+          "gender": null,
+          "audio_key": "ru.a-las-ocho",
+          "review_tags": [
+            "time"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "review",
+        "integration",
+        "mastery"
+      ],
+      "examples": [
+        {
+          "ru": "Я хочу воду и хлеб, пожалуйста.",
+          "en": "I want water and bread, please.",
+          "analysis": "request + courtesy"
+        },
+        {
+          "ru": "Вы можете мне помочь? Мне нужна эта книга.",
+          "en": "Can you help me? I need this book.",
+          "analysis": "ability question + need + demonstrative"
+        },
+        {
+          "ru": "Мне нравится учиться в восемь.",
+          "en": "I like studying at eight.",
+          "analysis": "нравится + infinitive + time"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w3d7-a1",
+          "type": "retrieval",
+          "prompt": "Retrieve the three patterns: I want, I need, I like.",
+          "answer": "Я хочу ____. Мне нужно ____. Мне нравится ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "querer",
+            "necesitar",
+            "gustar"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d7-a2",
+          "type": "listening_comprehension",
+          "prompt": "Listen to a market exchange and identify the item, quantity, and price.",
+          "answer": "item_quantity_price",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "shopping",
+            "numbers"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d7-a3",
+          "type": "translation_chain",
+          "prompt": "Translate: “I need help. Can you repeat, please?”",
+          "answer": "Мне нужна помощь. Вы можете повторить, пожалуйста?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "needs",
+            "repair"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d7-a4",
+          "type": "error_correction",
+          "prompt": "Correct: Мне нравится книги.",
+          "answer": "Мне нравятся книги.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gustar",
+            "number"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w3d7-a5",
+          "type": "roleplay",
+          "prompt": "Complete the mission: order, ask a price, request clarification, and arrange a time.",
+          "answer": "Здравствуйте. Я хочу ____. Сколько стоит? Вы можете повторить? До встречи в ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "week3"
+          ],
+          "difficulty": "checkpoint"
+        }
+      ],
+      "mission": "Handle a short café, market, and scheduling exchange.",
+      "dialogue": {
+        "title": "Café and schedule mission",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Здравствуйте. Что вы хотите?",
+            "en": "Hello. What do you want?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Я хочу ____. Сколько стоит?",
+            "en": "I want ____. How much does it cost?"
+          },
+          {
+            "speaker": "A",
+            "ru": "Четыре евро.",
+            "en": "Four euros."
+          },
+          {
+            "speaker": "B",
+            "ru": "Спасибо. До встречи в восемь.",
+            "en": "Thank you. See you at eight."
+          }
+        ],
+        "learner_turns": [
+          "Add a repair phrase and a preference.",
+          "Repeat without reading English."
+        ]
+      },
+      "exit_check": [
+        "Complete a transaction with one clarification.",
+        "Use querer, necesitar, and gustar correctly.",
+        "Pass the time-and-preference checkpoint."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    }
+  ]
+}
