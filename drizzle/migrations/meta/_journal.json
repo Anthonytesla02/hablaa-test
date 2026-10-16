@@ -29,6 +29,13 @@
       "when": 1790869224969,
       "tag": "0003_tighten_feed_and_chat_read",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1792114418663,
+      "tag": "0004_migration",
+      "breakpoints": true
     }
   ]
 }
