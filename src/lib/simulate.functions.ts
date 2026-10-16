@@ -1,5 +1,6 @@
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
+import { extractJson, mistralChat } from "./mistral";
 
 const Turn = z.object({
   role: z.enum(["user", "character"]),
@@ -60,9 +61,6 @@ const FALLBACK: SimReply = {
 export const simulateTurn = createServerFn({ method: "POST" })
   .inputValidator((data) => SimInput.parse(data))
   .handler(async ({ data }): Promise<SimReply> => {
-    const apiKey = process.env["LOVABLE_API_KEY"];
-    if (!apiKey) return FALLBACK;
-
     const c = data.companion;
     const slangWords = ["textbook-clean, no slang", "light everyday informality", "plenty of real slang", "maximum street slang, like texting a friend"];
     const roastWords = [
@@ -123,44 +121,26 @@ Rules:
     }));
     if (data.userText.trim()) convo.push({ role: "user" as const, content: data.userText.trim() });
 
-    try {
-      const res = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Lovable-API-Key": apiKey,
-          "X-Lovable-AIG-SDK": "fetch",
-        },
-        body: JSON.stringify({
-          model: "google/gemini-3.8-flash",
-          response_format: { type: "json_object" },
-          messages: [
-            { role: "system", content: system },
-            ...(convo.length === 0
-              ? [
-                  {
-                    role: "user" as const,
-                    content: "Open the scene: greet the learner in character. Return the json.",
-                  },
-                ]
-              : convo),
-          ],
-        }),
-      });
-      if (!res.ok) return FALLBACK;
-      const json = (await res.json()) as { choices?: { message?: { content?: string } }[] };
-      const raw = json.choices?.[0]?.message?.content ?? "";
-      const start = raw.indexOf("{");
-      const end = raw.lastIndexOf("}");
-      if (start === -1 || end === -1) return FALLBACK;
-      const parsed = JSON.parse(raw.slice(start, end + 1)) as Partial<SimReply>;
-      return {
-        ...FALLBACK,
-        ...parsed,
-        suggestions: Array.isArray(parsed.suggestions) ? parsed.suggestions.slice(0, 3) : [],
-        ended: Boolean(parsed.ended),
-      };
-    } catch {
-      return FALLBACK;
-    }
+    const raw = await mistralChat(
+      [
+        { role: "system", content: system },
+        ...(convo.length === 0
+          ? [
+              {
+                role: "user" as const,
+                content: "Open the scene: greet the learner in character. Return the json.",
+              },
+            ]
+          : convo),
+      ],
+      { json: true },
+    );
+    const parsed = extractJson<Partial<SimReply>>(raw);
+    if (!parsed) return FALLBACK;
+    return {
+      ...FALLBACK,
+      ...parsed,
+      suggestions: Array.isArray(parsed.suggestions) ? parsed.suggestions.slice(0, 3) : [],
+      ended: Boolean(parsed.ended),
+    };
   });
