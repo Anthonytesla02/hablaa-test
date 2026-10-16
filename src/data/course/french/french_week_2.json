@@ -1,0 +1,1721 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "french-foundations-a0-a1",
+  "week": 2,
+  "title": "Sentence Engine: Daily Life",
+  "lessons": [
+    {
+      "id": "fr-w2-d08",
+      "day": 8,
+      "title": "Where Things Are",
+      "focus": "être, il y a, and locations",
+      "estimated_minutes": 20,
+      "objectives": [
+        "say where a person or object is",
+        "distinguish il y a from est/sont",
+        "use en, ici, and là"
+      ],
+      "teaching": {
+        "explanation": "Use il y a for “there is/there are” when introducing existence. Use est or sont (forms of être) for the location of a known singular or plural item.",
+        "pattern": "Il y a un livre sur la table. = There is a book on the table. Le livre est sur la table. = The book is on the table.",
+        "contrast": "Il y a introduces existence; est/sont locates."
+      },
+      "vocabulary": [
+        {
+          "id": "hay",
+          "fr": "il y a",
+          "en": "there is/are",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "fr.hay",
+          "review_tags": [
+            "existence"
+          ]
+        },
+        {
+          "id": "estar",
+          "fr": "être",
+          "en": "to be located/to be",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "fr.estar",
+          "review_tags": [
+            "location"
+          ]
+        },
+        {
+          "id": "esta",
+          "fr": "est",
+          "en": "is located",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "fr.esta",
+          "review_tags": [
+            "location"
+          ]
+        },
+        {
+          "id": "estan",
+          "fr": "sont",
+          "en": "are located",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "fr.estan",
+          "review_tags": [
+            "location"
+          ]
+        },
+        {
+          "id": "aqui",
+          "fr": "ici",
+          "en": "here",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "fr.aqui",
+          "review_tags": [
+            "locations"
+          ]
+        },
+        {
+          "id": "alli",
+          "fr": "là",
+          "en": "there",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "fr.alli",
+          "review_tags": [
+            "locations"
+          ]
+        },
+        {
+          "id": "silla",
+          "fr": "chaise",
+          "en": "chair",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "fr.silla",
+          "review_tags": [
+            "room"
+          ]
+        },
+        {
+          "id": "habitacion",
+          "fr": "chambre",
+          "en": "room",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "fr.habitacion",
+          "review_tags": [
+            "room"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "etre",
+        "il-y-a",
+        "locations"
+      ],
+      "examples": [
+        {
+          "fr": "Il y a une table.",
+          "en": "There is a table.",
+          "analysis": "il y a introduces existence"
+        },
+        {
+          "fr": "Le livre est ici.",
+          "en": "The book is here.",
+          "analysis": "known singular object + est"
+        },
+        {
+          "fr": "Les maisons sont là.",
+          "en": "The houses are there.",
+          "analysis": "known plural objects + sont"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d1-a1",
+          "type": "mcq",
+          "prompt": "Choose the phrase that means “There is a book.”",
+          "answer": "Il y a un livre.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "hay"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Il est un livre.",
+            "Il y a un livre.",
+            "C'est un livre."
+          ]
+        },
+        {
+          "id": "w2d1-a2",
+          "type": "translate",
+          "prompt": "Translate: “The table is here.”",
+          "answer": "La table est ici.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "estar",
+            "aqui"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "La table est ici"
+          ]
+        },
+        {
+          "id": "w2d1-a3",
+          "type": "cloze",
+          "prompt": "Complete: Les maisons ___ là.",
+          "answer": "sont",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "estan"
+          ],
+          "difficulty": "core",
+          "options": [
+            "est",
+            "sont",
+            "il y a",
+            "ont"
+          ]
+        },
+        {
+          "id": "w2d1-a4",
+          "type": "classification",
+          "prompt": "Is this introducing existence or locating a known item? Il y a une chaise.",
+          "answer": "introducing existence",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "hay"
+          ],
+          "difficulty": "core",
+          "options": [
+            "introducing existence",
+            "locating a known item"
+          ]
+        },
+        {
+          "id": "w2d1-a5",
+          "type": "speak",
+          "prompt": "Describe two things in a room using il y a and est/sont.",
+          "answer": "Il y a ____. Le/La ____ est ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "hay",
+            "estar",
+            "locations"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Give a location briefing about a simple room.",
+      "dialogue": {
+        "title": "A room scan",
+        "lines": [
+          {
+            "speaker": "A",
+            "fr": "Qu'est-ce qu'il y a dans la chambre ?",
+            "en": "What is there in the room?"
+          },
+          {
+            "speaker": "B",
+            "fr": "Il y a une table. La table est ici.",
+            "en": "There is a table. The table is here."
+          }
+        ],
+        "learner_turns": [
+          "Name three imaginary objects.",
+          "Use là for an object farther away."
+        ]
+      },
+      "exit_check": [
+        "Choose il y a or est/sont in five sentences.",
+        "Locate two known objects.",
+        "Describe a room with one il y a sentence and one être sentence."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "fr-w2-d09",
+      "day": 9,
+      "title": "Action Builders",
+      "focus": "Regular -er verbs in the present",
+      "estimated_minutes": 20,
+      "objectives": [
+        "conjugate common -er verbs with je, tu, and il/elle",
+        "make simple subject–verb–object sentences",
+        "recognize the infinitive ending -er"
+      ],
+      "teaching": {
+        "explanation": "Regular present-tense -er verbs remove -er and take endings: je -e, tu -es, il/elle/on -e, nous -ons, vous -ez, ils/elles -ent.",
+        "pattern": "parler: je parle, tu parles, il/elle parle, nous parlons, ils parlent.",
+        "strategy": "Retrieve the ending from the subject first, then attach it to the verb stem."
+      },
+      "vocabulary": [
+        {
+          "id": "hablar",
+          "fr": "parler",
+          "en": "to speak",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "fr.hablar",
+          "review_tags": [
+            "verbs",
+            "er"
+          ]
+        },
+        {
+          "id": "estudiar",
+          "fr": "étudier",
+          "en": "to study",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "fr.estudiar",
+          "review_tags": [
+            "verbs",
+            "er"
+          ]
+        },
+        {
+          "id": "trabajar",
+          "fr": "travailler",
+          "en": "to work",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "fr.trabajar",
+          "review_tags": [
+            "verbs",
+            "er"
+          ]
+        },
+        {
+          "id": "vivir",
+          "fr": "vivre",
+          "en": "to live",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "fr.vivir",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "escuchar",
+          "fr": "écouter",
+          "en": "to listen",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "fr.escuchar",
+          "review_tags": [
+            "verbs",
+            "er"
+          ]
+        },
+        {
+          "id": "hago",
+          "fr": "je fais",
+          "en": "I do/make",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "fr.hago",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "poco",
+          "fr": "un peu",
+          "en": "a little",
+          "pos": "adjective/adverb",
+          "gender": null,
+          "audio_key": "fr.poco",
+          "review_tags": [
+            "quantity"
+          ]
+        },
+        {
+          "id": "si",
+          "fr": "oui",
+          "en": "yes",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "fr.si",
+          "review_tags": [
+            "answers"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "present",
+        "er-verbs",
+        "word-order"
+      ],
+      "examples": [
+        {
+          "fr": "Je parle espagnol.",
+          "en": "I speak Spanish.",
+          "analysis": "parl- + e"
+        },
+        {
+          "fr": "Elle étudie l'espagnol.",
+          "en": "She studies Spanish.",
+          "analysis": "étudi- + e"
+        },
+        {
+          "fr": "Nous travaillons ici.",
+          "en": "We work here.",
+          "analysis": "travaill- + ons"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d2-a1",
+          "type": "mcq",
+          "prompt": "Choose the je form of parler.",
+          "answer": "parle",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "er-conjugation"
+          ],
+          "difficulty": "core",
+          "options": [
+            "parle",
+            "parles",
+            "parlent"
+          ]
+        },
+        {
+          "id": "w2d2-a2",
+          "type": "translate",
+          "prompt": "Translate: “We study Spanish.”",
+          "answer": "Nous étudions l'espagnol.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "er-conjugation",
+            "study"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Nous étudions l'espagnol",
+            "On étudie l'espagnol"
+          ]
+        },
+        {
+          "id": "w2d2-a3",
+          "type": "cloze",
+          "prompt": "Complete: Tu ___ l'espagnol. (parler)",
+          "answer": "parles",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "er-conjugation"
+          ],
+          "difficulty": "core",
+          "options": [
+            "parle",
+            "parles",
+            "parle",
+            "parlent"
+          ]
+        },
+        {
+          "id": "w2d2-a4",
+          "type": "ordering",
+          "prompt": "Put in order: ici / travaille / Je",
+          "answer": "Je travaille ici.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "word-order"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d2-a5",
+          "type": "production",
+          "prompt": "Write one sentence with a subject, regular -er verb, and place or object.",
+          "answer": "Je ____ ____.",
+          "hint": "Use parle, étudie, travaille, vis, or écoute.",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "er-conjugation"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Report what you do in a normal day.",
+      "dialogue": {
+        "title": "Daily status report",
+        "lines": [
+          {
+            "speaker": "A",
+            "fr": "Qu'est-ce que tu fais ?",
+            "en": "What do you do?"
+          },
+          {
+            "speaker": "B",
+            "fr": "Je travaille et j'étudie l'espagnol.",
+            "en": "I work and study Spanish."
+          },
+          {
+            "speaker": "A",
+            "fr": "Parles-tu espagnol ?",
+            "en": "Do you speak Spanish?"
+          },
+          {
+            "speaker": "B",
+            "fr": "Oui, je parle un peu.",
+            "en": "Yes, I speak a little."
+          }
+        ],
+        "learner_turns": [
+          "Substitute your real activities.",
+          "Ask and answer 'Qu'est-ce que tu fais ?' aloud."
+        ]
+      },
+      "exit_check": [
+        "Conjugate parler for je, tu, il/elle, nous, vous, ils/elles.",
+        "Produce two subject–verb sentences.",
+        "Identify the infinitive ending -er."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "fr-w2-d10",
+      "day": 10,
+      "title": "People and Possession",
+      "focus": "Possessives and family",
+      "estimated_minutes": 20,
+      "objectives": [
+        "use mon/ma/mes, ton/ta/tes, son/sa/ses, and notre/nos in short phrases",
+        "describe one family member or friend",
+        "keep noun and possessive agreement clear"
+      ],
+      "teaching": {
+        "explanation": "French short possessives come before the noun: mon/ma/mes, ton/ta/tes, son/sa/ses, notre/nos. Note that notre does not change for gender (notre ami / notre amie); but French possessives vary by gender and number (and by vowel sound: mon before a feminine noun starting with a vowel).",
+        "pattern": "Ma mère est gentille. Notre ami est grand. Sa maison est ici.",
+        "note": "Son/sa can mean his or her; context supplies the meaning."
+      },
+      "vocabulary": [
+        {
+          "id": "mi",
+          "fr": "mon/ma/mes",
+          "en": "my",
+          "pos": "possessive",
+          "gender": null,
+          "audio_key": "fr.mi",
+          "review_tags": [
+            "possessives"
+          ]
+        },
+        {
+          "id": "tu",
+          "fr": "ton/ta/tes",
+          "en": "your informal",
+          "pos": "possessive",
+          "gender": null,
+          "audio_key": "fr.tu",
+          "review_tags": [
+            "possessives"
+          ]
+        },
+        {
+          "id": "su",
+          "fr": "son/sa/ses",
+          "en": "his/her/your formal/their",
+          "pos": "possessive",
+          "gender": null,
+          "audio_key": "fr.su",
+          "review_tags": [
+            "possessives"
+          ]
+        },
+        {
+          "id": "nuestro",
+          "fr": "notre",
+          "en": "our masculine",
+          "pos": "possessive",
+          "gender": "m",
+          "audio_key": "fr.nuestro",
+          "review_tags": [
+            "possessives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "nuestra",
+          "fr": "notre",
+          "en": "our feminine",
+          "pos": "possessive",
+          "gender": "f",
+          "audio_key": "fr.nuestra",
+          "review_tags": [
+            "possessives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "madre",
+          "fr": "mère",
+          "en": "mother",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "fr.madre",
+          "review_tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "padre",
+          "fr": "père",
+          "en": "father",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "fr.padre",
+          "review_tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hermano",
+          "fr": "frère",
+          "en": "brother",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "fr.hermano",
+          "review_tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "hermana",
+          "fr": "soeur",
+          "en": "sister",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "fr.hermana",
+          "review_tags": [
+            "family"
+          ]
+        },
+        {
+          "id": "amable",
+          "fr": "gentil/le",
+          "en": "kind",
+          "pos": "adjective",
+          "gender": null,
+          "audio_key": "fr.amable",
+          "review_tags": [
+            "adjectives"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "possessives",
+        "agreement",
+        "family"
+      ],
+      "examples": [
+        {
+          "fr": "Mon frère est étudiant.",
+          "en": "My brother is a student.",
+          "analysis": "mon + nom masculin"
+        },
+        {
+          "fr": "Notre amie est du Chili.",
+          "en": "Our female friend is from Chile.",
+          "analysis": "notre matches amie (notre does not change form)"
+        },
+        {
+          "fr": "Sa maison est là.",
+          "en": "His/her/your formal/their house is there.",
+          "analysis": "son/sa/leurs depends on context"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d3-a1",
+          "type": "mcq",
+          "prompt": "Choose “our female friend.”",
+          "answer": "notre amie",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "possessives",
+            "agreement"
+          ],
+          "difficulty": "core",
+          "options": [
+            "notre ami",
+            "notre amie",
+            "nos amies"
+          ]
+        },
+        {
+          "id": "w2d3-a2",
+          "type": "translate",
+          "prompt": "Translate: “My brother is a student.”",
+          "answer": "Mon frère est étudiant.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "possessives",
+            "identity"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Mon frère est étudiant",
+            "Mon frère est un étudiant"
+          ]
+        },
+        {
+          "id": "w2d3-a3",
+          "type": "cloze",
+          "prompt": "Complete: ___ maison (your informal house).",
+          "answer": "ton",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "possessives"
+          ],
+          "difficulty": "core",
+          "options": [
+            "mon",
+            "ton",
+            "son",
+            "notre"
+          ]
+        },
+        {
+          "id": "w2d3-a4",
+          "type": "classification",
+          "prompt": "Does notre change here? 'notre amie'",
+          "answer": "no, it doesn't change for gender",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "possessives",
+            "agreement"
+          ],
+          "difficulty": "core",
+          "options": [
+            "yes, to match feminine singular",
+            "no, it doesn't change for gender"
+          ]
+        },
+        {
+          "id": "w2d3-a5",
+          "type": "speak",
+          "prompt": "Describe a person using a possessive and one adjective.",
+          "answer": "Mon ____ est ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "possessives",
+            "agreement"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Describe people who belong to you or your social circle.",
+      "dialogue": {
+        "title": "Family photo description",
+        "lines": [
+          {
+            "speaker": "A",
+            "fr": "Qui est-ce ?",
+            "en": "Who is it?"
+          },
+          {
+            "speaker": "B",
+            "fr": "C'est ma soeur. Elle est gentille.",
+            "en": "She is my sister. She is kind."
+          },
+          {
+            "speaker": "A",
+            "fr": "Et eux ?",
+            "en": "And them?"
+          },
+          {
+            "speaker": "B",
+            "fr": "Ce sont nos amis.",
+            "en": "They are our friends."
+          }
+        ],
+        "learner_turns": [
+          "Replace family words and adjectives.",
+          "Say the difference between 'mon/ma' and 'notre'."
+        ]
+      },
+      "exit_check": [
+        "Choose mon/ma/mes, ton/ta/tes, son/sa/ses, or notre/nos.",
+        "Describe one person with a possessive.",
+        "Explain why notre does not change with amie."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "fr-w2-d11",
+      "day": 11,
+      "title": "Negation and Yes/No Questions",
+      "focus": "ne...pas, oui/non, and question formation",
+      "estimated_minutes": 20,
+      "objectives": [
+        "make negative statements with ne...pas",
+        "ask yes/no questions with est-ce que or intonation",
+        "answer with oui/non plus a full sentence"
+      ],
+      "teaching": {
+        "explanation": "Place 'ne' before the conjugated verb and 'pas' after: Je ne parle pas anglais. In casual speech the 'ne' is often dropped: Je parle pas anglais. For yes/no questions use 'Est-ce que' or inversion; intonation alone also works in speech.",
+        "pattern": "Est-ce que tu parles espagnol ? Oui, je parle espagnol. Non, je ne parle pas français.",
+        "strategy": "For active recall, convert statements to questions with 'Est-ce que' and then answer both yes and no versions."
+      },
+      "vocabulary": [
+        {
+          "id": "no",
+          "fr": "ne...pas",
+          "en": "no/not",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "fr.no",
+          "review_tags": [
+            "negation"
+          ]
+        },
+        {
+          "id": "pregunta",
+          "fr": "question",
+          "en": "question",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "fr.pregunta",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "vives",
+          "fr": "tu habites",
+          "en": "you live",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "fr.vives",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "hablas",
+          "fr": "tu parles",
+          "en": "you speak",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "fr.hablas",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "estudias",
+          "fr": "tu étudies",
+          "en": "you study",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "fr.estudias",
+          "review_tags": [
+            "verbs"
+          ]
+        },
+        {
+          "id": "ingles",
+          "fr": "anglais",
+          "en": "English",
+          "pos": "noun",
+          "gender": null,
+          "audio_key": "fr.ingles",
+          "review_tags": [
+            "languages"
+          ]
+        },
+        {
+          "id": "frances",
+          "fr": "français",
+          "en": "French",
+          "pos": "noun",
+          "gender": null,
+          "audio_key": "fr.frances",
+          "review_tags": [
+            "languages"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "negation",
+        "questions",
+        "present"
+      ],
+      "examples": [
+        {
+          "fr": "Je n'habite pas ici.",
+          "en": "I do not live here.",
+          "analysis": "ne ... pas around the verb"
+        },
+        {
+          "fr": "Est-ce que tu étudies l'espagnol ?",
+          "en": "Do you study Spanish?",
+          "analysis": "Est-ce que starts a yes/no question"
+        },
+        {
+          "fr": "Oui, je travaille.",
+          "en": "Yes, I work.",
+          "analysis": "oui + comma + sentence"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d4-a1",
+          "type": "transform",
+          "prompt": "Make negative: J'habite ici.",
+          "answer": "Je n'habite pas ici.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "negation"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d4-a2",
+          "type": "translate",
+          "prompt": "Translate: “Do you speak Spanish?”",
+          "answer": "Est-ce que tu parles espagnol ?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "questions",
+            "er-conjugation"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Est-ce que tu parles espagnol ?",
+            "Parles-tu espagnol ?"
+          ]
+        },
+        {
+          "id": "w2d4-a3",
+          "type": "mcq",
+          "prompt": "Choose the correct answer to Est-ce que tu étudies l'espagnol ?",
+          "answer": "Oui, j'étudie l'espagnol.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "answers"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Oui, j'étudie l'espagnol.",
+            "Non est espagnol.",
+            "Je suis espagnol."
+          ]
+        },
+        {
+          "id": "w2d4-a4",
+          "type": "error_correction",
+          "prompt": "Correct: Ne je parle anglais.",
+          "answer": "Je ne parle pas anglais.",
+          "hint": "",
+          "feedback": "Place 'ne' before the conjugated verb and 'pas' after; in casual speech 'ne' is often omitted.",
+          "rationale": "",
+          "review_item_ids": [
+            "negation",
+            "word-order"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d4-a5",
+          "type": "speak",
+          "prompt": "Ask yourself three yes/no questions and answer each with oui or non.",
+          "answer": "Est-ce que ____ ? Oui, ____. / Non, ____. ",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "questions",
+            "negation"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Confirm or correct basic information without switching to English.",
+      "dialogue": {
+        "title": "Confirming information",
+        "lines": [
+          {
+            "speaker": "A",
+            "fr": "Est-ce que tu habites ici ?",
+            "en": "Do you live here?"
+          },
+          {
+            "speaker": "B",
+            "fr": "Oui, j'habite ici.",
+            "en": "Yes, I live here."
+          },
+          {
+            "speaker": "A",
+            "fr": "Est-ce que tu travailles ici ?",
+            "en": "Do you work here?"
+          },
+          {
+            "speaker": "B",
+            "fr": "Non, je ne travaille pas ici.",
+            "en": "No, I do not work here."
+          }
+        ],
+        "learner_turns": [
+          "Change the verbs.",
+          "Answer once oui and once non."
+        ]
+      },
+      "exit_check": [
+        "Turn two statements into negative sentences.",
+        "Ask two yes/no questions.",
+        "Answer with oui/non plus a full clause."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "fr-w2-d12",
+      "day": 12,
+      "title": "Core Prepositions",
+      "focus": "en, avec, pour, de, à",
+      "estimated_minutes": 20,
+      "objectives": [
+        "use five core prepositions in useful chunks",
+        "express location, accompaniment, purpose, origin, and movement",
+        "avoid translating each preposition mechanically"
+      ],
+      "teaching": {
+        "explanation": "Prepositions are best learned inside chunks. en/dans often marks location, avec means with, pour often marks purpose or destination, de marks origin/possession, and à marks movement toward a place or person.",
+        "pattern": "Je suis à la maison. Je vais à Madrid. Café au lait. C'est pour Ana. Je suis du Pérou.",
+        "warning": "English and French prepositions do not map one-to-one in every expression; memorize the high-frequency chunks first."
+      },
+      "vocabulary": [
+        {
+          "id": "en",
+          "fr": "en / dans",
+          "en": "in/at",
+          "pos": "preposition",
+          "gender": null,
+          "audio_key": "fr.en",
+          "review_tags": [
+            "prepositions"
+          ]
+        },
+        {
+          "id": "con",
+          "fr": "avec",
+          "en": "with",
+          "pos": "preposition",
+          "gender": null,
+          "audio_key": "fr.con",
+          "review_tags": [
+            "prepositions"
+          ]
+        },
+        {
+          "id": "para",
+          "fr": "pour",
+          "en": "for/to (purpose)",
+          "pos": "preposition",
+          "gender": null,
+          "audio_key": "fr.para",
+          "review_tags": [
+            "prepositions"
+          ]
+        },
+        {
+          "id": "a",
+          "fr": "à",
+          "en": "to",
+          "pos": "preposition",
+          "gender": null,
+          "audio_key": "fr.a",
+          "review_tags": [
+            "prepositions"
+          ]
+        },
+        {
+          "id": "cafe",
+          "fr": "café",
+          "en": "café",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "fr.cafe",
+          "review_tags": [
+            "places"
+          ]
+        },
+        {
+          "id": "leche",
+          "fr": "lait",
+          "en": "milk",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "fr.leche",
+          "review_tags": [
+            "food"
+          ]
+        },
+        {
+          "id": "casa",
+          "fr": "maison",
+          "en": "home/house",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "fr.casa",
+          "review_tags": [
+            "places"
+          ]
+        },
+        {
+          "id": "voy",
+          "fr": "je vais",
+          "en": "I go",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "fr.voy",
+          "review_tags": [
+            "movement"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "prepositions",
+        "locations",
+        "movement"
+      ],
+      "examples": [
+        {
+          "fr": "Je suis à la maison.",
+          "en": "I am at home.",
+          "analysis": "à/en + location"
+        },
+        {
+          "fr": "Je vais à Madrid.",
+          "en": "I am going to Madrid.",
+          "analysis": "à + destination"
+        },
+        {
+          "fr": "C'est pour toi.",
+          "en": "It is for you.",
+          "analysis": "pour + recipient"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d5-a1",
+          "type": "matching",
+          "prompt": "Match: en = in/at; con = with; para = for; de = from/of; a = to.",
+          "answer": "en = in/at; con = with; para = for; de = from/of; a = to.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "prepositions"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d5-a2",
+          "type": "translate",
+          "prompt": "Translate: “Coffee with milk.”",
+          "answer": "Café au lait.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "con"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Café au lait",
+            "Cafe au lait"
+          ]
+        },
+        {
+          "id": "w2d5-a3",
+          "type": "cloze",
+          "prompt": "Complete: Je suis ___ Pérou.",
+          "answer": "du",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "de"
+          ],
+          "difficulty": "core",
+          "options": [
+            "en",
+            "avec",
+            "pour",
+            "de",
+            "à"
+          ]
+        },
+        {
+          "id": "w2d5-a4",
+          "type": "cloze",
+          "prompt": "Complete: Je vais ___ Madrid.",
+          "answer": "à",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "a"
+          ],
+          "difficulty": "core",
+          "options": [
+            "en",
+            "avec",
+            "pour",
+            "de",
+            "à"
+          ]
+        },
+        {
+          "id": "w2d5-a5",
+          "type": "production",
+          "prompt": "Say where you are, where you are going, and with whom.",
+          "answer": "Je suis à ____. Je vais à ____. Je vais avec ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "prepositions",
+            "estar"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Explain a simple destination and travel companion.",
+      "dialogue": {
+        "title": "Planning a visit",
+        "lines": [
+          {
+            "speaker": "A",
+            "fr": "Où es-tu ?",
+            "en": "Where are you?"
+          },
+          {
+            "speaker": "B",
+            "fr": "Je suis à la maison. Je vais au café.",
+            "en": "I am at home. I am going to the café."
+          },
+          {
+            "speaker": "A",
+            "fr": "Avec qui ?",
+            "en": "With whom?"
+          },
+          {
+            "speaker": "B",
+            "fr": "Je vais avec mon ami.",
+            "en": "I am going with my friend."
+          }
+        ],
+        "learner_turns": [
+          "Replace the places and person.",
+          "Say what something is for: C'est pour ____."
+        ]
+      },
+      "exit_check": [
+        "Choose the correct preposition in five chunks.",
+        "Say where you are and where you are going.",
+        "Use avec to name a companion."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "fr-w2-d13",
+      "day": 13,
+      "title": "A Normal Day",
+      "focus": "Routine verbs and sequence words",
+      "estimated_minutes": 20,
+      "objectives": [
+        "describe three daily actions",
+        "use d'abord, après, puis, and finalement",
+        "combine a subject, verb, and time or place"
+      ],
+      "teaching": {
+        "explanation": "Routine language becomes easier when ordered. Use sequence words to create a mini-story instead of isolated sentences.",
+        "pattern": "D'abord je prends le petit-déjeuner. Après je travaille. Puis je me repose. Enfin je dors.",
+        "note": "The target is intelligible sequencing, not a complete list of irregular verbs."
+      },
+      "vocabulary": [
+        {
+          "id": "primero",
+          "fr": "d'abord",
+          "en": "first",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "fr.primero",
+          "review_tags": [
+            "sequence"
+          ]
+        },
+        {
+          "id": "despues",
+          "fr": "après",
+          "en": "afterwards",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "fr.despues",
+          "review_tags": [
+            "sequence"
+          ]
+        },
+        {
+          "id": "luego",
+          "fr": "puis",
+          "en": "then",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "fr.luego",
+          "review_tags": [
+            "sequence"
+          ]
+        },
+        {
+          "id": "finalmente",
+          "fr": "enfin",
+          "en": "finally",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "fr.finalmente",
+          "review_tags": [
+            "sequence"
+          ]
+        },
+        {
+          "id": "desayunar",
+          "fr": "prendre le petit-déjeuner",
+          "en": "to have breakfast",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "fr.desayunar",
+          "review_tags": [
+            "routine"
+          ]
+        },
+        {
+          "id": "descansar",
+          "fr": "se reposer",
+          "en": "to rest",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "fr.descansar",
+          "review_tags": [
+            "routine"
+          ]
+        },
+        {
+          "id": "dormir",
+          "fr": "dormir",
+          "en": "to sleep",
+          "pos": "verb",
+          "gender": null,
+          "audio_key": "fr.dormir",
+          "review_tags": [
+            "routine"
+          ]
+        },
+        {
+          "id": "manana",
+          "fr": "matin / demain",
+          "en": "morning/tomorrow",
+          "pos": "noun/adverb",
+          "gender": null,
+          "audio_key": "fr.manana",
+          "review_tags": [
+            "time"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "routine",
+        "sequence",
+        "present"
+      ],
+      "examples": [
+        {
+          "fr": "D'abord je prends le petit-déjeuner.",
+          "en": "First I have breakfast.",
+          "analysis": "d'abord marks sequence"
+        },
+        {
+          "fr": "Après je travaille.",
+          "en": "Afterwards I work.",
+          "analysis": "après links the next action"
+        },
+        {
+          "fr": "Enfin je me repose.",
+          "en": "Finally I rest.",
+          "analysis": "enfin closes the sequence"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d6-a1",
+          "type": "ordering",
+          "prompt": "Order the sequence: enfin / après / d'abord",
+          "answer": "d'abord, après, enfin",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "sequence"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d6-a2",
+          "type": "translate",
+          "prompt": "Translate: “First I study, then I work.”",
+          "answer": "D'abord j'étudie, puis je travaille.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "routine",
+            "sequence"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "D'abord j'étudie, puis je travaille",
+            "D'abord j'étudie, après je travaille"
+          ]
+        },
+        {
+          "id": "w2d6-a3",
+          "type": "cloze",
+          "prompt": "Complete: ___ je me repose. (Finally)",
+          "answer": "Enfin",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "sequence"
+          ],
+          "difficulty": "core",
+          "options": [
+            "D'abord",
+            "Après",
+            "Enfin"
+          ]
+        },
+        {
+          "id": "w2d6-a4",
+          "type": "production",
+          "prompt": "Write three actions in sequence.",
+          "answer": "D'abord ____. Après ____. Enfin ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "routine",
+            "sequence"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d6-a5",
+          "type": "speak",
+          "prompt": "Tell a partner about your day for 20 seconds.",
+          "answer": "D'abord ____. Puis ____. Après ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "routine"
+          ],
+          "difficulty": "production"
+        }
+      ],
+      "mission": "Give a short report of your normal day.",
+      "dialogue": {
+        "title": "Routine briefing",
+        "lines": [
+          {
+            "speaker": "A",
+            "fr": "Qu'est-ce que tu fais le matin ?",
+            "en": "What do you do in the morning?"
+          },
+          {
+            "speaker": "B",
+            "fr": "D'abord je prends le petit-déjeuner. Après j'étudie. Puis je travaille.",
+            "en": "First I have breakfast. Then I study. Afterwards I work."
+          }
+        ],
+        "learner_turns": [
+          "Make your own three-step routine.",
+          "Say it once slowly and once at natural speed."
+        ]
+      },
+      "exit_check": [
+        "Put four sequence words in order.",
+        "Produce a three-sentence routine.",
+        "Speak the routine without reading it."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "fr-w2-d14",
+      "day": 14,
+      "title": "Week 2 Field Check",
+      "focus": "Locations, routines, possession, and questions",
+      "estimated_minutes": 20,
+      "objectives": [
+        "describe a room or neighborhood",
+        "state a routine with sequence words",
+        "ask and answer three questions about daily life"
+      ],
+      "teaching": {
+        "explanation": "This checkpoint requires recombination. The learner should choose vocabulary and make new sentences, not merely repeat the dialogue.",
+        "pattern": "Il y a ____. Le/La ____ est ____. D'abord ____. Après ____. Est-ce que tu habites ici ? Oui/Non, ____.",
+        "checkpoint": "Complete a 90-second “daily life” mission with location, routine, possession, and one negative answer."
+      },
+      "vocabulary": [
+        {
+          "id": "pero",
+          "fr": "mais",
+          "en": "but",
+          "pos": "conjunction",
+          "gender": null,
+          "audio_key": "fr.pero",
+          "review_tags": [
+            "connectors"
+          ]
+        },
+        {
+          "id": "donde-vives",
+          "fr": "Où habites-tu ?",
+          "en": "Where do you live?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "fr.donde-vives",
+          "review_tags": [
+            "questions",
+            "routine"
+          ]
+        },
+        {
+          "id": "que-haces",
+          "fr": "Qu'est-ce que tu fais ?",
+          "en": "What do you do?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "fr.que-haces",
+          "review_tags": [
+            "questions",
+            "routine"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "review",
+        "integration",
+        "mastery"
+      ],
+      "examples": [
+        {
+          "fr": "Il y a une table dans la chambre.",
+          "en": "There is a table in the room.",
+          "analysis": "existence + location"
+        },
+        {
+          "fr": "D'abord j'étudie et après je travaille.",
+          "en": "First I study and then I work.",
+          "analysis": "sequence + coordinated actions"
+        },
+        {
+          "fr": "Je n'habite pas ici ; j'habite en ____.",
+          "en": "I do not live here; I live in ____.",
+          "analysis": "negation + correction"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w2d7-a1",
+          "type": "retrieval",
+          "prompt": "Retrieve five prepositions and use each in a phrase.",
+          "answer": "en, avec, pour, de, à",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "prepositions"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d7-a2",
+          "type": "listening_comprehension",
+          "prompt": "Listen to a room description and identify two objects and their locations.",
+          "answer": "two_objects_and_locations",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "hay",
+            "estar",
+            "locations"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d7-a3",
+          "type": "translation_chain",
+          "prompt": "Translate: “My friend lives here, but I work there.”",
+          "answer": "Mon ami habite ici, mais je travaille là-bas.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "possessives",
+            "locations",
+            "connectors"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Mon ami habite ici, mais je travaille là-bas"
+          ]
+        },
+        {
+          "id": "w2d7-a4",
+          "type": "error_correction",
+          "prompt": "Correct: Il y a le livre sur la table.",
+          "answer": "Le livre est sur la table. / Il y a un livre sur la table.",
+          "hint": "",
+          "feedback": "Use il y a with an indefinite item or être (est) with a known item.",
+          "rationale": "",
+          "review_item_ids": [
+            "hay",
+            "estar"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w2d7-a5",
+          "type": "roleplay",
+          "prompt": "Complete a daily-life briefing with a partner.",
+          "answer": "Il y a ____. J'habite ____. D'abord ____. Après ____. Et toi ?",
+          "hint": "",
+          "feedback": "Pass when you locate an object, describe your routine, ask a question, and repair one mistake.",
+          "rationale": "",
+          "review_item_ids": [
+            "week2"
+          ],
+          "difficulty": "checkpoint"
+        }
+      ],
+      "mission": "Give a practical briefing about where you live and what you do.",
+      "dialogue": {
+        "title": "Daily-life briefing",
+        "lines": [
+          {
+            "speaker": "A",
+            "fr": "Où habites-tu ?",
+            "en": "Where do you live?"
+          },
+          {
+            "speaker": "B",
+            "fr": "J'habite ____. Il y a ____.",
+            "en": "I live in ____. There is/are ____."
+          },
+          {
+            "speaker": "A",
+            "fr": "Qu'est-ce que tu fais d'abord ?",
+            "en": "What do you do first?"
+          },
+          {
+            "speaker": "B",
+            "fr": "D'abord ____. Après ____.",
+            "en": "First ____. Afterwards ____."
+          }
+        ],
+        "learner_turns": [
+          "Perform without English.",
+          "Change at least four details."
+        ]
+      },
+      "exit_check": [
+        "Use il y a and est/sont accurately.",
+        "Sequence three routine actions.",
+        "Pass the roleplay and cumulative checkpoint."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    }
+  ]
+}

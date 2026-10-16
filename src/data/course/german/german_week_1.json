@@ -1,0 +1,1886 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "german-foundations-a0-a1",
+  "week": 1,
+  "title": "Foundations: First Contact",
+  "lessons": [
+    {
+      "id": "de-w1-d01",
+      "day": 1,
+      "title": "First Contact",
+      "focus": "Greetings, names, and courtesy",
+      "estimated_minutes": 20,
+      "objectives": [
+        "greet someone formally and informally",
+        "say your name and ask another person’s name",
+        "recognize tú and usted as different levels of formality"
+      ],
+      "teaching": {
+        "explanation": "Deutsche Begrüßungen sind kurze feste Wendungen. Lerne sie als ganze Ausdrücke, bevor du die Grammatik untersuchst. Verwende „Hallo“ jederzeit; „Guten Morgen“, „Guten Tag“ und „Guten Abend“ passen zur Tageszeit. „du\" ist vertraut (informell), „Sie\" ist formell — benutze „Sie\" bei Respekt oder wenn du unsicher bist.",
+        "pattern": "Ich heiße + Name = My name is + name. Wie heißt du? = What is your name? (informal) Wie heißen Sie? = What is your name? (formal)",
+        "culture_note": "Verwende „Sie\", wenn du Respekt zeigen willst oder die regionale Höflichkeitsform nicht kennst; „du\" ist üblich unter Gleichaltrigen und in vielen informellen Situationen."
+      },
+      "vocabulary": [
+        {
+          "id": "hola",
+          "de": "hallo",
+          "en": "hello",
+          "pos": "interjection",
+          "gender": null,
+          "audio_key": "de.hola",
+          "review_tags": [
+            "greetings"
+          ]
+        },
+        {
+          "id": "buenos-dias",
+          "de": "guten Morgen",
+          "en": "good morning",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "de.buenos-dias",
+          "review_tags": [
+            "greetings",
+            "time"
+          ]
+        },
+        {
+          "id": "buenas-tardes",
+          "de": "guten Tag",
+          "en": "good afternoon",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "de.buenas-tardes",
+          "review_tags": [
+            "greetings",
+            "time"
+          ]
+        },
+        {
+          "id": "buenas-noches",
+          "de": "guten Abend",
+          "en": "good evening/night",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "de.buenas-noches",
+          "review_tags": [
+            "greetings",
+            "time"
+          ]
+        },
+        {
+          "id": "adios",
+          "de": "auf Wiedersehen",
+          "en": "goodbye",
+          "pos": "interjection",
+          "gender": null,
+          "audio_key": "de.adios",
+          "review_tags": [
+            "greetings"
+          ]
+        },
+        {
+          "id": "hasta-luego",
+          "de": "bis später",
+          "en": "see you later",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "de.hasta-luego",
+          "review_tags": [
+            "greetings"
+          ]
+        },
+        {
+          "id": "me-llamo",
+          "de": "ich heiße",
+          "en": "my name is",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "de.me-llamo",
+          "review_tags": [
+            "identity"
+          ]
+        },
+        {
+          "id": "como-te-llamas",
+          "de": "Wie heißt du?",
+          "en": "What is your name? informal",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.como-te-llamas",
+          "review_tags": [
+            "identity"
+          ]
+        },
+        {
+          "id": "mucho-gusto",
+          "de": "Freut mich.",
+          "en": "nice to meet you",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "de.mucho-gusto",
+          "review_tags": [
+            "courtesy"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "chunks",
+        "formality"
+      ],
+      "examples": [
+        {
+          "de": "Hallo, ich heiße Ana.",
+          "en": "Hello, my name is Ana.",
+          "analysis": "hallo = hello; ich heiße = my name is"
+        },
+        {
+          "de": "Wie heißt du?",
+          "en": "What is your name?",
+          "analysis": "wie = how; heißt du = you are called (informal)"
+        },
+        {
+          "de": "Freut mich.",
+          "en": "Nice to meet you.",
+          "analysis": "a fixed courtesy phrase"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d1-a1",
+          "type": "listen_select",
+          "prompt": "Choose the phrase you hear: “Good morning.”",
+          "answer": "Guten Morgen.",
+          "hint": "",
+          "feedback": "Guten Morgen bedeutet 'good morning'. 'Guten Tag' wird oft am Nachmittag verwendet; 'Guten Abend' ist für den Abend.",
+          "rationale": "Time-of-day greetings are memorized chunks.",
+          "review_item_ids": [
+            "buenos-dias"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Guten Abend.",
+            "Guten Morgen.",
+            "Bis später."
+          ]
+        },
+        {
+          "id": "w1d1-a2",
+          "type": "translate",
+          "prompt": "Translate: “My name is Luis.”",
+          "answer": "Ich heiße Luis.",
+          "hint": "Use the fixed pattern ich heiße + name.",
+          "feedback": "Ich heiße heißt wörtlich 'I am called', die natürliche Übersetzung ist 'my name is'.",
+          "rationale": "",
+          "review_item_ids": [
+            "me-llamo"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Ich heiße Luis",
+            "Ich heiße luis"
+          ]
+        },
+        {
+          "id": "w1d1-a3",
+          "type": "mcq",
+          "prompt": "Which question asks a friend their name?",
+          "answer": "Wie heißt du?",
+          "hint": "",
+          "feedback": "„du\" zeigt die informelle Anrede.",
+          "rationale": "",
+          "review_item_ids": [
+            "como-te-llamas"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Wie heißen Sie?",
+            "Wie heißt du?",
+            "Woher kommen Sie?"
+          ]
+        },
+        {
+          "id": "w1d1-a4",
+          "type": "ordering",
+          "prompt": "Put the words in order: heiße / Ich / Sofía",
+          "answer": "Ich heiße Sofía.",
+          "hint": "",
+          "feedback": "The fixed chunk is Ich heiße + name.",
+          "rationale": "",
+          "review_item_ids": [
+            "me-llamo",
+            "name"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d1-a5",
+          "type": "speak",
+          "prompt": "Say a greeting, your name, and 'Freut mich.'",
+          "answer": "Hallo. Ich heiße ____. Freut mich.",
+          "hint": "Speak the full three-part introduction aloud.",
+          "feedback": "A successful introduction contains a greeting, name, and courtesy phrase.",
+          "rationale": "",
+          "review_item_ids": [
+            "hola",
+            "me-llamo",
+            "mucho-gusto"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Hallo. Ich heiße ____. Freut mich."
+          ]
+        }
+      ],
+      "mission": "Introduce yourself to a new contact and close the conversation politely.",
+      "dialogue": {
+        "title": "At the registration desk",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Hallo, ich heiße Marta. Wie heißt du?",
+            "en": "Hello, my name is Marta. What is your name?"
+          },
+          {
+            "speaker": "B",
+            "de": "Ich heiße Diego. Freut mich.",
+            "en": "My name is Diego. Nice to meet you."
+          },
+          {
+            "speaker": "A",
+            "de": "Freut mich. Bis später.",
+            "en": "Nice to meet you. See you later."
+          }
+        ],
+        "learner_turns": [
+          "Replace Marta and Diego with your own name and a fictional partner.",
+          "Repeat the exchange once using Sie: Wie heißen Sie?"
+        ]
+      },
+      "exit_check": [
+        "Say “Hello, my name is …” from memory.",
+        "Choose the familiar name question.",
+        "Say “Nice to meet you” and “See you later.”"
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w1-d02",
+      "day": 2,
+      "title": "The Sound System",
+      "focus": "Vowels, stress, and classroom repair",
+      "estimated_minutes": 20,
+      "objectives": [
+        "pronounce the five Spanish vowels consistently",
+        "ask someone to repeat or slow down",
+        "use gracias and por favor in a request"
+      ],
+      "teaching": {
+        "explanation": "Vokale im Deutschen sind relativ stabil, aber unterscheiden sich in Länge: a wie in 'Mann', e wie in 'See', i wie in 'sie', o wie in 'Sohn', u wie in 'gut'. Für diese Woche liegt der Schwerpunkt auf klaren Vokalen und verständlicher Aussprache.",
+        "pattern": "Kannst du das wiederholen? = Can you repeat? Langsamer, bitte. = More slowly, please. Ich verstehe nicht. = I do not understand.",
+        "memory_tip": "Verknüpfe jeden Vokal mit einer Geste oder einem Bild und rufe den Klang ab, bevor du das geschriebene Wort ansiehst."
+      },
+      "vocabulary": [
+        {
+          "id": "vowels",
+          "de": "a e i o u",
+          "en": "Spanish vowels",
+          "pos": "pronunciation",
+          "gender": null,
+          "audio_key": "de.vowels",
+          "review_tags": [
+            "pronunciation"
+          ]
+        },
+        {
+          "id": "por-favor",
+          "de": "bitte",
+          "en": "please",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "de.por-favor",
+          "review_tags": [
+            "courtesy"
+          ]
+        },
+        {
+          "id": "gracias",
+          "de": "danke",
+          "en": "thank you",
+          "pos": "noun/phrase",
+          "gender": "f",
+          "audio_key": "de.gracias",
+          "review_tags": [
+            "courtesy"
+          ]
+        },
+        {
+          "id": "de-nuevo",
+          "de": "noch einmal",
+          "en": "again",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "de.de-nuevo",
+          "review_tags": [
+            "repair"
+          ]
+        },
+        {
+          "id": "repite",
+          "de": "Wiederhole",
+          "en": "repeat",
+          "pos": "verb command",
+          "gender": null,
+          "audio_key": "de.repite",
+          "review_tags": [
+            "repair"
+          ]
+        },
+        {
+          "id": "puedes-repetir",
+          "de": "Kannst du das wiederholen?",
+          "en": "Can you repeat?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.puedes-repetir",
+          "review_tags": [
+            "repair"
+          ]
+        },
+        {
+          "id": "mas-despacio",
+          "de": "Langsamer, bitte",
+          "en": "more slowly",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "de.mas-despacio",
+          "review_tags": [
+            "repair"
+          ]
+        },
+        {
+          "id": "no-entiendo",
+          "de": "Ich verstehe nicht",
+          "en": "I do not understand",
+          "pos": "sentence",
+          "gender": null,
+          "audio_key": "de.no-entiendo",
+          "review_tags": [
+            "repair"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "pronunciation",
+        "repair"
+      ],
+      "examples": [
+        {
+          "de": "Kannst du das wiederholen?",
+          "en": "Can you repeat?",
+          "analysis": "Kannst du = can you; das wiederholen = repeat that"
+        },
+        {
+          "de": "Langsamer, bitte.",
+          "en": "More slowly, please.",
+          "analysis": "Langsamer = more slowly; bitte = please"
+        },
+        {
+          "de": "Danke.",
+          "en": "Thank you.",
+          "analysis": "courtesy word"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d2-a1",
+          "type": "listen_select",
+          "prompt": "Choose the word with the /i/ vowel:",
+          "answer": "sie",
+          "hint": "",
+          "feedback": "„sie\" hat den klaren /iː/-Laut.",
+          "rationale": "",
+          "review_item_ids": [
+            "vowels"
+          ],
+          "difficulty": "core",
+          "options": [
+            "sie",
+            "Sonne",
+            "Tasse"
+          ]
+        },
+        {
+          "id": "w1d2-a2",
+          "type": "translate",
+          "prompt": "Translate: “Please repeat.”",
+          "answer": "Wiederhole bitte.",
+          "hint": "Use the command chunk Wiederhole plus bitte.",
+          "feedback": "Wiederhole ist der praktische Befehl für 'repeat'.",
+          "rationale": "",
+          "review_item_ids": [
+            "repeat"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Wiederhole bitte",
+            "Bitte wiederholen"
+          ]
+        },
+        {
+          "id": "w1d2-a3",
+          "type": "mcq",
+          "prompt": "You did not understand. What should you say?",
+          "answer": "Ich verstehe nicht.",
+          "hint": "",
+          "feedback": "Ich verstehe nicht bedeutet 'I do not understand.'",
+          "rationale": "",
+          "review_item_ids": [
+            "no-entiendo"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Ich spreche nicht.",
+            "Ich verstehe nicht.",
+            "Nein danke."
+          ]
+        },
+        {
+          "id": "w1d2-a4",
+          "type": "matching",
+          "prompt": "Match the repair phrase to its meaning.",
+          "answer": "Kannst du das wiederholen? = Can you repeat?; Langsamer = More slowly; Danke = Thank you.",
+          "hint": "",
+          "feedback": "These phrases keep a conversation moving even with limited grammar.",
+          "rationale": "",
+          "review_item_ids": [
+            "repeat",
+            "slowly",
+            "thanks"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d2-a5",
+          "type": "speak",
+          "prompt": "Ask a partner to repeat more slowly and thank them.",
+          "answer": "Kannst du das wiederholen? Langsamer, bitte. Danke.",
+          "hint": "",
+          "feedback": "Use the whole repair sequence aloud.",
+          "rationale": "",
+          "review_item_ids": [
+            "repeat",
+            "slowly",
+            "thanks"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Keep a conversation alive when you miss a sound or word.",
+      "dialogue": {
+        "title": "Repairing a missed word",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Wie heißt du?",
+            "en": "What is your name?"
+          },
+          {
+            "speaker": "B",
+            "de": "Ich verstehe nicht. Kannst du das wiederholen?",
+            "en": "I do not understand. Can you repeat?"
+          },
+          {
+            "speaker": "A",
+            "de": "Wie heißt du?",
+            "en": "What is your name?"
+          },
+          {
+            "speaker": "B",
+            "de": "Ich heiße Elena.",
+            "en": "My name is Elena."
+          }
+        ],
+        "learner_turns": [
+          "Read B aloud without looking at the English.",
+          "Change Elena to your name."
+        ]
+      },
+      "exit_check": [
+        "Say all five vowels aloud twice.",
+        "Retrieve the phrase for “I do not understand.”",
+        "Ask for repetition and slower speech."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w1-d03",
+      "day": 3,
+      "title": "People and Pronouns",
+      "focus": "Subject pronouns and identity",
+      "estimated_minutes": 20,
+      "objectives": [
+        "recognize the main subject pronouns",
+        "use soy and eres in short identity sentences",
+        "ask and answer where someone is from"
+      ],
+      "teaching": {
+        "explanation": "Im Deutschen werden Personalpronomen normalerweise verwendet (sie werden nicht weggelassen wie in manchen Sprachen). Für Anfänger sind die Pronomen wichtig: ich, du, Sie, er, sie, wir, ihr, Sie. Achte auf die formelle Anrede 'Sie' und die informelle 'du'.",
+        "pattern": "Ich bin = I am. Du bist = you are. Er/Sie ist = he/she is. Wir sind = we are. Ihr seid = you (plural) are. Sie sind = you (formal) are.",
+        "contrast": "Übersetze das englische 'you are' nicht mit einer einzigen Form: im Deutschen gibt es du (informell), Sie (formell) und ihr (informell plural)."
+      },
+      "vocabulary": [
+        {
+          "id": "yo",
+          "de": "ich",
+          "en": "I",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "de.yo",
+          "review_tags": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "tu",
+          "de": "du",
+          "en": "you informal singular",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "de.tu",
+          "review_tags": [
+            "pronouns",
+            "formality"
+          ]
+        },
+        {
+          "id": "usted",
+          "de": "Sie",
+          "en": "you formal singular",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "de.usted",
+          "review_tags": [
+            "pronouns",
+            "formality"
+          ]
+        },
+        {
+          "id": "el",
+          "de": "er",
+          "en": "he",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "de.el",
+          "review_tags": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "ella",
+          "de": "sie",
+          "en": "she",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "de.ella",
+          "review_tags": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "nosotros",
+          "de": "wir",
+          "en": "we",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "de.nosotros",
+          "review_tags": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "ustedes",
+          "de": "ihr",
+          "en": "you all",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "de.ustedes",
+          "review_tags": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "soy",
+          "de": "bin",
+          "en": "I am",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.soy",
+          "review_tags": [
+            "ser",
+            "identity"
+          ]
+        },
+        {
+          "id": "eres",
+          "de": "bist",
+          "en": "you are informal",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.eres",
+          "review_tags": [
+            "ser",
+            "identity"
+          ]
+        },
+        {
+          "id": "es",
+          "de": "ist",
+          "en": "is / you are formal",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.es",
+          "review_tags": [
+            "ser",
+            "identity"
+          ]
+        },
+        {
+          "id": "son",
+          "de": "sind",
+          "en": "they are / you all are",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.son",
+          "review_tags": [
+            "ser",
+            "identity"
+          ]
+        },
+        {
+          "id": "de",
+          "de": "aus",
+          "en": "from/of",
+          "pos": "preposition",
+          "gender": null,
+          "audio_key": "de.de",
+          "review_tags": [
+            "prepositions"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "pronouns",
+        "ser",
+        "prepositions"
+      ],
+      "examples": [
+        {
+          "de": "Ich komme aus Kanada.",
+          "en": "I am from Canada.",
+          "analysis": "ich = I; komme aus = come from"
+        },
+        {
+          "de": "Woher kommst du?",
+          "en": "Where are you from? informal",
+          "analysis": "woher = from where; kommst du = you come"
+        },
+        {
+          "de": "Sie kommt aus Mexiko.",
+          "en": "She is from Mexico.",
+          "analysis": "sie = she; kommt aus = comes from"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d3-a1",
+          "type": "mcq",
+          "prompt": "Which word means “I”?",
+          "answer": "ich",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "pronouns"
+          ],
+          "difficulty": "core",
+          "options": [
+            "ich",
+            "du",
+            "sie"
+          ]
+        },
+        {
+          "id": "w1d3-a2",
+          "type": "translate",
+          "prompt": "Translate: “I am from Chile.”",
+          "answer": "Ich komme aus Chile.",
+          "hint": "Use komme aus + place.",
+          "feedback": "Das Deutsche verwendet oft 'Ich komme aus + Ort' für Herkunft.",
+          "rationale": "",
+          "review_item_ids": [
+            "soy",
+            "de"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Ich komme aus Chile",
+            "Ich bin aus Chile"
+          ]
+        },
+        {
+          "id": "w1d3-a3",
+          "type": "mcq",
+          "prompt": "Choose the informal singular question:",
+          "answer": "Woher kommst du?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "formality",
+            "eres"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Woher kommen Sie?",
+            "Woher kommst du?",
+            "Woher kommt ihr?"
+          ]
+        },
+        {
+          "id": "w1d3-a4",
+          "type": "cloze",
+          "prompt": "Complete: Sie ___ aus Spanien.",
+          "answer": "kommt",
+          "hint": "",
+          "feedback": "Bei 'sie' (3. Person Singular) heißt das Verb kommt.",
+          "rationale": "",
+          "review_item_ids": [
+            "es"
+          ],
+          "difficulty": "core",
+          "options": [
+            "bin",
+            "bist",
+            "kommt",
+            "sind"
+          ]
+        },
+        {
+          "id": "w1d3-a5",
+          "type": "speak",
+          "prompt": "Answer in German: Woher kommst du?",
+          "answer": "Ich komme aus ____.",
+          "hint": "Use a real or invented country/city.",
+          "feedback": "A complete answer is Ich komme aus + place.",
+          "rationale": "",
+          "review_item_ids": [
+            "soy",
+            "de"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Exchange identity information with a new classmate.",
+      "dialogue": {
+        "title": "Meeting a classmate",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Hallo. Woher kommst du?",
+            "en": "Hi. Where are you from?"
+          },
+          {
+            "speaker": "B",
+            "de": "Ich komme aus Kolumbien. Und du?",
+            "en": "I am from Colombia. And you?"
+          },
+          {
+            "speaker": "A",
+            "de": "Ich komme aus den Vereinigten Staaten. Freut mich.",
+            "en": "I am from the United States. Nice to meet you."
+          }
+        ],
+        "learner_turns": [
+          "Replace both places.",
+          "Repeat without reading the English."
+        ]
+      },
+      "exit_check": [
+        "Identify yo, tú, él, ella, nosotros, and ustedes.",
+        "Say where you are from.",
+        "Ask a familiar person where they are from."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w1-d04",
+      "day": 4,
+      "title": "Nouns Have a Profile",
+      "focus": "Gender, number, and articles",
+      "estimated_minutes": 20,
+      "objectives": [
+        "identify common noun gender cues",
+        "use el/la and un/una with singular nouns",
+        "make regular nouns plural"
+      ],
+      "teaching": {
+        "explanation": "Im Deutschen hat jedes Nomen ein grammatisches Geschlecht: maskulin, feminin oder neutrum (der, die, das). Manche Endungen geben Hinweise, aber es gibt Ausnahmen. Lerne Nomen zusammen mit dem Artikel.",
+        "pattern": "das Buch / die Bücher; das Haus / die Häuser; ein Freund / eine Freundin. Die Bildung des Plurals ist unterschiedlich: -e, -er, -en, -n oder Umlautänderungen sind möglich.",
+        "warning": "Genus ist grammatisch, nicht unbedingt eine Aussage über das reale Objekt. Ausnahmen sollten als Vokabeln gelernt werden."
+      },
+      "vocabulary": [
+        {
+          "id": "libro",
+          "de": "Buch",
+          "en": "book",
+          "pos": "noun",
+          "gender": "n",
+          "audio_key": "de.libro",
+          "review_tags": [
+            "nouns",
+            "school"
+          ]
+        },
+        {
+          "id": "casa",
+          "de": "Haus",
+          "en": "house",
+          "pos": "noun",
+          "gender": "n",
+          "audio_key": "de.casa",
+          "review_tags": [
+            "nouns",
+            "places"
+          ]
+        },
+        {
+          "id": "amigo",
+          "de": "Freund",
+          "en": "friend",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "de.amigo",
+          "review_tags": [
+            "nouns",
+            "people"
+          ]
+        },
+        {
+          "id": "amiga",
+          "de": "Freundin",
+          "en": "female friend",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "de.amiga",
+          "review_tags": [
+            "nouns",
+            "people"
+          ]
+        },
+        {
+          "id": "mapa",
+          "de": "Karte",
+          "en": "map",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "de.mapa",
+          "review_tags": [
+            "nouns",
+            "places"
+          ]
+        },
+        {
+          "id": "mesa",
+          "de": "Tisch",
+          "en": "table",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "de.mesa",
+          "review_tags": [
+            "nouns",
+            "objects"
+          ]
+        },
+        {
+          "id": "el",
+          "de": "der",
+          "en": "the masculine singular",
+          "pos": "article",
+          "gender": "m",
+          "audio_key": "de.el",
+          "review_tags": [
+            "articles"
+          ]
+        },
+        {
+          "id": "la",
+          "de": "die",
+          "en": "the feminine singular",
+          "pos": "article",
+          "gender": "f",
+          "audio_key": "de.la",
+          "review_tags": [
+            "articles"
+          ]
+        },
+        {
+          "id": "los",
+          "de": "die",
+          "en": "the masculine plural",
+          "pos": "article",
+          "gender": "m",
+          "audio_key": "de.los",
+          "review_tags": [
+            "articles"
+          ]
+        },
+        {
+          "id": "las",
+          "de": "die",
+          "en": "the feminine plural",
+          "pos": "article",
+          "gender": "f",
+          "audio_key": "de.las",
+          "review_tags": [
+            "articles"
+          ]
+        },
+        {
+          "id": "un",
+          "de": "ein",
+          "en": "a/an masculine",
+          "pos": "article",
+          "gender": "m",
+          "audio_key": "de.un",
+          "review_tags": [
+            "articles"
+          ]
+        },
+        {
+          "id": "una",
+          "de": "eine",
+          "en": "a/an feminine",
+          "pos": "article",
+          "gender": "f",
+          "audio_key": "de.una",
+          "review_tags": [
+            "articles"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "nouns",
+        "gender",
+        "number",
+        "articles"
+      ],
+      "examples": [
+        {
+          "de": "das Buch",
+          "en": "the book",
+          "analysis": "neuter singular"
+        },
+        {
+          "de": "das Haus",
+          "en": "the house",
+          "analysis": "neuter singular"
+        },
+        {
+          "de": "die Bücher",
+          "en": "the books",
+          "analysis": "plural (Buch → Bücher)"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d4-a1",
+          "type": "mcq",
+          "prompt": "Choose the correct phrase for “the house”:",
+          "answer": "das Haus",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "articles",
+            "casa"
+          ],
+          "difficulty": "core",
+          "options": [
+            "der Haus",
+            "das Haus",
+            "die Haus"
+          ]
+        },
+        {
+          "id": "w1d4-a2",
+          "type": "cloze",
+          "prompt": "Complete: ___ Buch (the book).",
+          "answer": "das",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "articles",
+            "libro"
+          ],
+          "difficulty": "core",
+          "options": [
+            "der",
+            "die",
+            "das",
+            "die"
+          ]
+        },
+        {
+          "id": "w1d4-a3",
+          "type": "translate",
+          "prompt": "Translate: “the books”",
+          "answer": "die Bücher",
+          "hint": "",
+          "feedback": "Buch bildet den Plural häufig mit Umlaut und -er: Buch → Bücher; der bestimmte Artikel im Plural ist die.",
+          "rationale": "",
+          "review_item_ids": [
+            "plural",
+            "libro"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "die Bücher"
+          ]
+        },
+        {
+          "id": "w1d4-a4",
+          "type": "classification",
+          "prompt": "Classify: Häuser",
+          "answer": "plural",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gender",
+            "plural"
+          ],
+          "difficulty": "core",
+          "options": [
+            "masculine singular",
+            "feminine singular",
+            "neuter singular",
+            "plural"
+          ]
+        },
+        {
+          "id": "w1d4-a5",
+          "type": "production",
+          "prompt": "Produce a noun phrase for “a friend” using amigo.",
+          "answer": "ein Freund",
+          "hint": "Use ein with the masculine form or eine with the feminine form.",
+          "feedback": "The article must agree with the noun: ein Freund or eine Freundin.",
+          "rationale": "",
+          "review_item_ids": [
+            "articles",
+            "agreement"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "ein Freund",
+            "eine Freundin"
+          ]
+        }
+      ],
+      "mission": "Identify and describe objects in a simple environment.",
+      "dialogue": {
+        "title": "Labeling a desk",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Was ist das?",
+            "en": "What is it?"
+          },
+          {
+            "speaker": "B",
+            "de": "Das ist ein Buch.",
+            "en": "It is a book."
+          },
+          {
+            "speaker": "A",
+            "de": "Und was sind das?",
+            "en": "And what are they?"
+          },
+          {
+            "speaker": "B",
+            "de": "Das sind die Häuser.",
+            "en": "They are the houses."
+          }
+        ],
+        "learner_turns": [
+          "Point to or imagine three objects and name them with an article.",
+          "Change singular nouns to plural."
+        ]
+      },
+      "exit_check": [
+        "Choose el, la, los, or las for four noun phrases.",
+        "Make libro, casa, amigo, and mapa plural.",
+        "Produce one masculine and one feminine noun phrase."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w1-d05",
+      "day": 5,
+      "title": "Describe a Person",
+      "focus": "Adjectives and agreement",
+      "estimated_minutes": 20,
+      "objectives": [
+        "place a basic adjective after a noun when needed",
+        "match adjective gender and number in common patterns",
+        "say whether someone is a student, friend, or teacher"
+      ],
+      "teaching": {
+        "explanation": "Im Deutschen stehen im Satzzustand (Prädikativ) Adjektive nach dem Verb 'sein' und verändern sich nicht nach Geschlecht: Er ist groß. Sie ist groß. Attributiv vor dem Nomen brauchen Adjektive Endungen, das kommt später.",
+        "pattern": "Er/Sie ist + adjective = He/She/It is + adjective. Sie ist groß. Er ist groß.",
+        "strategy": "Lerne Adjektive als Grundform wie groß/klein oder freundlich/ruhig und benutze im Prädikat die unveränderte Form."
+      },
+      "vocabulary": [
+        {
+          "id": "alto",
+          "de": "groß",
+          "en": "tall masculine",
+          "pos": "adjective",
+          "gender": "m",
+          "audio_key": "de.alto",
+          "review_tags": [
+            "adjectives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "alta",
+          "de": "groß",
+          "en": "tall feminine",
+          "pos": "adjective",
+          "gender": "f",
+          "audio_key": "de.alta",
+          "review_tags": [
+            "adjectives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "simpatico",
+          "de": "freundlich",
+          "en": "friendly masculine",
+          "pos": "adjective",
+          "gender": "m",
+          "audio_key": "de.simpatico",
+          "review_tags": [
+            "adjectives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "simpatica",
+          "de": "freundlich",
+          "en": "friendly feminine",
+          "pos": "adjective",
+          "gender": "f",
+          "audio_key": "de.simpatica",
+          "review_tags": [
+            "adjectives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "tranquilo",
+          "de": "ruhig",
+          "en": "calm masculine",
+          "pos": "adjective",
+          "gender": "m",
+          "audio_key": "de.tranquilo",
+          "review_tags": [
+            "adjectives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "tranquila",
+          "de": "ruhig",
+          "en": "calm feminine",
+          "pos": "adjective",
+          "gender": "f",
+          "audio_key": "de.tranquila",
+          "review_tags": [
+            "adjectives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "estudiante",
+          "de": "Student",
+          "en": "student",
+          "pos": "noun",
+          "gender": null,
+          "audio_key": "de.estudiante",
+          "review_tags": [
+            "people"
+          ]
+        },
+        {
+          "id": "quien",
+          "de": "wer",
+          "en": "who",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.quien",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "y",
+          "de": "und",
+          "en": "and",
+          "pos": "conjunction",
+          "gender": null,
+          "audio_key": "de.y",
+          "review_tags": [
+            "connectors"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "adjectives",
+        "agreement",
+        "ser"
+      ],
+      "examples": [
+        {
+          "de": "Sie ist freundlich.",
+          "en": "She is friendly.",
+          "analysis": "sie + ist + adjective in predicative position"
+        },
+        {
+          "de": "Er ist groß.",
+          "en": "He is tall.",
+          "analysis": "groß unchanged in predicative position"
+        },
+        {
+          "de": "Sie sind Studenten.",
+          "en": "They are students.",
+          "analysis": "student is often used for all genders in this plural form"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d5-a1",
+          "type": "mcq",
+          "prompt": "Choose the adjective meaning 'tall':",
+          "answer": "groß",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "agreement"
+          ],
+          "difficulty": "core",
+          "options": [
+            "groß",
+            "klein",
+            "große"
+          ]
+        },
+        {
+          "id": "w1d5-a2",
+          "type": "translate",
+          "prompt": "Translate: “She is friendly.”",
+          "answer": "Sie ist freundlich.",
+          "hint": "Use sie ist + adjective.",
+          "feedback": "freundlich bleibt in prädikativer Stellung unverändert.",
+          "rationale": "",
+          "review_item_ids": [
+            "ser",
+            "agreement"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Sie ist freundlich",
+            "Ist freundlich"
+          ]
+        },
+        {
+          "id": "w1d5-a3",
+          "type": "cloze",
+          "prompt": "Complete: Freunde ___ (friendly).",
+          "answer": "sind freundlich",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "agreement",
+            "plural"
+          ],
+          "difficulty": "core",
+          "options": [
+            "ist freundlich",
+            "sind freundlich",
+            "freundlich",
+            "freundliche"
+          ]
+        },
+        {
+          "id": "w1d5-a4",
+          "type": "error_correction",
+          "prompt": "Correct the sentence: Sie ist große.",
+          "answer": "Sie ist groß.",
+          "hint": "",
+          "feedback": "Im Prädikat bleibt das Adjektiv ohne Endung: Sie ist groß.",
+          "rationale": "",
+          "review_item_ids": [
+            "agreement"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d5-a5",
+          "type": "speak",
+          "prompt": "Describe a fictional person with two adjectives.",
+          "answer": "Er/Sie ist ____ und ____.",
+          "hint": "Choose matching forms such as groß and freundlich.",
+          "feedback": "Say a complete sentence, not a list of words.",
+          "rationale": "",
+          "review_item_ids": [
+            "ser",
+            "agreement"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Give a short description of a person.",
+      "dialogue": {
+        "title": "Introducing a colleague",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Wer ist sie?",
+            "en": "Who is she?"
+          },
+          {
+            "speaker": "B",
+            "de": "Sie ist meine Freundin. Sie ist freundlich und groß.",
+            "en": "She is my friend. She is friendly and tall."
+          },
+          {
+            "speaker": "A",
+            "de": "Und er?",
+            "en": "And he?"
+          },
+          {
+            "speaker": "B",
+            "de": "Er ist mein Freund. Er ist ruhig.",
+            "en": "He is my friend. He is calm."
+          }
+        ],
+        "learner_turns": [
+          "Change the adjectives and names.",
+          "Say the dialogue as both speakers."
+        ]
+      },
+      "exit_check": [
+        "Match four adjectives to masculine and feminine forms.",
+        "Correct one agreement error.",
+        "Describe one imaginary person with two adjectives."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w1-d06",
+      "day": 6,
+      "title": "Questions and Answers",
+      "focus": "Question words and short answers",
+      "estimated_minutes": 20,
+      "objectives": [
+        "ask who, what, where, and how questions",
+        "distinguish qué from quién and dónde",
+        "answer with a complete phrase rather than a single word"
+      ],
+      "teaching": {
+        "explanation": "Fragewörter im Deutschen sind: was, wer, wo, wie, wann. In Fragen steht das Verb oft an zweiter Stelle: Was ist das? Wer ist das? Wo ist es? Wie geht's?/Wie geht es dir?",
+        "pattern": "Was ist? = What is it? Wer ist? = Who is it? Wo ist? = Where is it? Wie geht's? = How are you?",
+        "note": "Lerne die Fragewörter als Abrufhilfen. Vollständige Verbkonjugation folgt in späteren Einheiten."
+      },
+      "vocabulary": [
+        {
+          "id": "que",
+          "de": "was",
+          "en": "what",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.que",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "quien",
+          "de": "wer",
+          "en": "who",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.quien",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "donde",
+          "de": "wo",
+          "en": "where",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.donde",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "como",
+          "de": "wie",
+          "en": "how",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.como",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "esto",
+          "de": "das",
+          "en": "this",
+          "pos": "demonstrative",
+          "gender": null,
+          "audio_key": "de.esto",
+          "review_tags": [
+            "questions",
+            "objects"
+          ]
+        },
+        {
+          "id": "es",
+          "de": "ist",
+          "en": "is",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "de.es",
+          "review_tags": [
+            "ser"
+          ]
+        },
+        {
+          "id": "quien-es",
+          "de": "Wer ist?",
+          "en": "Who is it?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.quien-es",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "que-es",
+          "de": "Was ist?",
+          "en": "What is it?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "de.que-es",
+          "review_tags": [
+            "questions"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "questions",
+        "ser",
+        "articles"
+      ],
+      "examples": [
+        {
+          "de": "Was ist das?",
+          "en": "What is this?",
+          "analysis": "was = what; das = this"
+        },
+        {
+          "de": "Wer ist?",
+          "en": "Who is it?",
+          "analysis": "wer = who"
+        },
+        {
+          "de": "Wo ist?",
+          "en": "Where is it?",
+          "analysis": "wo = where; ist = is located"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d6-a1",
+          "type": "mcq",
+          "prompt": "Which word means “where”?",
+          "answer": "wo",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "question-words"
+          ],
+          "difficulty": "core",
+          "options": [
+            "was",
+            "wer",
+            "wo",
+            "wie"
+          ]
+        },
+        {
+          "id": "w1d6-a2",
+          "type": "translate",
+          "prompt": "Translate: “Who is she?”",
+          "answer": "Wer ist sie?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "quien",
+            "ser"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Wer ist sie?",
+            "Wer ist sie"
+          ]
+        },
+        {
+          "id": "w1d6-a3",
+          "type": "matching",
+          "prompt": "Match each question word: qué = what; quién = who; dónde = where; cómo = how.",
+          "answer": "was = what; wer = who; wo = where; wie = how.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "question-words"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d6-a4",
+          "type": "ordering",
+          "prompt": "Put in order: ist / Wo / das?",
+          "answer": "Wo ist das?",
+          "hint": "",
+          "feedback": "The natural location question is often 'Wo steht das?'; the exercise accepts the simpler structural form Wo ist das?.",
+          "rationale": "",
+          "review_item_ids": [
+            "question-words"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Wo ist das?"
+          ]
+        },
+        {
+          "id": "w1d6-a5",
+          "type": "speak",
+          "prompt": "Ask and answer: What is this?",
+          "answer": "Was ist das? Das ist ein/eine ____.",
+          "hint": "Point to an imagined object.",
+          "feedback": "Use the question and a full noun phrase in the answer.",
+          "rationale": "",
+          "review_item_ids": [
+            "que",
+            "articles"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Ask for basic information instead of guessing.",
+      "dialogue": {
+        "title": "Question drill",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Was ist das?",
+            "en": "What is this?"
+          },
+          {
+            "speaker": "B",
+            "de": "Das ist eine Karte.",
+            "en": "It is a map."
+          },
+          {
+            "speaker": "A",
+            "de": "Wer ist sie?",
+            "en": "Who is she?"
+          },
+          {
+            "speaker": "B",
+            "de": "Sie ist meine Freundin.",
+            "en": "She is my friend."
+          }
+        ],
+        "learner_turns": [
+          "Replace mapa and amiga with your own words.",
+          "Ask all four question words aloud."
+        ]
+      },
+      "exit_check": [
+        "Retrieve qué, quién, dónde, and cómo.",
+        "Ask two questions and answer them with complete phrases.",
+        "Use both opening and closing question marks."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "de-w1-d07",
+      "day": 7,
+      "title": "Week 1 Field Check",
+      "focus": "Integrated introductions and descriptions",
+      "estimated_minutes": 20,
+      "objectives": [
+        "hold a 60–90 second basic introduction",
+        "understand a short introduction at slow speed",
+        "combine identity, origin, noun phrases, and descriptions"
+      ],
+      "teaching": {
+        "explanation": "Heute ist ein Abruf-Tag. Lies die Woche nicht zuerst noch einmal. Versuche die Aufgaben aus dem Gedächtnis, und wiederhole nur die Elemente, die du nicht abrufen konntest. Ziel ist flexible Kombination, nicht das Auswendiglernen eines Skripts.",
+        "pattern": "Hallo. Ich heiße ____. Ich komme aus ____. Ich bin Student. Mein Freund/Meine Freundin ist ____. Freut mich.",
+        "checkpoint": "You must greet, give a name and origin, ask one question, describe one person, and repair one misunderstanding."
+      },
+      "vocabulary": [
+        {
+          "id": "mi",
+          "de": "mein",
+          "en": "my",
+          "pos": "possessive",
+          "gender": null,
+          "audio_key": "de.mi",
+          "review_tags": [
+            "possessives"
+          ]
+        },
+        {
+          "id": "tu-amigo",
+          "de": "dein Freund",
+          "en": "your friend",
+          "pos": "noun phrase",
+          "gender": "m",
+          "audio_key": "de.tu-amigo",
+          "review_tags": [
+            "identity"
+          ]
+        },
+        {
+          "id": "mi-amiga",
+          "de": "meine Freundin",
+          "en": "my friend",
+          "pos": "noun phrase",
+          "gender": "f",
+          "audio_key": "de.mi-amiga",
+          "review_tags": [
+            "identity"
+          ]
+        },
+        {
+          "id": "estudiante",
+          "de": "Student",
+          "en": "student",
+          "pos": "noun",
+          "gender": null,
+          "audio_key": "de.estudiante",
+          "review_tags": [
+            "identity"
+          ]
+        },
+        {
+          "id": "tambien",
+          "de": "auch",
+          "en": "also",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "de.tambien",
+          "review_tags": [
+            "connectors"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "review",
+        "integration",
+        "mastery"
+      ],
+      "examples": [
+        {
+          "de": "Hallo, ich heiße Carlos. Ich komme aus Peru.",
+          "en": "Hello, my name is Carlos. I am from Peru.",
+          "analysis": "greeting + identity + origin"
+        },
+        {
+          "de": "Meine Freundin ist freundlich.",
+          "en": "My friend is friendly.",
+          "analysis": "possessive mein + feminine noun + adjective"
+        },
+        {
+          "de": "Kannst du das wiederholen, bitte?",
+          "en": "Can you repeat, please?",
+          "analysis": "repair strategy"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d7-a1",
+          "type": "retrieval",
+          "prompt": "Without hints, write the German for “My name is …” and “I am from …”.",
+          "answer": "Ich heiße ____. Ich komme aus ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "me-llamo",
+            "soy",
+            "de"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d7-a2",
+          "type": "translation_chain",
+          "prompt": "Translate and then say: “Hello. I am from Mexico. Nice to meet you.”",
+          "answer": "Hallo. Ich komme aus Mexiko. Freut mich.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "hola",
+            "soy",
+            "mucho-gusto"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d7-a3",
+          "type": "listening_comprehension",
+          "prompt": "After hearing a short introduction, identify the speaker’s name and country.",
+          "answer": "name_and_country_from_audio",
+          "hint": "",
+          "feedback": "The app should generate or select a slow audio clip using Week 1 vocabulary.",
+          "rationale": "",
+          "review_item_ids": [
+            "identity",
+            "origin"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d7-a4",
+          "type": "error_correction",
+          "prompt": "Correct: Meine Freundin ist freundlich.",
+          "answer": "Meine Freundin ist freundlich.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "agreement"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d7-a5",
+          "type": "roleplay",
+          "prompt": "Complete the field check with a simulated partner.",
+          "answer": "Hallo. Ich heiße ____. Ich komme aus ____. Wie heißt du? Freut mich.",
+          "hint": "",
+          "feedback": "Pass when you complete the exchange, ask one follow-up, and use one repair phrase if needed.",
+          "rationale": "",
+          "review_item_ids": [
+            "greetings",
+            "identity",
+            "questions",
+            "repair"
+          ],
+          "difficulty": "checkpoint"
+        }
+      ],
+      "mission": "Complete a first-contact conversation using the entire Week 1 toolkit.",
+      "dialogue": {
+        "title": "First meeting checkpoint",
+        "lines": [
+          {
+            "speaker": "A",
+            "de": "Hallo. Ich heiße Ana. Ich komme aus Mexiko. Wie heißt du?",
+            "en": "Hello. My name is Ana. I am from Mexico. What is your name?"
+          },
+          {
+            "speaker": "B",
+            "de": "Ich heiße ____. Ich komme aus ____. Freut mich.",
+            "en": "My name is ____. I am from ____. Nice to meet you."
+          },
+          {
+            "speaker": "A",
+            "de": "Wer ist dein Freund?",
+            "en": "Who is your friend?"
+          },
+          {
+            "speaker": "B",
+            "de": "Das ist mein Freund / Das ist meine Freundin. Er/Sie ist freundlich.",
+            "en": "He/she is my friend. He/she is friendly."
+          }
+        ],
+        "learner_turns": [
+          "Perform the dialogue without looking at the English.",
+          "Repeat with formal Sie language."
+        ]
+      },
+      "exit_check": [
+        "Complete the introduction from memory.",
+        "Understand the core meaning of a short introduction.",
+        "Pass the roleplay with at least 80% accuracy and one spontaneous substitution."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    }
+  ]
+}

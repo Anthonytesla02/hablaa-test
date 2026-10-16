@@ -1,0 +1,1887 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "russian-foundations-a0-a1",
+  "week": 1,
+  "title": "Foundations: First Contact",
+  "lessons": [
+    {
+      "id": "ru-w1-d01",
+      "day": 1,
+      "title": "First Contact",
+      "focus": "Greetings, names, and courtesy",
+      "estimated_minutes": 20,
+      "objectives": [
+        "greet someone formally and informally",
+        "say your name and ask another person’s name",
+        "recognize tú and usted as different levels of formality"
+      ],
+      "teaching": {
+        "explanation": "Русские приветствия — короткие готовые фразы. Учите их как целые единицы: «Привет» часто используется в неформальной обстановке, «Здравствуйте» — формально или вежливо. Доброе утро / Добрый день / Добрый вечер соответствуют времени суток. Ты — неофициальное «you», вы — вежливое/формальное «you».",
+        "pattern": "Меня зовут + имя = My name is + name. Как тебя зовут? = What is your name? (informal) Как вас зовут? = What is your name? (formal)",
+        "culture_note": "Употребляйте «вы», чтобы показать уважение или если вы не уверены в социальном статусе; «ты» обычно с ровесниками, друзьями и в неформальной атмосфере."
+      },
+      "vocabulary": [
+        {
+          "id": "hola",
+          "ru": "привет",
+          "en": "hello",
+          "pos": "interjection",
+          "gender": null,
+          "audio_key": "ru.hola",
+          "review_tags": [
+            "greetings"
+          ]
+        },
+        {
+          "id": "buenos-dias",
+          "ru": "доброе утро",
+          "en": "good morning",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "ru.buenos-dias",
+          "review_tags": [
+            "greetings",
+            "time"
+          ]
+        },
+        {
+          "id": "buenas-tardes",
+          "ru": "добрый день",
+          "en": "good afternoon",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "ru.buenas-tardes",
+          "review_tags": [
+            "greetings",
+            "time"
+          ]
+        },
+        {
+          "id": "buenas-noches",
+          "ru": "добрый вечер",
+          "en": "good evening/night",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "ru.buenas-noches",
+          "review_tags": [
+            "greetings",
+            "time"
+          ]
+        },
+        {
+          "id": "adios",
+          "ru": "до свидания",
+          "en": "goodbye",
+          "pos": "interjection",
+          "gender": null,
+          "audio_key": "ru.adios",
+          "review_tags": [
+            "greetings"
+          ]
+        },
+        {
+          "id": "hasta-luego",
+          "ru": "до скорого",
+          "en": "see you later",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "ru.hasta-luego",
+          "review_tags": [
+            "greetings"
+          ]
+        },
+        {
+          "id": "me-llamo",
+          "ru": "меня зовут",
+          "en": "my name is",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "ru.me-llamo",
+          "review_tags": [
+            "identity"
+          ]
+        },
+        {
+          "id": "como-te-llamas",
+          "ru": "Как тебя зовут?",
+          "en": "What is your name? informal",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "ru.como-te-llamas",
+          "review_tags": [
+            "identity"
+          ]
+        },
+        {
+          "id": "mucho-gusto",
+          "ru": "Очень приятно",
+          "en": "nice to meet you",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "ru.mucho-gusto",
+          "review_tags": [
+            "courtesy"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "chunks",
+        "formality"
+      ],
+      "examples": [
+        {
+          "ru": "Привет, меня зовут Анна.",
+          "en": "Hello, my name is Ana.",
+          "analysis": "привет = hello; меня зовут = my name is"
+        },
+        {
+          "ru": "Как тебя зовут?",
+          "en": "What is your name?",
+          "analysis": "как = how/what; тебя зовут = you are called (familiar)"
+        },
+        {
+          "ru": "Очень приятно.",
+          "en": "Nice to meet you.",
+          "analysis": "a fixed courtesy phrase"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d1-a1",
+          "type": "listen_select",
+          "prompt": "Choose the phrase you hear: “Good morning.”",
+          "answer": "Доброе утро.",
+          "hint": "",
+          "feedback": "«Доброе утро» means good morning. The common afternoon phrase is «Добрый день».",
+          "rationale": "Time-of-day greetings are memorized chunks.",
+          "review_item_ids": [
+            "buenos-dias"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Добрый вечер.",
+            "Доброе утро.",
+            "До скорого."
+          ]
+        },
+        {
+          "id": "w1d1-a2",
+          "type": "translate",
+          "prompt": "Translate: “My name is Luis.”",
+          "answer": "Меня зовут Луис.",
+          "hint": "Use the fixed pattern Меня зовут + name.",
+          "feedback": "Меня зовут literally means “they call me,” but the natural translation is “my name is.”",
+          "rationale": "",
+          "review_item_ids": [
+            "me-llamo"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Меня зовут Луис",
+            "Меня зовут луис"
+          ]
+        },
+        {
+          "id": "w1d1-a3",
+          "type": "mcq",
+          "prompt": "Which question asks a friend their name?",
+          "answer": "Как тебя зовут?",
+          "hint": "",
+          "feedback": "«тебя» marks the familiar/ informal form (ты).",
+          "rationale": "",
+          "review_item_ids": [
+            "como-te-llamas"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Как вас зовут?",
+            "Как тебя зовут?",
+            "Откуда вы?"
+          ]
+        },
+        {
+          "id": "w1d1-a4",
+          "type": "ordering",
+          "prompt": "Put the words in order: зовут / Меня / София",
+          "answer": "Меня зовут София.",
+          "hint": "",
+          "feedback": "The fixed chunk is Меня зовут + name.",
+          "rationale": "",
+          "review_item_ids": [
+            "me-llamo",
+            "name"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d1-a5",
+          "type": "speak",
+          "prompt": "Say a greeting, your name, and Mucho gusto.",
+          "answer": "Привет. Меня зовут ____. Очень приятно.",
+          "hint": "Speak the full three-part introduction aloud.",
+          "feedback": "A successful introduction contains a greeting, name, and courtesy phrase.",
+          "rationale": "",
+          "review_item_ids": [
+            "hola",
+            "me-llamo",
+            "mucho-gusto"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Привет. Меня зовут ____. Очень приятно."
+          ]
+        }
+      ],
+      "mission": "Introduce yourself to a new contact and close the conversation politely.",
+      "dialogue": {
+        "title": "At the registration desk",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Привет, меня зовут Марта. Как тебя зовут?",
+            "en": "Hello, my name is Marta. What is your name?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Меня зовут Диего. Очень приятно.",
+            "en": "My name is Diego. Nice to meet you."
+          },
+          {
+            "speaker": "A",
+            "ru": "Очень приятно. До скорого.",
+            "en": "Nice to meet you. See you later."
+          }
+        ],
+        "learner_turns": [
+          "Replace Marta and Diego with your own name and a fictional partner.",
+          "Repeat the exchange once using formal вы: Как вас зовут?"
+        ]
+      },
+      "exit_check": [
+        "Say “Hello, my name is …” from memory.",
+        "Choose the familiar name question.",
+        "Say “Nice to meet you” and “See you later.”"
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "ru-w1-d02",
+      "day": 2,
+      "title": "The Sound System",
+      "focus": "Vowels, stress, and classroom repair",
+      "estimated_minutes": 20,
+      "objectives": [
+        "pronounce the five Spanish vowels consistently",
+        "ask someone to repeat or slow down",
+        "use gracias and por favor in a request"
+      ],
+      "teaching": {
+        "explanation": "В русском языке гласные стабильны, но их больше, чем в испанском. На начальном уровне сосредоточьтесь на ясном произношении основных гласных: а, е, и, о, у. Если вы не поняли, используйте фразы для прояснения.",
+        "pattern": "Повторите, пожалуйста? = Can you repeat? Помедленнее, пожалуйста. = More slowly, please. Я не понимаю. = I do not understand.",
+        "memory_tip": "Свяжите каждый звук с жестом или образом и произносите звук перед тем, как смотреть на написанное слово."
+      },
+      "vocabulary": [
+        {
+          "id": "vowels",
+          "ru": "а е и о у",
+          "en": "Spanish vowels",
+          "pos": "pronunciation",
+          "gender": null,
+          "audio_key": "ru.vowels",
+          "review_tags": [
+            "pronunciation"
+          ]
+        },
+        {
+          "id": "por-favor",
+          "ru": "пожалуйста",
+          "en": "please",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "ru.por-favor",
+          "review_tags": [
+            "courtesy"
+          ]
+        },
+        {
+          "id": "gracias",
+          "ru": "спасибо",
+          "en": "thank you",
+          "pos": "noun/phrase",
+          "gender": "f",
+          "audio_key": "ru.gracias",
+          "review_tags": [
+            "courtesy"
+          ]
+        },
+        {
+          "id": "de-nuevo",
+          "ru": "снова",
+          "en": "again",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "ru.de-nuevo",
+          "review_tags": [
+            "repair"
+          ]
+        },
+        {
+          "id": "repite",
+          "ru": "повторите",
+          "en": "repeat",
+          "pos": "verb command",
+          "gender": null,
+          "audio_key": "ru.repite",
+          "review_tags": [
+            "repair"
+          ]
+        },
+        {
+          "id": "puedes-repetir",
+          "ru": "Повторите, пожалуйста?",
+          "en": "Can you repeat?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "ru.puedes-repetir",
+          "review_tags": [
+            "repair"
+          ]
+        },
+        {
+          "id": "mas-despacio",
+          "ru": "помедленнее",
+          "en": "more slowly",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "ru.mas-despacio",
+          "review_tags": [
+            "repair"
+          ]
+        },
+        {
+          "id": "no-entiendo",
+          "ru": "Я не понимаю",
+          "en": "I do not understand",
+          "pos": "sentence",
+          "gender": null,
+          "audio_key": "ru.no-entiendo",
+          "review_tags": [
+            "repair"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "pronunciation",
+        "repair"
+      ],
+      "examples": [
+        {
+          "ru": "Повторите, пожалуйста?",
+          "en": "Can you repeat?",
+          "analysis": "повторите = repeat; пожалуйста = please"
+        },
+        {
+          "ru": "Помедленнее, пожалуйста.",
+          "en": "More slowly, please.",
+          "analysis": "помедленнее = more slowly; пожалуйста = please"
+        },
+        {
+          "ru": "Спасибо.",
+          "en": "Thank you.",
+          "analysis": "courtesy word"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d2-a1",
+          "type": "listen_select",
+          "prompt": "Choose the word with the /i/ vowel:",
+          "answer": "мир",
+          "hint": "",
+          "feedback": "«мир» has the clear /i/ sound.",
+          "rationale": "",
+          "review_item_ids": [
+            "vowels"
+          ],
+          "difficulty": "core",
+          "options": [
+            "мир",
+            "дом",
+            "стол"
+          ]
+        },
+        {
+          "id": "w1d2-a2",
+          "type": "translate",
+          "prompt": "Translate: “Please repeat.”",
+          "answer": "Повторите, пожалуйста.",
+          "hint": "Use the command chunk повторите plus пожалуйста.",
+          "feedback": "Повторите is the practical classroom command “repeat.”",
+          "rationale": "",
+          "review_item_ids": [
+            "repeat"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Повторите пожалуйста",
+            "Повторите, пожалуйста"
+          ]
+        },
+        {
+          "id": "w1d2-a3",
+          "type": "mcq",
+          "prompt": "You did not understand. What should you say?",
+          "answer": "Я не понимаю.",
+          "hint": "",
+          "feedback": "Я не понимаю means “I do not understand.”",
+          "rationale": "",
+          "review_item_ids": [
+            "no-entiendo"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Я не говорю.",
+            "Я не понимаю.",
+            "Нет, спасибо."
+          ]
+        },
+        {
+          "id": "w1d2-a4",
+          "type": "matching",
+          "prompt": "Match the repair phrase to its meaning.",
+          "answer": "Повторите, пожалуйста? = Can you repeat?; Помедленнее = More slowly; Спасибо = Thank you.",
+          "hint": "",
+          "feedback": "These phrases keep a conversation moving even with limited grammar.",
+          "rationale": "",
+          "review_item_ids": [
+            "repeat",
+            "slowly",
+            "thanks"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d2-a5",
+          "type": "speak",
+          "prompt": "Ask a partner to repeat more slowly and thank them.",
+          "answer": "Повторите, пожалуйста. Помедленнее, пожалуйста. Спасибо.",
+          "hint": "",
+          "feedback": "Use the whole repair sequence aloud.",
+          "rationale": "",
+          "review_item_ids": [
+            "repeat",
+            "slowly",
+            "thanks"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Keep a conversation alive when you miss a sound or word.",
+      "dialogue": {
+        "title": "Repairing a missed word",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Как тебя зовут?",
+            "en": "What is your name?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Я не понимаю. Повторите, пожалуйста?",
+            "en": "I do not understand. Can you repeat?"
+          },
+          {
+            "speaker": "A",
+            "ru": "Как тебя зовут?",
+            "en": "What is your name?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Меня зовут Елена.",
+            "en": "My name is Elena."
+          }
+        ],
+        "learner_turns": [
+          "Read B aloud without looking at the English.",
+          "Change Elena to your name."
+        ]
+      },
+      "exit_check": [
+        "Say all five vowels aloud twice.",
+        "Retrieve the phrase for “I do not understand.”",
+        "Ask for repetition and slower speech."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "ru-w1-d03",
+      "day": 3,
+      "title": "People and Pronouns",
+      "focus": "Subject pronouns and identity",
+      "estimated_minutes": 20,
+      "objectives": [
+        "recognize the main subject pronouns",
+        "use soy and eres in short identity sentences",
+        "ask and answer where someone is from"
+      ],
+      "teaching": {
+        "explanation": "В русском языке местоимения часто используются, но глагольные формы и порядок слов важны. Для начинающих полезно видеть местоимения: я, ты, вы, он, она, мы.",
+        "pattern": "Я = I am. Ты есть / Ты = you are (informal). Он/Она = he/she is. Мы = we are. Вы = you (formal or plural) are.",
+        "contrast": "Не переводите английское «you are» как одну форму: в русском есть ты (неформально), вы (вежливо или множественно)."
+      },
+      "vocabulary": [
+        {
+          "id": "yo",
+          "ru": "я",
+          "en": "I",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "ru.yo",
+          "review_tags": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "tu",
+          "ru": "ты",
+          "en": "you informal singular",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "ru.tu",
+          "review_tags": [
+            "pronouns",
+            "formality"
+          ]
+        },
+        {
+          "id": "usted",
+          "ru": "вы",
+          "en": "you formal singular",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "ru.usted",
+          "review_tags": [
+            "pronouns",
+            "formality"
+          ]
+        },
+        {
+          "id": "el",
+          "ru": "он",
+          "en": "he",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "ru.el",
+          "review_tags": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "ella",
+          "ru": "она",
+          "en": "she",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "ru.ella",
+          "review_tags": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "nosotros",
+          "ru": "мы",
+          "en": "we",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "ru.nosotros",
+          "review_tags": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "ustedes",
+          "ru": "вы",
+          "en": "you all",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "ru.ustedes",
+          "review_tags": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "soy",
+          "ru": "я из",
+          "en": "I am",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.soy",
+          "review_tags": [
+            "ser",
+            "identity"
+          ]
+        },
+        {
+          "id": "eres",
+          "ru": "ты из",
+          "en": "you are informal",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.eres",
+          "review_tags": [
+            "ser",
+            "identity"
+          ]
+        },
+        {
+          "id": "es",
+          "ru": "есть / (есть omitted)",
+          "en": "is / you are formal",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.es",
+          "review_tags": [
+            "ser",
+            "identity"
+          ]
+        },
+        {
+          "id": "son",
+          "ru": "они / вы (мн.)",
+          "en": "they are / you all are",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.son",
+          "review_tags": [
+            "ser",
+            "identity"
+          ]
+        },
+        {
+          "id": "de",
+          "ru": "из",
+          "en": "from/of",
+          "pos": "preposition",
+          "gender": null,
+          "audio_key": "ru.de",
+          "review_tags": [
+            "prepositions"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "pronouns",
+        "ser",
+        "prepositions"
+      ],
+      "examples": [
+        {
+          "ru": "Я из Канады.",
+          "en": "I am from Canada.",
+          "analysis": "я = I; из = from/of"
+        },
+        {
+          "ru": "Откуда ты?",
+          "en": "Where are you from? informal",
+          "analysis": "откуда = from where; ты"
+        },
+        {
+          "ru": "Она из Мексики.",
+          "en": "She is from Mexico.",
+          "analysis": "она = she"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d3-a1",
+          "type": "mcq",
+          "prompt": "Which word means “I”?",
+          "answer": "я",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "pronouns"
+          ],
+          "difficulty": "core",
+          "options": [
+            "я",
+            "ты",
+            "они"
+          ]
+        },
+        {
+          "id": "w1d3-a2",
+          "type": "translate",
+          "prompt": "Translate: “I am from Chile.”",
+          "answer": "Я из Чили.",
+          "hint": "Use Я из + place.",
+          "feedback": "Russian often omits a present-tense verb 'to be', so Я из Чили is natural.",
+          "rationale": "",
+          "review_item_ids": [
+            "soy",
+            "de"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Я из Чили",
+            "Я из чили"
+          ]
+        },
+        {
+          "id": "w1d3-a3",
+          "type": "mcq",
+          "prompt": "Choose the informal singular question:",
+          "answer": "Откуда ты?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "formality",
+            "eres"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Откуда вы?",
+            "Откуда ты?",
+            "Откуда вы (мн.)?"
+          ]
+        },
+        {
+          "id": "w1d3-a4",
+          "type": "cloze",
+          "prompt": "Complete: Она ___ из Испании.",
+          "answer": "из",
+          "hint": "",
+          "feedback": "Она takes the third-person form and uses предлог из for origin.",
+          "rationale": "",
+          "review_item_ids": [
+            "es"
+          ],
+          "difficulty": "core",
+          "options": [
+            "я",
+            "ты",
+            "из",
+            "мы"
+          ]
+        },
+        {
+          "id": "w1d3-a5",
+          "type": "speak",
+          "prompt": "Answer in Russian: Откуда ты?",
+          "answer": "Я из ____.",
+          "hint": "Use a real or invented country/city.",
+          "feedback": "A complete answer is Я из + place.",
+          "rationale": "",
+          "review_item_ids": [
+            "soy",
+            "de"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Exchange identity information with a new classmate.",
+      "dialogue": {
+        "title": "Meeting a classmate",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Привет. Откуда ты?",
+            "en": "Hi. Where are you from?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Я из Колумбии. А ты?",
+            "en": "I am from Colombia. And you?"
+          },
+          {
+            "speaker": "A",
+            "ru": "Я из Соединённых Штатов. Очень приятно.",
+            "en": "I am from the United States. Nice to meet you."
+          }
+        ],
+        "learner_turns": [
+          "Replace both places.",
+          "Repeat without reading the English."
+        ]
+      },
+      "exit_check": [
+        "Identify yo, tú, él, ella, nosotros, and ustedes.",
+        "Say where you are from.",
+        "Ask a familiar person where they are from."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "ru-w1-d04",
+      "day": 4,
+      "title": "Nouns Have a Profile",
+      "focus": "Gender, number, and articles",
+      "estimated_minutes": 20,
+      "objectives": [
+        "identify common noun gender cues",
+        "use el/la and un/una with singular nouns",
+        "make regular nouns plural"
+      ],
+      "teaching": {
+        "explanation": "В русском языке тоже есть грамматический род: большинство слов с окончанием -а — женского рода, многие с согласной в конце — мужского. В русском нет артиклей; вместо этого обращайте внимание на окончания и согласование прилагательных.",
+        "pattern": "книга / книги; дом / дома; друг / друзья. Для образования множественного числа часто добавляется -ы/-и или меняется окончание по шаблону.",
+        "warning": "Род слова — грамматическая характеристика. Есть исключения, которые нужно запомнить."
+      },
+      "vocabulary": [
+        {
+          "id": "libro",
+          "ru": "книга",
+          "en": "book",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "ru.libro",
+          "review_tags": [
+            "nouns",
+            "school"
+          ]
+        },
+        {
+          "id": "casa",
+          "ru": "дом",
+          "en": "house",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "ru.casa",
+          "review_tags": [
+            "nouns",
+            "places"
+          ]
+        },
+        {
+          "id": "amigo",
+          "ru": "друг",
+          "en": "friend",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "ru.amigo",
+          "review_tags": [
+            "nouns",
+            "people"
+          ]
+        },
+        {
+          "id": "amiga",
+          "ru": "подруга",
+          "en": "female friend",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "ru.amiga",
+          "review_tags": [
+            "nouns",
+            "people"
+          ]
+        },
+        {
+          "id": "mapa",
+          "ru": "карта",
+          "en": "map",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "ru.mapa",
+          "review_tags": [
+            "nouns",
+            "places"
+          ]
+        },
+        {
+          "id": "mesa",
+          "ru": "стол",
+          "en": "table",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "ru.mesa",
+          "review_tags": [
+            "nouns",
+            "objects"
+          ]
+        },
+        {
+          "id": "el",
+          "ru": "нет артикля",
+          "en": "the masculine singular",
+          "pos": "article",
+          "gender": "m",
+          "audio_key": "ru.el",
+          "review_tags": [
+            "articles"
+          ]
+        },
+        {
+          "id": "la",
+          "ru": "нет артикля",
+          "en": "the feminine singular",
+          "pos": "article",
+          "gender": "f",
+          "audio_key": "ru.la",
+          "review_tags": [
+            "articles"
+          ]
+        },
+        {
+          "id": "los",
+          "ru": "нет артикля",
+          "en": "the masculine plural",
+          "pos": "article",
+          "gender": "m",
+          "audio_key": "ru.los",
+          "review_tags": [
+            "articles"
+          ]
+        },
+        {
+          "id": "las",
+          "ru": "нет артикля",
+          "en": "the feminine plural",
+          "pos": "article",
+          "gender": "f",
+          "audio_key": "ru.las",
+          "review_tags": [
+            "articles"
+          ]
+        },
+        {
+          "id": "un",
+          "ru": "нет артикля",
+          "en": "a/an masculine",
+          "pos": "article",
+          "gender": "m",
+          "audio_key": "ru.un",
+          "review_tags": [
+            "articles"
+          ]
+        },
+        {
+          "id": "una",
+          "ru": "нет артикля",
+          "en": "a/an feminine",
+          "pos": "article",
+          "gender": "f",
+          "audio_key": "ru.una",
+          "review_tags": [
+            "articles"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "nouns",
+        "gender",
+        "number",
+        "articles"
+      ],
+      "examples": [
+        {
+          "ru": "книга",
+          "en": "the book",
+          "analysis": "feminine singular (Russian has no article)"
+        },
+        {
+          "ru": "дом",
+          "en": "the house",
+          "analysis": "masculine singular"
+        },
+        {
+          "ru": "книги",
+          "en": "the books",
+          "analysis": "feminine plural"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d4-a1",
+          "type": "mcq",
+          "prompt": "Choose the correct phrase for “the house”:",
+          "answer": "дом",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "articles",
+            "casa"
+          ],
+          "difficulty": "core",
+          "options": [
+            "книга",
+            "дом",
+            "дома"
+          ]
+        },
+        {
+          "id": "w1d4-a2",
+          "type": "cloze",
+          "prompt": "Complete: ___ книга (the book).",
+          "answer": "—",
+          "hint": "",
+          "feedback": "In Russian there is no article; use the noun alone.",
+          "rationale": "",
+          "review_item_ids": [
+            "articles",
+            "libro"
+          ],
+          "difficulty": "core",
+          "options": [
+            "—",
+            "la",
+            "los",
+            "las"
+          ]
+        },
+        {
+          "id": "w1d4-a3",
+          "type": "translate",
+          "prompt": "Translate: “the books”",
+          "answer": "книги",
+          "hint": "",
+          "feedback": "Книга -> книги in plural for many regular patterns.",
+          "rationale": "",
+          "review_item_ids": [
+            "plural",
+            "libro"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "книги"
+          ]
+        },
+        {
+          "id": "w1d4-a4",
+          "type": "classification",
+          "prompt": "Classify: casas",
+          "answer": "feminine plural",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gender",
+            "plural"
+          ],
+          "difficulty": "core",
+          "options": [
+            "masculine singular",
+            "feminine singular",
+            "masculine plural",
+            "feminine plural"
+          ]
+        },
+        {
+          "id": "w1d4-a5",
+          "type": "production",
+          "prompt": "Produce a noun phrase for “a friend” using amigo.",
+          "answer": "друг",
+          "hint": "Use the appropriate Russian noun form for a friend (друг / подруга).",
+          "feedback": "Russian does not use an article; choose the correct gender form: друг or подруга.",
+          "rationale": "",
+          "review_item_ids": [
+            "articles",
+            "agreement"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "друг",
+            "подруга"
+          ]
+        }
+      ],
+      "mission": "Identify and describe objects in a simple environment.",
+      "dialogue": {
+        "title": "Labeling a desk",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Что это?",
+            "en": "What is it?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Это книга.",
+            "en": "It is a book."
+          },
+          {
+            "speaker": "A",
+            "ru": "А что это?",
+            "en": "And what are they?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Это дома.",
+            "en": "They are the houses."
+          }
+        ],
+        "learner_turns": [
+          "Point to or imagine three objects and name them with an article.",
+          "Change singular nouns to plural."
+        ]
+      },
+      "exit_check": [
+        "Choose el, la, los, or las for four noun phrases.",
+        "Make libro, casa, amigo, and mapa plural.",
+        "Produce one masculine and one feminine noun phrase."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "ru-w1-d05",
+      "day": 5,
+      "title": "Describe a Person",
+      "focus": "Adjectives and agreement",
+      "estimated_minutes": 20,
+      "objectives": [
+        "place a basic adjective after a noun when needed",
+        "match adjective gender and number in common patterns",
+        "say whether someone is a student, friend, or teacher"
+      ],
+      "teaching": {
+        "explanation": "В русском прилагательные обычно стоят перед существительным и согласуются с ним в роде и числе. Часто встречается пара окончаний -ый/-ая и множественное -ые/-ые: добрый друг / добрая подруга / добрые друзья.",
+        "pattern": "Он/Она + adjective = He/She is + adjective. Она высокая. Он высокий.",
+        "strategy": "Учите прилагательные в парах: высокий/высокая, дружелюбный/дружелюбная и т.д., чтобы сразу знать форму для обоих родов."
+      },
+      "vocabulary": [
+        {
+          "id": "alto",
+          "ru": "высокий",
+          "en": "tall masculine",
+          "pos": "adjective",
+          "gender": "m",
+          "audio_key": "ru.alto",
+          "review_tags": [
+            "adjectives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "alta",
+          "ru": "высокая",
+          "en": "tall feminine",
+          "pos": "adjective",
+          "gender": "f",
+          "audio_key": "ru.alta",
+          "review_tags": [
+            "adjectives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "simpatico",
+          "ru": "дружелюбный",
+          "en": "friendly masculine",
+          "pos": "adjective",
+          "gender": "m",
+          "audio_key": "ru.simpatico",
+          "review_tags": [
+            "adjectives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "simpatica",
+          "ru": "дружелюбная",
+          "en": "friendly feminine",
+          "pos": "adjective",
+          "gender": "f",
+          "audio_key": "ru.simpatica",
+          "review_tags": [
+            "adjectives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "tranquilo",
+          "ru": "спокойный",
+          "en": "calm masculine",
+          "pos": "adjective",
+          "gender": "m",
+          "audio_key": "ru.tranquilo",
+          "review_tags": [
+            "adjectives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "tranquila",
+          "ru": "спокойная",
+          "en": "calm feminine",
+          "pos": "adjective",
+          "gender": "f",
+          "audio_key": "ru.tranquila",
+          "review_tags": [
+            "adjectives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "estudiante",
+          "ru": "студент / студентка",
+          "en": "student",
+          "pos": "noun",
+          "gender": null,
+          "audio_key": "ru.estudiante",
+          "review_tags": [
+            "people"
+          ]
+        },
+        {
+          "id": "quien",
+          "ru": "кто",
+          "en": "who",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "ru.quien",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "y",
+          "ru": "и",
+          "en": "and",
+          "pos": "conjunction",
+          "gender": null,
+          "audio_key": "ru.y",
+          "review_tags": [
+            "connectors"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "adjectives",
+        "agreement",
+        "ser"
+      ],
+      "examples": [
+        {
+          "ru": "Она дружелюбная.",
+          "en": "She is friendly.",
+          "analysis": "она + feminine adjective"
+        },
+        {
+          "ru": "Он высокий.",
+          "en": "He is tall.",
+          "analysis": "высокий matches masculine он"
+        },
+        {
+          "ru": "Они студенты.",
+          "en": "They are students.",
+          "analysis": "student forms vary by gender in singular; plural often used generally"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d5-a1",
+          "type": "mcq",
+          "prompt": "Choose the feminine form:",
+          "answer": "высокая",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "agreement"
+          ],
+          "difficulty": "core",
+          "options": [
+            "высокий",
+            "высокая",
+            "высокие"
+          ]
+        },
+        {
+          "id": "w1d5-a2",
+          "type": "translate",
+          "prompt": "Translate: “She is friendly.”",
+          "answer": "Она дружелюбная.",
+          "hint": "Use она + feminine adjective.",
+          "feedback": "Дружелюбная ends in -ая because it describes a feminine singular person.",
+          "rationale": "",
+          "review_item_ids": [
+            "ser",
+            "agreement"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Она дружелюбная",
+            "Дружелюбная"
+          ]
+        },
+        {
+          "id": "w1d5-a3",
+          "type": "cloze",
+          "prompt": "Complete: друзья ___ (friendly).",
+          "answer": "дружелюбные",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "agreement",
+            "plural"
+          ],
+          "difficulty": "core",
+          "options": [
+            "дружелюбный",
+            "дружелюбная",
+            "дружелюбные",
+            "дружелюбных"
+          ]
+        },
+        {
+          "id": "w1d5-a4",
+          "type": "error_correction",
+          "prompt": "Correct the sentence: Она высокий.",
+          "answer": "Она высокая.",
+          "hint": "",
+          "feedback": "Она requires the feminine adjective высокая in this regular pattern.",
+          "rationale": "",
+          "review_item_ids": [
+            "agreement"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d5-a5",
+          "type": "speak",
+          "prompt": "Describe a fictional person with two adjectives.",
+          "answer": "Он/Она ____ и ____.",
+          "hint": "Choose matching forms such as высокий/высокая and дружелюбный/дружелюбная.",
+          "feedback": "Say a complete sentence, not a list of words.",
+          "rationale": "",
+          "review_item_ids": [
+            "ser",
+            "agreement"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Give a short description of a person.",
+      "dialogue": {
+        "title": "Introducing a colleague",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Кто она?",
+            "en": "Who is she?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Это моя подруга. Она дружелюбная и высокая.",
+            "en": "She is my friend. She is friendly and tall."
+          },
+          {
+            "speaker": "A",
+            "ru": "А он?",
+            "en": "And he?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Это мой друг. Он спокойный.",
+            "en": "He is my friend. He is calm."
+          }
+        ],
+        "learner_turns": [
+          "Change the adjectives and names.",
+          "Say the dialogue as both speakers."
+        ]
+      },
+      "exit_check": [
+        "Match four adjectives to masculine and feminine forms.",
+        "Correct one agreement error.",
+        "Describe one imaginary person with two adjectives."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "ru-w1-d06",
+      "day": 6,
+      "title": "Questions and Answers",
+      "focus": "Question words and short answers",
+      "estimated_minutes": 20,
+      "objectives": [
+        "ask who, what, where, and how questions",
+        "distinguish qué from quién and dónde",
+        "answer with a complete phrase rather than a single word"
+      ],
+      "teaching": {
+        "explanation": "Вопросительные слова в русском: что, кто, где, как, когда. При прямом вопросе интонация и порядок слов важны: Что это? Кто это?",
+        "pattern": "Что это? = What is it? Кто это? = Who is it? Где это? = Where is it? Как дела? = How are you?",
+        "note": "На этом уровне учите вопросительные слова как маркеры извлечения информации. Полные глагольные формы появятся позже."
+      },
+      "vocabulary": [
+        {
+          "id": "que",
+          "ru": "что",
+          "en": "what",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "ru.que",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "quien",
+          "ru": "кто",
+          "en": "who",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "ru.quien",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "donde",
+          "ru": "где",
+          "en": "where",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "ru.donde",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "como",
+          "ru": "как",
+          "en": "how",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "ru.como",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "esto",
+          "ru": "это",
+          "en": "this",
+          "pos": "demonstrative",
+          "gender": null,
+          "audio_key": "ru.esto",
+          "review_tags": [
+            "questions",
+            "objects"
+          ]
+        },
+        {
+          "id": "es",
+          "ru": "есть / (нет в настоящем времени)",
+          "en": "is",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "ru.es",
+          "review_tags": [
+            "ser"
+          ]
+        },
+        {
+          "id": "quien-es",
+          "ru": "Кто это?",
+          "en": "Who is it?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "ru.quien-es",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "que-es",
+          "ru": "Что это?",
+          "en": "What is it?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "ru.que-es",
+          "review_tags": [
+            "questions"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "questions",
+        "ser",
+        "articles"
+      ],
+      "examples": [
+        {
+          "ru": "Что это?",
+          "en": "What is this?",
+          "analysis": "что = what; это = this"
+        },
+        {
+          "ru": "Кто это?",
+          "en": "Who is it?",
+          "analysis": "кто = who"
+        },
+        {
+          "ru": "Где он/она?",
+          "en": "Where is it?",
+          "analysis": "где = where; (он/она) is located"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d6-a1",
+          "type": "mcq",
+          "prompt": "Which word means “where”?",
+          "answer": "где",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "question-words"
+          ],
+          "difficulty": "core",
+          "options": [
+            "что",
+            "кто",
+            "где",
+            "как"
+          ]
+        },
+        {
+          "id": "w1d6-a2",
+          "type": "translate",
+          "prompt": "Translate: “Who is she?”",
+          "answer": "Кто она?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "quien",
+            "ser"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Кто она?",
+            "Кто она"
+          ]
+        },
+        {
+          "id": "w1d6-a3",
+          "type": "matching",
+          "prompt": "Match each question word: qué = what; quién = who; dónde = where; cómo = how.",
+          "answer": "qué = what; quién = who; dónde = where; cómo = how.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "question-words"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d6-a4",
+          "type": "ordering",
+          "prompt": "Put in order: есть / Где / это?",
+          "answer": "Где это?",
+          "hint": "",
+          "feedback": "The natural location question is often «Где это?».",
+          "rationale": "",
+          "review_item_ids": [
+            "question-words"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Где это?",
+            "Где это"
+          ]
+        },
+        {
+          "id": "w1d6-a5",
+          "type": "speak",
+          "prompt": "Ask and answer: What is this?",
+          "answer": "Что это? Это ____.",
+          "hint": "Point to an imagined object.",
+          "feedback": "Use the question and a full noun phrase in the answer.",
+          "rationale": "",
+          "review_item_ids": [
+            "que",
+            "articles"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Ask for basic information instead of guessing.",
+      "dialogue": {
+        "title": "Question drill",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Что это?",
+            "en": "What is this?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Это карта.",
+            "en": "It is a map."
+          },
+          {
+            "speaker": "A",
+            "ru": "Кто она?",
+            "en": "Who is she?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Это моя подруга.",
+            "en": "She is my friend."
+          }
+        ],
+        "learner_turns": [
+          "Replace карта and подруга with your own words.",
+          "Ask all four question words aloud."
+        ]
+      },
+      "exit_check": [
+        "Retrieve qué, quién, dónde, and cómo.",
+        "Ask two questions and answer them with complete phrases.",
+        "Use both opening and closing question marks."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "ru-w1-d07",
+      "day": 7,
+      "title": "Week 1 Field Check",
+      "focus": "Integrated introductions and descriptions",
+      "estimated_minutes": 20,
+      "objectives": [
+        "hold a 60–90 second basic introduction",
+        "understand a short introduction at slow speed",
+        "combine identity, origin, noun phrases, and descriptions"
+      ],
+      "teaching": {
+        "explanation": "Сегодня — день повторения. Не перечитывайте неделю сразу перед проверкой. Сначала попытайтесь пройти чекпоинт по памяти, затем просмотрите только пропущенные элементы. Цель — гибкое комбинирование фраз, а не заучивание одного скрипта.",
+        "pattern": "Привет. Меня зовут ____. Я из ____. Я студент(ка). Мой друг/моя подруга ____ . Очень приятно.",
+        "checkpoint": "Вы должны поприветствовать, назвать имя и происхождение, задать один вопрос, описать одного человека и использовать одну фразу для прояснения."
+      },
+      "vocabulary": [
+        {
+          "id": "mi",
+          "ru": "мой / моя",
+          "en": "my",
+          "pos": "possessive",
+          "gender": null,
+          "audio_key": "ru.mi",
+          "review_tags": [
+            "possessives"
+          ]
+        },
+        {
+          "id": "tu-amigo",
+          "ru": "твой друг",
+          "en": "your friend",
+          "pos": "noun phrase",
+          "gender": "m",
+          "audio_key": "ru.tu-amigo",
+          "review_tags": [
+            "identity"
+          ]
+        },
+        {
+          "id": "mi-amiga",
+          "ru": "моя подруга",
+          "en": "my friend",
+          "pos": "noun phrase",
+          "gender": "f",
+          "audio_key": "ru.mi-amiga",
+          "review_tags": [
+            "identity"
+          ]
+        },
+        {
+          "id": "estudiante",
+          "ru": "студент / студентка",
+          "en": "student",
+          "pos": "noun",
+          "gender": null,
+          "audio_key": "ru.estudiante",
+          "review_tags": [
+            "identity"
+          ]
+        },
+        {
+          "id": "tambien",
+          "ru": "тоже",
+          "en": "also",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "ru.tambien",
+          "review_tags": [
+            "connectors"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "review",
+        "integration",
+        "mastery"
+      ],
+      "examples": [
+        {
+          "ru": "Привет, меня зовут Карлос. Я из Перу.",
+          "en": "Hello, my name is Carlos. I am from Peru.",
+          "analysis": "greeting + identity + origin"
+        },
+        {
+          "ru": "Моя подруга дружелюбная.",
+          "en": "My friend is friendly.",
+          "analysis": "possessive мой + feminine noun + adjective"
+        },
+        {
+          "ru": "Повторите, пожалуйста?",
+          "en": "Can you repeat, please?",
+          "analysis": "repair strategy"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d7-a1",
+          "type": "retrieval",
+          "prompt": "Without hints, write the Spanish for “My name is …” and “I am from …”.",
+          "answer": "Меня зовут ____. Я из ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "me-llamo",
+            "soy",
+            "de"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d7-a2",
+          "type": "translation_chain",
+          "prompt": "Translate and then say: “Hello. I am from Mexico. Nice to meet you.”",
+          "answer": "Привет. Я из Мексики. Очень приятно.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "hola",
+            "soy",
+            "mucho-gusto"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d7-a3",
+          "type": "listening_comprehension",
+          "prompt": "After hearing a short introduction, identify the speaker’s name and country.",
+          "answer": "name_and_country_from_audio",
+          "hint": "",
+          "feedback": "The app should generate or select a slow audio clip using Week 1 vocabulary.",
+          "rationale": "",
+          "review_item_ids": [
+            "identity",
+            "origin"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d7-a4",
+          "type": "error_correction",
+          "prompt": "Correct: Моя подруга дружелюбный.",
+          "answer": "Моя подруга дружелюбная.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "agreement"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d7-a5",
+          "type": "roleplay",
+          "prompt": "Complete the field check with a simulated partner.",
+          "answer": "Привет. Меня зовут ____. Я из ____. Как тебя зовут? Очень приятно.",
+          "hint": "",
+          "feedback": "Pass when you complete the exchange, ask one follow-up, and use one repair phrase if needed.",
+          "rationale": "",
+          "review_item_ids": [
+            "greetings",
+            "identity",
+            "questions",
+            "repair"
+          ],
+          "difficulty": "checkpoint"
+        }
+      ],
+      "mission": "Complete a first-contact conversation using the entire Week 1 toolkit.",
+      "dialogue": {
+        "title": "First meeting checkpoint",
+        "lines": [
+          {
+            "speaker": "A",
+            "ru": "Привет. Меня зовут Анна. Я из Мексики. Как тебя зовут?",
+            "en": "Hello. My name is Ana. I am from Mexico. What is your name?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Меня зовут ____. Я из ____. Очень приятно.",
+            "en": "My name is ____. I am from ____. Nice to meet you."
+          },
+          {
+            "speaker": "A",
+            "ru": "Кто твой друг?",
+            "en": "Who is your friend?"
+          },
+          {
+            "speaker": "B",
+            "ru": "Это мой друг/моя подруга. Он/Она дружелюбен/дружелюбна.",
+            "en": "He/she is my friend. He/she is friendly."
+          }
+        ],
+        "learner_turns": [
+          "Perform the dialogue without looking at the English.",
+          "Repeat with formal вы language."
+        ]
+      },
+      "exit_check": [
+        "Complete the introduction from memory.",
+        "Understand the core meaning of a short introduction.",
+        "Pass the roleplay with at least 80% accuracy and one spontaneous substitution."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    }
+  ]
+}

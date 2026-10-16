@@ -1,0 +1,1888 @@
+{
+  "schema_version": "1.0.0",
+  "course_id": "french-foundations-a0-a1",
+  "week": 1,
+  "title": "Foundations: First Contact",
+  "lessons": [
+    {
+      "id": "fr-w1-d01",
+      "day": 1,
+      "title": "First Contact",
+      "focus": "Greetings, names, and courtesy",
+      "estimated_minutes": 20,
+      "objectives": [
+        "greet someone formally and informally",
+        "say your name and ask another person’s name",
+        "recognize tu and vous as different levels of formality"
+      ],
+      "teaching": {
+        "explanation": "French greetings are short chunks. Learn them as complete actions before analyzing grammar. Salut can be used informally; bonjour is the standard daytime greeting; bonsoir is used in the evening. Tu is the familiar singular “you”; vous is the formal singular (and also the plural) “you.”",
+        "pattern": "Je m'appelle + name = My name is + name. Comment tu t'appelles ? = What is your name? (informal). Comment vous appelez-vous ? = What is your name? (formal)",
+        "culture_note": "Use vous when you want to show respect or when regional/register norms are unknown; tu is common with peers and in many everyday casual settings."
+      },
+      "vocabulary": [
+        {
+          "id": "hola",
+          "fr": "salut",
+          "en": "hello",
+          "pos": "interjection",
+          "gender": null,
+          "audio_key": "fr.hola",
+          "review_tags": [
+            "greetings"
+          ]
+        },
+        {
+          "id": "buenos-dias",
+          "fr": "bonjour",
+          "en": "good morning / good day",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "fr.buenos-dias",
+          "review_tags": [
+            "greetings",
+            "time"
+          ]
+        },
+        {
+          "id": "buenas-tardes",
+          "fr": "bon après-midi",
+          "en": "good afternoon",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "fr.buenas-tardes",
+          "review_tags": [
+            "greetings",
+            "time"
+          ]
+        },
+        {
+          "id": "buenas-noches",
+          "fr": "bonsoir",
+          "en": "good evening",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "fr.buenas-noches",
+          "review_tags": [
+            "greetings",
+            "time"
+          ]
+        },
+        {
+          "id": "adios",
+          "fr": "au revoir",
+          "en": "goodbye",
+          "pos": "interjection",
+          "gender": null,
+          "audio_key": "fr.adios",
+          "review_tags": [
+            "greetings"
+          ]
+        },
+        {
+          "id": "hasta-luego",
+          "fr": "à plus tard",
+          "en": "see you later",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "fr.hasta-luego",
+          "review_tags": [
+            "greetings"
+          ]
+        },
+        {
+          "id": "me-llamo",
+          "fr": "Je m'appelle",
+          "en": "my name is",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "fr.me-llamo",
+          "review_tags": [
+            "identity"
+          ]
+        },
+        {
+          "id": "como-te-llamas",
+          "fr": "Comment tu t'appelles ?",
+          "en": "What is your name? informal",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "fr.como-te-llamas",
+          "review_tags": [
+            "identity"
+          ]
+        },
+        {
+          "id": "mucho-gusto",
+          "fr": "Enchanté.",
+          "en": "nice to meet you",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "fr.mucho-gusto",
+          "review_tags": [
+            "courtesy"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "chunks",
+        "formality"
+      ],
+      "examples": [
+        {
+          "es": "Bonjour, je m'appelle Ana.",
+          "en": "Hello, my name is Ana.",
+          "analysis": "bonjour = hello; je m'appelle = my name is"
+        },
+        {
+          "es": "Comment tu t'appelles ?",
+          "en": "What is your name?",
+          "analysis": "comment = how; tu t'appelles = you are called (informal)"
+        },
+        {
+          "es": "Enchanté.",
+          "en": "Nice to meet you.",
+          "analysis": "a fixed courtesy phrase"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d1-a1",
+          "type": "listen_select",
+          "prompt": "Choose the phrase you hear: “Good morning.”",
+          "answer": "Bonjour.",
+          "hint": "",
+          "feedback": "Bonjour means good morning / good day. Bonsoir is used in the evening.",
+          "rationale": "Time-of-day greetings are memorized chunks.",
+          "review_item_ids": [
+            "buenos-dias"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Bonsoir.",
+            "Bonjour.",
+            "À plus tard."
+          ]
+        },
+        {
+          "id": "w1d1-a2",
+          "type": "translate",
+          "prompt": "Translate: “My name is Luis.”",
+          "answer": "Je m'appelle Luis.",
+          "hint": "Use the fixed pattern Je m'appelle + name.",
+          "feedback": "Je m'appelle literally means “I call myself,” but the natural translation is “my name is.”",
+          "rationale": "",
+          "review_item_ids": [
+            "me-llamo"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Je m'appelle Luis",
+            "Je m'appelle luis"
+          ]
+        },
+        {
+          "id": "w1d1-a3",
+          "type": "mcq",
+          "prompt": "Which question asks a friend their name?",
+          "answer": "Comment tu t'appelles ?",
+          "hint": "",
+          "feedback": "The tu form marks the informal/familiar address.",
+          "rationale": "",
+          "review_item_ids": [
+            "como-te-llamas"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Comment vous appelez-vous ?",
+            "Comment tu t'appelles ?",
+            "D'où êtes-vous ?"
+          ]
+        },
+        {
+          "id": "w1d1-a4",
+          "type": "ordering",
+          "prompt": "Put the words in order: m'appelle / Je / Sophie",
+          "answer": "Je m'appelle Sophie.",
+          "hint": "",
+          "feedback": "The fixed chunk is Je m'appelle + name.",
+          "rationale": "",
+          "review_item_ids": [
+            "me-llamo",
+            "name"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d1-a5",
+          "type": "speak",
+          "prompt": "Say a greeting, your name, and Enchanté.",
+          "answer": "Salut. Je m'appelle ____. Enchanté.",
+          "hint": "Speak the full three-part introduction aloud.",
+          "feedback": "A successful introduction contains a greeting, name, and courtesy phrase.",
+          "rationale": "",
+          "review_item_ids": [
+            "hola",
+            "me-llamo",
+            "mucho-gusto"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Salut. Je m'appelle ____. Enchanté."
+          ]
+        }
+      ],
+      "mission": "Introduce yourself to a new contact and close the conversation politely.",
+      "dialogue": {
+        "title": "At the registration desk",
+        "lines": [
+          {
+            "speaker": "A",
+            "es": "Bonjour, je m'appelle Marta. Comment tu t'appelles ?",
+            "en": "Hello, my name is Marta. What is your name?"
+          },
+          {
+            "speaker": "B",
+            "es": "Je m'appelle Diego. Enchanté.",
+            "en": "My name is Diego. Nice to meet you."
+          },
+          {
+            "speaker": "A",
+            "es": "Enchanté. À plus tard.",
+            "en": "Nice to meet you. See you later."
+          }
+        ],
+        "learner_turns": [
+          "Replace Marta and Diego with your own name and a fictional partner.",
+          "Repeat the exchange once using formal vous: Comment vous appelez-vous ?"
+        ]
+      },
+      "exit_check": [
+        "Say “Bonjour, je m'appelle …” from memory.",
+        "Choose the informal name question (Comment tu t'appelles ?).",
+        "Say “Enchanté” and “À plus tard.”"
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "fr-w1-d02",
+      "day": 2,
+      "title": "The Sound System",
+      "focus": "Vowels, stress, and classroom repair",
+      "estimated_minutes": 20,
+      "objectives": [
+        "pronounce the basic French oral vowels consistently",
+        "ask someone to repeat or slow down",
+        "use merci and s'il vous plaît in a request"
+      ],
+      "teaching": {
+        "explanation": "French vowel quality differs from English; focus first on clear oral vowels: a as in 'papa', e has several pronunciations, i as in 'si', o as in 'pot', u as in 'tu'. For beginners, prioritize clear vowel sounds and rhythm; perfect accent comes later.",
+        "pattern": "Pouvez-vous répéter ? = Can you repeat? Plus lentement, s'il vous plaît. = More slowly, please. Je ne comprends pas. = I do not understand.",
+        "memory_tip": "Attach each vowel to a gesture or image and retrieve the sound before looking at the written word."
+      },
+      "vocabulary": [
+        {
+          "id": "vowels",
+          "fr": "a e i o u",
+          "en": "French vowels",
+          "pos": "pronunciation",
+          "gender": null,
+          "audio_key": "fr.vowels",
+          "review_tags": [
+            "pronunciation"
+          ]
+        },
+        {
+          "id": "por-favor",
+          "fr": "s'il vous plaît",
+          "en": "please",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "fr.por-favor",
+          "review_tags": [
+            "courtesy"
+          ]
+        },
+        {
+          "id": "gracias",
+          "fr": "merci",
+          "en": "thank you",
+          "pos": "noun/phrase",
+          "gender": "f",
+          "audio_key": "fr.gracias",
+          "review_tags": [
+            "courtesy"
+          ]
+        },
+        {
+          "id": "de-nuevo",
+          "fr": "encore",
+          "en": "again",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "fr.de-nuevo",
+          "review_tags": [
+            "repair"
+          ]
+        },
+        {
+          "id": "repite",
+          "fr": "Répétez",
+          "en": "repeat (command)",
+          "pos": "verb command",
+          "gender": null,
+          "audio_key": "fr.repite",
+          "review_tags": [
+            "repair"
+          ]
+        },
+        {
+          "id": "puedes-repetir",
+          "fr": "Pouvez-vous répéter ?",
+          "en": "Can you repeat?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "fr.puedes-repetir",
+          "review_tags": [
+            "repair"
+          ]
+        },
+        {
+          "id": "mas-despacio",
+          "fr": "Plus lentement",
+          "en": "more slowly",
+          "pos": "phrase",
+          "gender": null,
+          "audio_key": "fr.mas-despacio",
+          "review_tags": [
+            "repair"
+          ]
+        },
+        {
+          "id": "no-entiendo",
+          "fr": "Je ne comprends pas",
+          "en": "I do not understand",
+          "pos": "sentence",
+          "gender": null,
+          "audio_key": "fr.no-entiendo",
+          "review_tags": [
+            "repair"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "pronunciation",
+        "repair"
+      ],
+      "examples": [
+        {
+          "es": "Pouvez-vous répéter ?",
+          "en": "Can you repeat?",
+          "analysis": "pouvez-vous = can you; répéter = to repeat"
+        },
+        {
+          "es": "Plus lentement, s'il vous plaît.",
+          "en": "More slowly, please.",
+          "analysis": "plus = more; lentement = slowly; s'il vous plaît = please"
+        },
+        {
+          "es": "Merci.",
+          "en": "Thank you.",
+          "analysis": "courtesy word"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d2-a1",
+          "type": "listen_select",
+          "prompt": "Choose the word with the /i/ vowel:",
+          "answer": "oui",
+          "hint": "",
+          "feedback": "Oui has the clear /i/ sound.",
+          "rationale": "",
+          "review_item_ids": [
+            "vowels"
+          ],
+          "difficulty": "core",
+          "options": [
+            "oui",
+            "sol",
+            "table"
+          ]
+        },
+        {
+          "id": "w1d2-a2",
+          "type": "translate",
+          "prompt": "Translate: “Please repeat.”",
+          "answer": "Répétez, s'il vous plaît.",
+          "hint": "Use the command chunk Répétez plus s'il vous plaît or Pouvez-vous répéter ?",
+          "feedback": "Répétez is a practical classroom command “repeat.” Pouvez-vous répéter ? is polite.",
+          "rationale": "",
+          "review_item_ids": [
+            "repeat"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Répétez s'il vous plaît",
+            "Répétez, s'il vous plaît",
+            "Pouvez-vous répéter ?"
+          ]
+        },
+        {
+          "id": "w1d2-a3",
+          "type": "mcq",
+          "prompt": "You did not understand. What should you say?",
+          "answer": "Je ne comprends pas.",
+          "hint": "",
+          "feedback": "Je ne comprends pas means “I do not understand.”",
+          "rationale": "",
+          "review_item_ids": [
+            "no-entiendo"
+          ],
+          "difficulty": "core",
+          "options": [
+            "Je ne parle pas.",
+            "Je ne comprends pas.",
+            "Non merci."
+          ]
+        },
+        {
+          "id": "w1d2-a4",
+          "type": "matching",
+          "prompt": "Match the repair phrase to its meaning.",
+          "answer": "Pouvez-vous répéter ? = Can you repeat?; Plus lentement = More slowly; Merci = Thank you.",
+          "hint": "",
+          "feedback": "These phrases keep a conversation moving even with limited grammar.",
+          "rationale": "",
+          "review_item_ids": [
+            "repeat",
+            "slowly",
+            "thanks"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d2-a5",
+          "type": "speak",
+          "prompt": "Ask a partner to repeat more slowly and thank them.",
+          "answer": "Pouvez-vous répéter ? Plus lentement, s'il vous plaît. Merci.",
+          "hint": "",
+          "feedback": "Use the whole repair sequence aloud.",
+          "rationale": "",
+          "review_item_ids": [
+            "repeat",
+            "slowly",
+            "thanks"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Keep a conversation alive when you miss a sound or word.",
+      "dialogue": {
+        "title": "Repairing a missed word",
+        "lines": [
+          {
+            "speaker": "A",
+            "es": "Comment tu t'appelles ?",
+            "en": "What is your name?"
+          },
+          {
+            "speaker": "B",
+            "es": "Je ne comprends pas. Pouvez-vous répéter ?",
+            "en": "I do not understand. Can you repeat?"
+          },
+          {
+            "speaker": "A",
+            "es": "Comment tu t'appelles ?",
+            "en": "What is your name?"
+          },
+          {
+            "speaker": "B",
+            "es": "Je m'appelle Elena.",
+            "en": "My name is Elena."
+          }
+        ],
+        "learner_turns": [
+          "Read B aloud without looking at the English.",
+          "Change Elena to your name."
+        ]
+      },
+      "exit_check": [
+        "Say all five vowels aloud twice.",
+        "Retrieve the phrase for “I do not understand.”",
+        "Ask for repetition and slower speech."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "fr-w1-d03",
+      "day": 3,
+      "title": "People and Pronouns",
+      "focus": "Subject pronouns and identity",
+      "estimated_minutes": 20,
+      "objectives": [
+        "recognize the main subject pronouns",
+        "use suis and es in short identity sentences",
+        "ask and answer where someone is from"
+      ],
+      "teaching": {
+        "explanation": "French normally uses subject pronouns with verbs; beginners should keep pronouns visible while learning conjugation patterns. Vous serves as formal singular and plural; tu is informal singular.",
+        "pattern": "Je suis = I am. Tu es = you are. Il/Elle est = he/she is. Nous sommes = we are. Vous êtes = you are (formal or plural).",
+        "contrast": "Do not translate English “you are” into a single French form: use tu for familiar singular and vous for formal singular or plural."
+      },
+      "vocabulary": [
+        {
+          "id": "yo",
+          "fr": "je",
+          "en": "I",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "fr.yo",
+          "review_tags": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "tu",
+          "fr": "tu",
+          "en": "you informal singular",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "fr.tu",
+          "review_tags": [
+            "pronouns",
+            "formality"
+          ]
+        },
+        {
+          "id": "usted",
+          "fr": "vous",
+          "en": "you formal singular",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "fr.usted",
+          "review_tags": [
+            "pronouns",
+            "formality"
+          ]
+        },
+        {
+          "id": "el",
+          "fr": "il",
+          "en": "he",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "fr.el",
+          "review_tags": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "ella",
+          "fr": "elle",
+          "en": "she",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "fr.ella",
+          "review_tags": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "nosotros",
+          "fr": "nous",
+          "en": "we",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "fr.nosotros",
+          "review_tags": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "ustedes",
+          "fr": "vous",
+          "en": "you all",
+          "pos": "pronoun",
+          "gender": null,
+          "audio_key": "fr.ustedes",
+          "review_tags": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "soy",
+          "fr": "suis",
+          "en": "I am",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "fr.soy",
+          "review_tags": [
+            "être",
+            "identity"
+          ]
+        },
+        {
+          "id": "eres",
+          "fr": "es",
+          "en": "you are informal",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "fr.eres",
+          "review_tags": [
+            "être",
+            "identity"
+          ]
+        },
+        {
+          "id": "es",
+          "fr": "est",
+          "en": "is / you are formal",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "fr.es",
+          "review_tags": [
+            "être",
+            "identity"
+          ]
+        },
+        {
+          "id": "son",
+          "fr": "sont",
+          "en": "they are / you all are",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "fr.son",
+          "review_tags": [
+            "être",
+            "identity"
+          ]
+        },
+        {
+          "id": "de",
+          "fr": "de",
+          "en": "from/of",
+          "pos": "preposition",
+          "gender": null,
+          "audio_key": "fr.de",
+          "review_tags": [
+            "prepositions"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "pronouns",
+        "être",
+        "prepositions"
+      ],
+      "examples": [
+        {
+          "es": "Je suis du Canada.",
+          "en": "I am from Canada.",
+          "analysis": "je = I; suis = am; de/du = from/of"
+        },
+        {
+          "es": "D'où es-tu ?",
+          "en": "Where are you from? informal",
+          "analysis": "d'où = from where; es = are"
+        },
+        {
+          "es": "Elle est du Mexique.",
+          "en": "She is from Mexico.",
+          "analysis": "elle = she; est = is"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d3-a1",
+          "type": "mcq",
+          "prompt": "Which word means “I”?",
+          "answer": "je",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "pronouns"
+          ],
+          "difficulty": "core",
+          "options": [
+            "je",
+            "tu",
+            "ils"
+          ]
+        },
+        {
+          "id": "w1d3-a2",
+          "type": "translate",
+          "prompt": "Translate: “I am from Chile.”",
+          "answer": "Je suis du Chili.",
+          "hint": "Use suis de/du + place.",
+          "feedback": "French may use de or du depending on the country name (du for masculine country names). Both Je suis du Chili and Je suis du Chili are acceptable phrasing.",
+          "rationale": "",
+          "review_item_ids": [
+            "soy",
+            "de"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Je suis du Chili",
+            "Je suis Chili"
+          ]
+        },
+        {
+          "id": "w1d3-a3",
+          "type": "mcq",
+          "prompt": "Choose the informal singular question:",
+          "answer": "D'où es-tu ?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "formality",
+            "eres"
+          ],
+          "difficulty": "core",
+          "options": [
+            "D'où êtes-vous ?",
+            "D'où es-tu ?",
+            "D'où êtes-vous tous ?"
+          ]
+        },
+        {
+          "id": "w1d3-a4",
+          "type": "cloze",
+          "prompt": "Complete: Elle ___ d'Espagne.",
+          "answer": "est",
+          "hint": "",
+          "feedback": "Elle takes the third-person singular form est.",
+          "rationale": "",
+          "review_item_ids": [
+            "es"
+          ],
+          "difficulty": "core",
+          "options": [
+            "suis",
+            "es",
+            "est",
+            "sont"
+          ]
+        },
+        {
+          "id": "w1d3-a5",
+          "type": "speak",
+          "prompt": "Answer in French: D'où es-tu ?",
+          "answer": "Je suis de ____.",
+          "hint": "Use a real or invented country/city.",
+          "feedback": "A complete answer is Je suis de + place.",
+          "rationale": "",
+          "review_item_ids": [
+            "soy",
+            "de"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Exchange identity information with a new classmate.",
+      "dialogue": {
+        "title": "Meeting a classmate",
+        "lines": [
+          {
+            "speaker": "A",
+            "es": "Salut. D'où es-tu ?",
+            "en": "Hi. Where are you from?"
+          },
+          {
+            "speaker": "B",
+            "es": "Je suis de Colombie. Et toi ?",
+            "en": "I am from Colombia. And you?"
+          },
+          {
+            "speaker": "A",
+            "es": "Je suis des États-Unis. Enchanté.",
+            "en": "I am from the United States. Nice to meet you."
+          }
+        ],
+        "learner_turns": [
+          "Replace both places.",
+          "Repeat without reading the English."
+        ]
+      },
+      "exit_check": [
+        "Identify je, tu, il, elle, nous, and vous.",
+        "Say where you are from.",
+        "Ask a familiar person where they are from."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "fr-w1-d04",
+      "day": 4,
+      "title": "Nouns Have a Profile",
+      "focus": "Gender, number, and articles",
+      "estimated_minutes": 20,
+      "objectives": [
+        "identify common noun gender cues",
+        "use le/la and un/une with singular nouns",
+        "make regular nouns plural"
+      ],
+      "teaching": {
+        "explanation": "Every French noun has grammatical gender. Many nouns ending in -e are feminine and many others are masculine; this is a useful pattern but has many exceptions. Learn each noun with its article.",
+        "pattern": "le livre / les livres; la maison / les maisons; un ami / une amie. Add -s to form most regular plurals; pronunciation may not change.",
+        "warning": "Gender is grammatical, not a statement about the real-world object. Exceptions must be learned as vocabulary."
+      },
+      "vocabulary": [
+        {
+          "id": "libro",
+          "fr": "livre",
+          "en": "book",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "fr.libro",
+          "review_tags": [
+            "nouns",
+            "school"
+          ]
+        },
+        {
+          "id": "casa",
+          "fr": "maison",
+          "en": "house",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "fr.casa",
+          "review_tags": [
+            "nouns",
+            "places"
+          ]
+        },
+        {
+          "id": "amigo",
+          "fr": "ami",
+          "en": "friend",
+          "pos": "noun",
+          "gender": "m",
+          "audio_key": "fr.amigo",
+          "review_tags": [
+            "nouns",
+            "people"
+          ]
+        },
+        {
+          "id": "amiga",
+          "fr": "amie",
+          "en": "female friend",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "fr.amiga",
+          "review_tags": [
+            "nouns",
+            "people"
+          ]
+        },
+        {
+          "id": "mapa",
+          "fr": "carte",
+          "en": "map",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "fr.mapa",
+          "review_tags": [
+            "nouns",
+            "places"
+          ]
+        },
+        {
+          "id": "mesa",
+          "fr": "table",
+          "en": "table",
+          "pos": "noun",
+          "gender": "f",
+          "audio_key": "fr.mesa",
+          "review_tags": [
+            "nouns",
+            "objects"
+          ]
+        },
+        {
+          "id": "el",
+          "fr": "le",
+          "en": "the masculine singular",
+          "pos": "article",
+          "gender": "m",
+          "audio_key": "fr.el",
+          "review_tags": [
+            "articles"
+          ]
+        },
+        {
+          "id": "la",
+          "fr": "la",
+          "en": "the feminine singular",
+          "pos": "article",
+          "gender": "f",
+          "audio_key": "fr.la",
+          "review_tags": [
+            "articles"
+          ]
+        },
+        {
+          "id": "los",
+          "fr": "les",
+          "en": "the plural",
+          "pos": "article",
+          "gender": "m",
+          "audio_key": "fr.los",
+          "review_tags": [
+            "articles"
+          ]
+        },
+        {
+          "id": "las",
+          "fr": "les",
+          "en": "the feminine plural",
+          "pos": "article",
+          "gender": "f",
+          "audio_key": "fr.las",
+          "review_tags": [
+            "articles"
+          ]
+        },
+        {
+          "id": "un",
+          "fr": "un",
+          "en": "a/an masculine",
+          "pos": "article",
+          "gender": "m",
+          "audio_key": "fr.un",
+          "review_tags": [
+            "articles"
+          ]
+        },
+        {
+          "id": "una",
+          "fr": "une",
+          "en": "a/an feminine",
+          "pos": "article",
+          "gender": "f",
+          "audio_key": "fr.una",
+          "review_tags": [
+            "articles"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "nouns",
+        "gender",
+        "number",
+        "articles"
+      ],
+      "examples": [
+        {
+          "es": "le livre",
+          "en": "the book",
+          "analysis": "masculine singular"
+        },
+        {
+          "es": "la maison",
+          "en": "the house",
+          "analysis": "feminine singular"
+        },
+        {
+          "es": "les livres",
+          "en": "the books",
+          "analysis": "plural article les"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d4-a1",
+          "type": "mcq",
+          "prompt": "Choose the correct phrase for “the house”:",
+          "answer": "la maison",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "articles",
+            "casa"
+          ],
+          "difficulty": "core",
+          "options": [
+            "le maison",
+            "la maison",
+            "les maison"
+          ]
+        },
+        {
+          "id": "w1d4-a2",
+          "type": "cloze",
+          "prompt": "Complete: ___ livre (the book).",
+          "answer": "le",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "articles",
+            "libro"
+          ],
+          "difficulty": "core",
+          "options": [
+            "le",
+            "la",
+            "les",
+            "les"
+          ]
+        },
+        {
+          "id": "w1d4-a3",
+          "type": "translate",
+          "prompt": "Translate: “the books”",
+          "answer": "les livres",
+          "hint": "",
+          "feedback": "Livre ends in a vowel sound and the plural written form adds -s; the plural article is les.",
+          "rationale": "",
+          "review_item_ids": [
+            "plural",
+            "libro"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "les livres"
+          ]
+        },
+        {
+          "id": "w1d4-a4",
+          "type": "classification",
+          "prompt": "Classify: maisons",
+          "answer": "feminine plural",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "gender",
+            "plural"
+          ],
+          "difficulty": "core",
+          "options": [
+            "masculine singular",
+            "feminine singular",
+            "masculine plural",
+            "feminine plural"
+          ]
+        },
+        {
+          "id": "w1d4-a5",
+          "type": "production",
+          "prompt": "Produce a noun phrase for “a friend” using ami.",
+          "answer": "un ami",
+          "hint": "Use un with the masculine form or une with the feminine form.",
+          "feedback": "The article must agree with the noun: un ami or une amie.",
+          "rationale": "",
+          "review_item_ids": [
+            "articles",
+            "agreement"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "un ami",
+            "une amie"
+          ]
+        }
+      ],
+      "mission": "Identify and describe objects in a simple environment.",
+      "dialogue": {
+        "title": "Labeling a desk",
+        "lines": [
+          {
+            "speaker": "A",
+            "es": "Qu'est-ce que c'est ?",
+            "en": "What is it?"
+          },
+          {
+            "speaker": "B",
+            "es": "C'est un livre.",
+            "en": "It is a book."
+          },
+          {
+            "speaker": "A",
+            "es": "Et qu'est-ce que c'est ?",
+            "en": "And what are they?"
+          },
+          {
+            "speaker": "B",
+            "es": "Ce sont des maisons.",
+            "en": "They are the houses."
+          }
+        ],
+        "learner_turns": [
+          "Point to or imagine three objects and name them with an article.",
+          "Change singular nouns to plural."
+        ]
+      },
+      "exit_check": [
+        "Choose le, la, les, or les for four noun phrases.",
+        "Make livre, maison, ami, and carte plural.",
+        "Produce one masculine and one feminine noun phrase."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "fr-w1-d05",
+      "day": 5,
+      "title": "Describe a Person",
+      "focus": "Adjectives and agreement",
+      "estimated_minutes": 20,
+      "objectives": [
+        "place a basic adjective after a noun when needed",
+        "match adjective gender and number in common patterns",
+        "say whether someone is a student, friend, or teacher"
+      ],
+      "teaching": {
+        "explanation": "Many French adjectives follow the noun and change for gender and number. Common patterns include grand/grande and adjectives that end in -e which are often identical for both genders (e.g., sympathique, calme).",
+        "pattern": "Il/Elle est + adjective = He/She is + adjective. Elle est grande. Il est grand.",
+        "strategy": "Learn adjectives in a pair such as grand/grande rather than memorizing only the English gloss."
+      },
+      "vocabulary": [
+        {
+          "id": "alto",
+          "fr": "grand",
+          "en": "tall masculine",
+          "pos": "adjective",
+          "gender": "m",
+          "audio_key": "fr.alto",
+          "review_tags": [
+            "adjectives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "alta",
+          "fr": "grande",
+          "en": "tall feminine",
+          "pos": "adjective",
+          "gender": "f",
+          "audio_key": "fr.alta",
+          "review_tags": [
+            "adjectives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "simpatico",
+          "fr": "sympathique",
+          "en": "friendly masculine",
+          "pos": "adjective",
+          "gender": "m",
+          "audio_key": "fr.simpatico",
+          "review_tags": [
+            "adjectives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "simpatica",
+          "fr": "sympathique",
+          "en": "friendly feminine",
+          "pos": "adjective",
+          "gender": "f",
+          "audio_key": "fr.simpatica",
+          "review_tags": [
+            "adjectives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "tranquilo",
+          "fr": "calme",
+          "en": "calm masculine",
+          "pos": "adjective",
+          "gender": "m",
+          "audio_key": "fr.tranquilo",
+          "review_tags": [
+            "adjectives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "tranquila",
+          "fr": "calme",
+          "en": "calm feminine",
+          "pos": "adjective",
+          "gender": "f",
+          "audio_key": "fr.tranquila",
+          "review_tags": [
+            "adjectives",
+            "agreement"
+          ]
+        },
+        {
+          "id": "estudiante",
+          "fr": "étudiant / étudiante",
+          "en": "student",
+          "pos": "noun",
+          "gender": null,
+          "audio_key": "fr.estudiante",
+          "review_tags": [
+            "people"
+          ]
+        },
+        {
+          "id": "quien",
+          "fr": "qui",
+          "en": "who",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "fr.quien",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "y",
+          "fr": "et",
+          "en": "and",
+          "pos": "conjunction",
+          "gender": null,
+          "audio_key": "fr.y",
+          "review_tags": [
+            "connectors"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "adjectives",
+        "agreement",
+        "être"
+      ],
+      "examples": [
+        {
+          "es": "Elle est sympathique.",
+          "en": "She is friendly.",
+          "analysis": "elle + est + feminine adjective (sympathique is same form)"
+        },
+        {
+          "es": "Il est grand.",
+          "en": "He is tall.",
+          "analysis": "grand matches masculine il"
+        },
+        {
+          "es": "Ils sont étudiants.",
+          "en": "They are students.",
+          "analysis": "étudiant plural for mixed/masculine groups"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d5-a1",
+          "type": "mcq",
+          "prompt": "Choose the feminine form:",
+          "answer": "grande",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "agreement"
+          ],
+          "difficulty": "core",
+          "options": [
+            "grand",
+            "grande",
+            "grands"
+          ]
+        },
+        {
+          "id": "w1d5-a2",
+          "type": "translate",
+          "prompt": "Translate: “She is friendly.”",
+          "answer": "Elle est sympathique.",
+          "hint": "Use elle est + adjective.",
+          "feedback": "Sympathique ends in -e and is identical for masculine and feminine forms in this case.",
+          "rationale": "",
+          "review_item_ids": [
+            "être",
+            "agreement"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Elle est sympathique",
+            "Est sympathique"
+          ]
+        },
+        {
+          "id": "w1d5-a3",
+          "type": "cloze",
+          "prompt": "Complete: des amis ___ (friendly).",
+          "answer": "sympathiques",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "agreement",
+            "plural"
+          ],
+          "difficulty": "core",
+          "options": [
+            "sympathique",
+            "sympathiques",
+            "sympathiquess",
+            "sympathiquees"
+          ]
+        },
+        {
+          "id": "w1d5-a4",
+          "type": "error_correction",
+          "prompt": "Correct the sentence: Elle est grand.",
+          "answer": "Elle est grande.",
+          "hint": "",
+          "feedback": "Elle requires the feminine adjective grande in this regular pattern.",
+          "rationale": "",
+          "review_item_ids": [
+            "agreement"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d5-a5",
+          "type": "speak",
+          "prompt": "Describe a fictional person with two adjectives.",
+          "answer": "Il/Elle est ____ et ____.",
+          "hint": "Choose matching forms such as grand/grande and sympathique.",
+          "feedback": "Say a complete sentence, not a list of words.",
+          "rationale": "",
+          "review_item_ids": [
+            "être",
+            "agreement"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Give a short description of a person.",
+      "dialogue": {
+        "title": "Introducing a colleague",
+        "lines": [
+          {
+            "speaker": "A",
+            "es": "Qui est-elle ?",
+            "en": "Who is she?"
+          },
+          {
+            "speaker": "B",
+            "es": "C'est mon amie. Elle est sympathique et grande.",
+            "en": "She is my friend. She is friendly and tall."
+          },
+          {
+            "speaker": "A",
+            "es": "Et lui ?",
+            "en": "And he?"
+          },
+          {
+            "speaker": "B",
+            "es": "C'est mon ami. Il est calme.",
+            "en": "He is my friend. He is calm."
+          }
+        ],
+        "learner_turns": [
+          "Change the adjectives and names.",
+          "Say the dialogue as both speakers."
+        ]
+      },
+      "exit_check": [
+        "Match four adjectives to masculine and feminine forms.",
+        "Correct one agreement error.",
+        "Describe one imaginary person with two adjectives."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "fr-w1-d06",
+      "day": 6,
+      "title": "Questions and Answers",
+      "focus": "Question words and short answers",
+      "estimated_minutes": 20,
+      "objectives": [
+        "ask who, what, where, and how questions",
+        "distinguish quoi from qui and où",
+        "answer with a complete phrase rather than a single word"
+      ],
+      "teaching": {
+        "explanation": "French question words include quoi, qui, où, comment, quand. Spoken questions often use intonation or the full form Qu'est-ce que c'est ?; written questions do not use inverted punctuation as in Spanish.",
+        "pattern": "Qu'est-ce que c'est ? = What is it? Qui est ? = Who is it? Où est ? = Where is it? Comment ça va ? = How are you?",
+        "note": "This week, learn question words as retrieval cues. Full verb conjugation for être and other verbs continues in later lessons."
+      },
+      "vocabulary": [
+        {
+          "id": "que",
+          "fr": "quoi",
+          "en": "what",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "fr.que",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "quien",
+          "fr": "qui",
+          "en": "who",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "fr.quien",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "donde",
+          "fr": "où",
+          "en": "where",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "fr.donde",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "como",
+          "fr": "comment",
+          "en": "how",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "fr.como",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "esto",
+          "fr": "ça / ceci",
+          "en": "this",
+          "pos": "demonstrative",
+          "gender": null,
+          "audio_key": "fr.esto",
+          "review_tags": [
+            "questions",
+            "objects"
+          ]
+        },
+        {
+          "id": "es",
+          "fr": "est",
+          "en": "is",
+          "pos": "verb form",
+          "gender": null,
+          "audio_key": "fr.es",
+          "review_tags": [
+            "être"
+          ]
+        },
+        {
+          "id": "quien-es",
+          "fr": "Qui est ?",
+          "en": "Who is it?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "fr.quien-es",
+          "review_tags": [
+            "questions"
+          ]
+        },
+        {
+          "id": "que-es",
+          "fr": "Qu'est-ce que c'est ?",
+          "en": "What is it?",
+          "pos": "question",
+          "gender": null,
+          "audio_key": "fr.que-es",
+          "review_tags": [
+            "questions"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "questions",
+        "être",
+        "articles"
+      ],
+      "examples": [
+        {
+          "es": "Qu'est-ce que c'est ?",
+          "en": "What is this?",
+          "analysis": "qu'est-ce que = what; ceci/ça = this"
+        },
+        {
+          "es": "Qui est ?",
+          "en": "Who is it?",
+          "analysis": "qui = who"
+        },
+        {
+          "es": "Où est ?",
+          "en": "Where is it?",
+          "analysis": "où = where; est = is located"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d6-a1",
+          "type": "mcq",
+          "prompt": "Which word means “where”?",
+          "answer": "où",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "question-words"
+          ],
+          "difficulty": "core",
+          "options": [
+            "quoi",
+            "qui",
+            "où",
+            "comment"
+          ]
+        },
+        {
+          "id": "w1d6-a2",
+          "type": "translate",
+          "prompt": "Translate: “Who is she?”",
+          "answer": "Qui est-elle ?",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "quien",
+            "être"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Qui est-elle ?",
+            "Qui est elle ?"
+          ]
+        },
+        {
+          "id": "w1d6-a3",
+          "type": "matching",
+          "prompt": "Match each question word: quoi = what; qui = who; où = where; comment = how.",
+          "answer": "quoi = what; qui = who; où = where; comment = how.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "question-words"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d6-a4",
+          "type": "ordering",
+          "prompt": "Put in order: est / Où / ceci ?",
+          "answer": "Où est ceci ?",
+          "hint": "",
+          "feedback": "The natural location question in beginner French can be Où est ceci ?; the exercise accepts common forms and will introduce more natural spoken alternatives later.",
+          "rationale": "",
+          "review_item_ids": [
+            "question-words"
+          ],
+          "difficulty": "core",
+          "accepted_answers": [
+            "Où est ceci ?",
+            "Où est-ce ?"
+          ]
+        },
+        {
+          "id": "w1d6-a5",
+          "type": "speak",
+          "prompt": "Ask and answer: What is this?",
+          "answer": "Qu'est-ce que c'est ? C'est un/une ____.",
+          "hint": "Point to an imagined object.",
+          "feedback": "Use the question and a full noun phrase in the answer.",
+          "rationale": "",
+          "review_item_ids": [
+            "que",
+            "articles"
+          ],
+          "difficulty": "core"
+        }
+      ],
+      "mission": "Ask for basic information instead of guessing.",
+      "dialogue": {
+        "title": "Question drill",
+        "lines": [
+          {
+            "speaker": "A",
+            "es": "Qu'est-ce que c'est ?",
+            "en": "What is this?"
+          },
+          {
+            "speaker": "B",
+            "es": "C'est une carte.",
+            "en": "It is a map."
+          },
+          {
+            "speaker": "A",
+            "es": "Qui est-elle ?",
+            "en": "Who is she?"
+          },
+          {
+            "speaker": "B",
+            "es": "C'est mon amie.",
+            "en": "She is my friend."
+          }
+        ],
+        "learner_turns": [
+          "Replace carte and amie with your own words.",
+          "Ask all four question words aloud."
+        ]
+      },
+      "exit_check": [
+        "Retrieve quoi, qui, où, and comment.",
+        "Ask two questions and answer them with complete phrases.",
+        "Use standard written question forms for beginner French."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    },
+    {
+      "id": "fr-w1-d07",
+      "day": 7,
+      "title": "Week 1 Field Check",
+      "focus": "Integrated introductions and descriptions",
+      "estimated_minutes": 20,
+      "objectives": [
+        "hold a 60–90 second basic introduction",
+        "understand a short introduction at slow speed",
+        "combine identity, origin, noun phrases, and descriptions"
+      ],
+      "teaching": {
+        "explanation": "Today is a retrieval day. Do not reread the week first. Attempt the checkpoint from memory, then review only the items you miss. The goal is flexible recombination, not reciting one script.",
+        "pattern": "Bonjour. Je m'appelle ____. Je suis de ____. Je suis étudiant(e). Mon ami(e) est ____. Enchanté.",
+        "checkpoint": "You must greet, give a name and origin, ask one question, describe one person, and repair one misunderstanding."
+      },
+      "vocabulary": [
+        {
+          "id": "mi",
+          "fr": "mon / ma",
+          "en": "my",
+          "pos": "possessive",
+          "gender": null,
+          "audio_key": "fr.mi",
+          "review_tags": [
+            "possessives"
+          ]
+        },
+        {
+          "id": "tu-amigo",
+          "fr": "ton ami",
+          "en": "your friend",
+          "pos": "noun phrase",
+          "gender": "m",
+          "audio_key": "fr.tu-amigo",
+          "review_tags": [
+            "identity"
+          ]
+        },
+        {
+          "id": "mi-amiga",
+          "fr": "mon amie",
+          "en": "my friend",
+          "pos": "noun phrase",
+          "gender": "f",
+          "audio_key": "fr.mi-amiga",
+          "review_tags": [
+            "identity"
+          ]
+        },
+        {
+          "id": "estudiante",
+          "fr": "étudiant",
+          "en": "student",
+          "pos": "noun",
+          "gender": null,
+          "audio_key": "fr.estudiante",
+          "review_tags": [
+            "identity"
+          ]
+        },
+        {
+          "id": "tambien",
+          "fr": "aussi",
+          "en": "also",
+          "pos": "adverb",
+          "gender": null,
+          "audio_key": "fr.tambien",
+          "review_tags": [
+            "connectors"
+          ]
+        }
+      ],
+      "grammar_tags": [
+        "review",
+        "integration",
+        "mastery"
+      ],
+      "examples": [
+        {
+          "es": "Bonjour, je m'appelle Carlos. Je suis du Pérou.",
+          "en": "Hello, my name is Carlos. I am from Peru.",
+          "analysis": "greeting + identity + origin"
+        },
+        {
+          "es": "Mon amie est sympathique.",
+          "en": "My friend is friendly.",
+          "analysis": "possessive mon + feminine noun + adjective"
+        },
+        {
+          "es": "Pouvez-vous répéter, s'il vous plaît ?",
+          "en": "Can you repeat, please?",
+          "analysis": "repair strategy"
+        }
+      ],
+      "activities": [
+        {
+          "id": "w1d7-a1",
+          "type": "retrieval",
+          "prompt": "Without hints, write the French for “My name is …” and “I am from …”.",
+          "answer": "Je m'appelle ____. Je suis de ____.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "me-llamo",
+            "soy",
+            "de"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d7-a2",
+          "type": "translation_chain",
+          "prompt": "Translate and then say: “Hello. I am from Mexico. Nice to meet you.”",
+          "answer": "Bonjour. Je suis du Mexique. Enchanté.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "hola",
+            "soy",
+            "mucho-gusto"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d7-a3",
+          "type": "listening_comprehension",
+          "prompt": "After hearing a short introduction, identify the speaker’s name and country.",
+          "answer": "name_and_country_from_audio",
+          "hint": "",
+          "feedback": "The app should generate or select a slow audio clip using Week 1 vocabulary.",
+          "rationale": "",
+          "review_item_ids": [
+            "identity",
+            "origin"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d7-a4",
+          "type": "error_correction",
+          "prompt": "Correct: Mon amie est sympathique (if necessary).",
+          "answer": "Mon amie est sympathique.",
+          "hint": "",
+          "feedback": "",
+          "rationale": "",
+          "review_item_ids": [
+            "agreement"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "id": "w1d7-a5",
+          "type": "roleplay",
+          "prompt": "Complete the field check with a simulated partner.",
+          "answer": "Bonjour. Je m'appelle ____. Je suis de ____. Comment tu t'appelles ? Enchanté.",
+          "hint": "",
+          "feedback": "Pass when you complete the exchange, ask one follow-up, and use one repair phrase if needed.",
+          "rationale": "",
+          "review_item_ids": [
+            "greetings",
+            "identity",
+            "questions",
+            "repair"
+          ],
+          "difficulty": "checkpoint"
+        }
+      ],
+      "mission": "Complete a first-contact conversation using the entire Week 1 toolkit.",
+      "dialogue": {
+        "title": "First meeting checkpoint",
+        "lines": [
+          {
+            "speaker": "A",
+            "es": "Bonjour. Je m'appelle Ana. Je suis du Mexique. Comment tu t'appelles ?",
+            "en": "Hello. My name is Ana. I am from Mexico. What is your name?"
+          },
+          {
+            "speaker": "B",
+            "es": "Je m'appelle ____. Je suis de ____. Enchanté.",
+            "en": "My name is ____. I am from ____. Nice to meet you."
+          },
+          {
+            "speaker": "A",
+            "es": "Qui est ton ami ?",
+            "en": "Who is your friend?"
+          },
+          {
+            "speaker": "B",
+            "es": "C'est mon ami(e). Il/Elle est sympathique.",
+            "en": "He/she is my friend. He/she is friendly."
+          }
+        ],
+        "learner_turns": [
+          "Perform the dialogue without looking at the English.",
+          "Repeat with formal vous language."
+        ]
+      },
+      "exit_check": [
+        "Complete the introduction from memory.",
+        "Understand the core meaning of a short introduction.",
+        "Pass the roleplay with at least 80% accuracy and one spontaneous substitution."
+      ],
+      "completion_rules": {
+        "minimum_activity_accuracy": 0.8,
+        "minimum_exit_accuracy": 0.7,
+        "requires_mission_completion": true,
+        "retry_policy": "Incorrect essential items return immediately, then again in next-day review."
+      }
+    }
+  ]
+}
