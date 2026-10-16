@@ -1,5 +1,6 @@
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
+import { extractJson, mistralChat } from "./mistral";
 
 const CompanionBrief = z.object({
   personality: z.string().max(2000).default(""),
@@ -59,9 +60,6 @@ const OK: CoachVerdict = {
 export const checkUtterance = createServerFn({ method: "POST" })
   .inputValidator((data) => CoachInput.parse(data))
   .handler(async ({ data }): Promise<CoachVerdict> => {
-    const apiKey = process.env["LOVABLE_API_KEY"];
-    if (!apiKey) return OK;
-
     const norm = (s: string) =>
       s
         .toLowerCase()
@@ -119,39 +117,21 @@ Reply with ONLY JSON:
 - "tag" = 2-4 word lowercase label for the weakness (e.g. "ser vs estar", "past tense"). Empty if correct.
 Never write more than one sentence per field. No paragraphs, ever.`;
 
-    try {
-      const res = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Lovable-API-Key": apiKey,
-          "X-Lovable-AIG-SDK": "fetch",
-        },
-        body: JSON.stringify({
-          model: "google/gemini-3.8-flash",
-          response_format: { type: "json_object" },
-          messages: [
-            { role: "system", content: system },
-            { role: "user", content: "Judge the learner's line. Return the json." },
-          ],
-        }),
-      });
-      if (!res.ok) return OK;
-      const json = (await res.json()) as { choices?: { message?: { content?: string } }[] };
-      const raw = json.choices?.[0]?.message?.content ?? "";
-      const start = raw.indexOf("{");
-      const end = raw.lastIndexOf("}");
-      if (start === -1 || end === -1) return OK;
-      const parsed = JSON.parse(raw.slice(start, end + 1)) as Partial<CoachVerdict>;
-      const severity = (Math.min(4, Math.max(0, Number(parsed.severity ?? 0))) || 0) as CoachVerdict["severity"];
-      return {
-        ...OK,
-        ...parsed,
-        severity,
-        retry: parsed.retry || parsed.better || "",
-        correct: severity <= 1,
-      };
-    } catch {
-      return OK;
-    }
+    const raw = await mistralChat(
+      [
+        { role: "system", content: system },
+        { role: "user", content: "Judge the learner's line. Return the json." },
+      ],
+      { json: true },
+    );
+    const parsed = extractJson<Partial<CoachVerdict>>(raw);
+    if (!parsed) return OK;
+    const severity = (Math.min(4, Math.max(0, Number(parsed.severity ?? 0))) || 0) as CoachVerdict["severity"];
+    return {
+      ...OK,
+      ...parsed,
+      severity,
+      retry: parsed.retry || parsed.better || "",
+      correct: severity <= 1,
+    };
   });

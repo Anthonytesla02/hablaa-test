@@ -1,5 +1,6 @@
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
+import { extractJson, mistralChat } from "./mistral";
 
 const GlossInput = z.object({
   word: z.string().min(1).max(60),
@@ -31,9 +32,6 @@ const FALLBACK = (word: string): WordGloss => ({
 export const explainWord = createServerFn({ method: "POST" })
   .inputValidator((data) => GlossInput.parse(data))
   .handler(async ({ data }): Promise<WordGloss> => {
-    const apiKey = process.env["LOVABLE_API_KEY"];
-    if (!apiKey) return FALLBACK(data.word);
-
     const system = `You are a concise ${data.language} tutor for absolute beginners.
 Explain ONE word as it is used in the given sentence.
 Reply with ONLY JSON matching:
@@ -43,37 +41,17 @@ Rules: "translation" = short English meaning in this context (max 6 words).
 "grammar" = ONE or TWO short sentences a beginner understands (gender, conjugation, agreement, register, or usage note).
 "example_target" = a new short natural sentence in ${data.language} using the word; "example_translation" = its English translation.`;
 
-    try {
-      const res = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Lovable-API-Key": apiKey,
-          "X-Lovable-AIG-SDK": "fetch",
+    const raw = await mistralChat(
+      [
+        { role: "system", content: system },
+        {
+          role: "user",
+          content: `Word: "${data.word}"\nSentence: "${data.phrase || data.word}"\nReturn the json.`,
         },
-        body: JSON.stringify({
-          model: "google/gemini-3.8-flash",
-          response_format: { type: "json_object" },
-          messages: [
-            { role: "system", content: system },
-            {
-              role: "user",
-              content: `Word: "${data.word}"\nSentence: "${data.phrase || data.word}"\nReturn the json.`,
-            },
-          ],
-        }),
-      });
-      if (!res.ok) return FALLBACK(data.word);
-      const json = (await res.json()) as {
-        choices?: { message?: { content?: string } }[];
-      };
-      const raw = json.choices?.[0]?.message?.content ?? "";
-      const start = raw.indexOf("{");
-      const end = raw.lastIndexOf("}");
-      if (start === -1 || end === -1) return FALLBACK(data.word);
-      const parsed = JSON.parse(raw.slice(start, end + 1)) as Partial<WordGloss>;
-      return { ...FALLBACK(data.word), ...parsed, word: data.word };
-    } catch {
-      return FALLBACK(data.word);
-    }
+      ],
+      { json: true },
+    );
+    const parsed = extractJson<Partial<WordGloss>>(raw);
+    if (!parsed) return FALLBACK(data.word);
+    return { ...FALLBACK(data.word), ...parsed, word: data.word };
   });
