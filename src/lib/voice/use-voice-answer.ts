@@ -1,6 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import { MicError, listen, micSupported, type Session } from "./recorder";
-import { transcribeSpeech } from "./transcribe.functions";
+import { listenOnce, RecognitionError, recognitionSupported, type RecognitionSession } from "./recognize";
 import { scoreSpeech, voiceXp, type VoiceScore } from "./score";
 import { stopSpeaking } from "@/lib/speech";
 
@@ -8,7 +7,7 @@ export type VoicePhase = "idle" | "listening" | "checking" | "result" | "error";
 
 export type VoiceAnswerState = {
   phase: VoicePhase;
-  /** 0–1 live loudness while listening. */
+  /** 0–1 live loudness while listening (static with browser recognition). */
   level: number;
   transcript: string;
   result: VoiceScore | null;
@@ -29,7 +28,8 @@ type Options = {
 };
 
 /**
- * One speech state machine for the whole app: record → transcribe → score.
+ * One speech state machine for the whole app: listen (browser SpeechRecognition) → score.
+ * Runs entirely on the device — free and unlimited.
  */
 export function useVoiceAnswer({ expected, locale, onResult, onTranscript }: Options): VoiceAnswerState {
   const [phase, setPhase] = useState<VoicePhase>("idle");
@@ -37,7 +37,7 @@ export function useVoiceAnswer({ expected, locale, onResult, onTranscript }: Opt
   const [transcript, setTranscript] = useState("");
   const [result, setResult] = useState<VoiceScore | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const session = useRef<Session | null>(null);
+  const session = useRef<RecognitionSession | null>(null);
   const alive = useRef(true);
 
   useEffect(() => {
@@ -73,19 +73,16 @@ export function useVoiceAnswer({ expected, locale, onResult, onTranscript }: Opt
         stopSpeaking();
         // Give the speakers time to settle before opening the microphone.
         await new Promise((resolve) => setTimeout(resolve, 140));
-        const s = await listen((l) => alive.current && setLevel(l));
+        const s = listenOnce(locale);
         session.current = s;
         setPhase("listening");
-        const capture = await s.done;
+        setLevel(0.6);
+        const heard = await s.done;
         session.current = null;
         if (!alive.current) return;
         setLevel(0);
         setPhase("checking");
 
-        const { transcript: heard } = await transcribeSpeech({
-          data: { audio: capture.base64, mimeType: capture.mimeType, locale },
-        });
-        if (!alive.current) return;
         if (!heard) {
           setPhase("error");
           setError("I couldn't make out any words — try again a bit louder.");
@@ -107,7 +104,7 @@ export function useVoiceAnswer({ expected, locale, onResult, onTranscript }: Opt
         setLevel(0);
         setPhase("error");
         setError(
-          e instanceof MicError
+          e instanceof RecognitionError
             ? e.message
             : e instanceof Error
               ? e.message
@@ -123,7 +120,7 @@ export function useVoiceAnswer({ expected, locale, onResult, onTranscript }: Opt
     transcript,
     result,
     error,
-    supported: micSupported(),
+    supported: recognitionSupported(),
     toggle,
     reset,
   };

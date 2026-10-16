@@ -1,4 +1,7 @@
-import { createParser } from "eventsource-parser";
+/**
+ * Tutor voice-out, fully in the browser via SpeechSynthesis.
+ * Free, unlimited, and works offline — no AI credits involved.
+ */
 
 export type SpeechMood =
   | "warm"
@@ -14,9 +17,7 @@ type SpeakingState = { speaking: boolean; text: string; locale: string };
 let speakingState: SpeakingState = { speaking: false, text: "", locale: "" };
 const listeners = new Set<() => void>();
 
-let activeController: AbortController | null = null;
-let activeContext: AudioContext | null = null;
-let activeSources = new Set<AudioBufferSourceNode>();
+let activeUtterance: SpeechSynthesisUtterance | null = null;
 let generation = 0;
 
 export function subscribeSpeaking(fn: () => void) {
@@ -34,7 +35,7 @@ function setSpeaking(next: SpeakingState) {
 }
 
 export function ttsSupported() {
-  return typeof window !== "undefined" && "AudioContext" in window;
+  return typeof window !== "undefined" && "speechSynthesis" in window;
 }
 
 function inferMood(text: string): SpeechMood {
@@ -45,40 +46,51 @@ function inferMood(text: string): SpeechMood {
   return "warm";
 }
 
-function decodePCM(pending: Uint8Array, incoming: Uint8Array) {
-  const bytes = new Uint8Array(pending.length + incoming.length);
-  bytes.set(pending);
-  bytes.set(incoming, pending.length);
-  const usable = bytes.length - (bytes.length % 2);
-  const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
-  const samples = new Float32Array(usable / 2);
-  for (let i = 0; i < samples.length; i += 1) samples[i] = view.getInt16(i * 2, true) / 32768;
-  return { samples, pending: bytes.slice(usable) };
+/** Mood shapes pitch and pace so the same voice reads warmer or more dramatic. */
+const MOOD_VOICE: Record<SpeechMood, { pitch: number; rate: number }> = {
+  warm: { pitch: 1.0, rate: 1.0 },
+  encouraging: { pitch: 1.1, rate: 1.02 },
+  playful: { pitch: 1.15, rate: 1.05 },
+  corrective: { pitch: 0.95, rate: 0.92 },
+  celebratory: { pitch: 1.2, rate: 1.1 },
+  empathetic: { pitch: 0.95, rate: 0.9 },
+  dramatic: { pitch: 1.05, rate: 0.95 },
+  savage: { pitch: 1.1, rate: 1.08 },
+};
+
+let voicesCache: SpeechSynthesisVoice[] = [];
+function loadVoices() {
+  if (!ttsSupported()) return;
+  voicesCache = window.speechSynthesis.getVoices();
+  if (!voicesCache.length) {
+    window.speechSynthesis.onvoiceschanged = () => {
+      voicesCache = window.speechSynthesis.getVoices();
+    };
+  }
 }
 
-function clearPlayback() {
-  activeController?.abort();
-  activeController = null;
-  for (const source of activeSources) {
-    try {
-      source.stop();
-    } catch {
-      // The source may already have ended.
-    }
-  }
-  activeSources.clear();
-  if (activeContext) void activeContext.close().catch(() => undefined);
-  activeContext = null;
+function pickVoice(locale: string, preferredGender: "male" | "female"): SpeechSynthesisVoice | null {
+  if (!voicesCache.length) loadVoices();
+  const lang = locale.toLowerCase();
+  const prefix = lang.split("-")[0] ?? lang;
+  const matches = voicesCache.filter((v) => v.lang.toLowerCase().startsWith(prefix));
+  const pool = matches.length ? matches : voicesCache.filter((v) => v.lang.toLowerCase().startsWith("en"));
+  if (!pool.length) return null;
+  const femaleHint = /female|woman|zira|samantha|victoria|karen|moira|tessa|fiona|paulina|monica|amelie|anna|katja|sinji|ting|yuna|lucia|camila|sofia|valentina|elena|maria|frida/i;
+  const maleHint = /male|david|mark|alex|daniel|diego|jorge|pablo|thomas|henri|hans|yuri|fred/i;
+  const hint = preferredGender === "female" ? femaleHint : maleHint;
+  return pool.find((v) => hint.test(v.name) && !/compact/i.test(v.name)) ?? pool[0] ?? null;
 }
 
 export function stopSpeaking() {
   generation += 1;
-  clearPlayback();
+  activeUtterance = null;
+  if (ttsSupported()) window.speechSynthesis.cancel();
   setSpeaking({ speaking: false, text: "", locale: "" });
 }
 
 export function unlockAudio() {
-  // Streaming begins only from explicit learner actions; no silent audio hack is needed.
+  // SpeechSynthesis needs no unlock; kept for API compatibility.
 }
 
 export async function speak(
@@ -87,101 +99,46 @@ export async function speak(
   rate = 1,
   preferredGender: "male" | "female" = "female",
   mood: SpeechMood = inferMood(text),
-  blendLocale?: string,
+  _blendLocale?: string,
 ): Promise<void> {
   if (!text.trim() || !ttsSupported()) return;
 
   stopSpeaking();
   const run = generation;
-  const controller = new AbortController();
-  activeController = controller;
-  const context = new AudioContext({ sampleRate: 24000 });
-  activeContext = context;
+  loadVoices();
+
+  const shape = MOOD_VOICE[mood] ?? MOOD_VOICE.warm;
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = locale;
+  const voice = pickVoice(locale, preferredGender);
+  if (voice) utterance.voice = voice;
+  utterance.rate = Math.min(1.6, Math.max(0.5, rate * shape.rate));
+  utterance.pitch = shape.pitch;
+  activeUtterance = utterance;
+
   setSpeaking({ speaking: true, text, locale });
 
-  let pending = new Uint8Array(0);
-  let completed = false;
-  let samplesPlayed = 0;
-  let playhead = 0;
-  let finalPlayback: Promise<void> = Promise.resolve();
+  await new Promise<void>((resolve) => {
+    let settled = false;
+    const done = () => {
+      if (settled) return;
+      settled = true;
+      resolve();
+    };
+    utterance.onend = done;
+    utterance.onerror = done;
+    // Safety net: some browsers drop onend for long text.
+    const guard = setTimeout(done, Math.max(4000, text.length * 220));
+    utterance.onend = () => {
+      clearTimeout(guard);
+      done();
+    };
+    window.speechSynthesis.speak(utterance);
+  });
 
-  try {
-    if (context.state === "suspended") await context.resume();
-    const response = await fetch("/api/tts", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text, locale, rate, voice: preferredGender, mood, ...(blendLocale ? { blendLocale } : {}) }),
-      signal: controller.signal,
-    });
-    if (!response.ok || !response.body) {
-      const body = (await response.json().catch(() => null)) as { message?: string } | null;
-      throw new Error(body?.message ?? `Speech failed (${response.status}).`);
-    }
-
-    const parser = createParser({
-      onEvent(event) {
-        const payload = JSON.parse(event.data) as { type?: string; audio?: string; error?: unknown };
-        if (payload.type === "error" || payload.error) throw new Error("The tutor voice could not finish speaking.");
-        if (payload.type === "speech.audio.done") {
-          completed = true;
-          return;
-        }
-        if (payload.type !== "speech.audio.delta" || !payload.audio || completed) return;
-
-        const decoded = decodePCM(
-          pending,
-          Uint8Array.from(atob(payload.audio), (character) => character.charCodeAt(0)),
-        );
-        pending = decoded.pending;
-        if (!decoded.samples.length) return;
-        samplesPlayed += decoded.samples.length;
-
-        const buffer = context.createBuffer(1, decoded.samples.length, 24000);
-        buffer.copyToChannel(decoded.samples, 0);
-        const source = context.createBufferSource();
-        source.buffer = buffer;
-        const compressor = context.createDynamicsCompressor();
-        compressor.threshold.value = -18;
-        compressor.knee.value = 12;
-        compressor.ratio.value = 3;
-        compressor.attack.value = 0.01;
-        compressor.release.value = 0.18;
-        source.connect(compressor);
-        compressor.connect(context.destination);
-        activeSources.add(source);
-        finalPlayback = new Promise<void>((resolve) => {
-          source.onended = () => {
-            activeSources.delete(source);
-            resolve();
-          };
-        });
-        playhead = Math.max(playhead, context.currentTime + 0.06);
-        source.start(playhead);
-        playhead += buffer.duration;
-      },
-    });
-
-    const reader = response.body.pipeThrough(new TextDecoderStream()).getReader();
-    try {
-      while (true) {
-        const next = await reader.read();
-        if (next.done) break;
-        parser.feed(next.value);
-      }
-      parser.reset({ consume: true });
-    } finally {
-      reader.releaseLock();
-    }
-
-    if (!completed || !samplesPlayed || pending.length) throw new Error("The tutor voice stream ended early.");
-    await finalPlayback;
-  } catch (error) {
-    if (!controller.signal.aborted) throw error;
-  } finally {
-    if (run === generation) {
-      clearPlayback();
-      setSpeaking({ speaking: false, text: "", locale: "" });
-    }
+  if (run === generation && activeUtterance === utterance) {
+    activeUtterance = null;
+    setSpeaking({ speaking: false, text: "", locale: "" });
   }
 }
 
@@ -189,7 +146,7 @@ export function normalize(s: string) {
   return s
     .toLowerCase()
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[̀-ͯ]/g, "")
     .replace(/[^\p{L}\p{N}\s]/gu, "")
     .replace(/\s+/g, " ")
     .trim();
