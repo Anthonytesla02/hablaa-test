@@ -3,8 +3,8 @@
  * import from *.functions.ts handlers or server routes — never from client
  * modules. Reads API keys at call time (workerd injects env per request).
  *
- * Provider order per request: Mistral (MISTRAL_API_KEY) → optional second
- * Mistral key (MISTRAL_API_KEY_2) → Groq free tier (GROQ_API_KEY).
+ * Provider order per request: Mistral (MISTRAL_API_KEY) → Groq free tier
+ * (GROQ_API_KEY).
  */
 
 export type ChatMessage = { role: "system" | "user" | "assistant"; content: string };
@@ -26,13 +26,6 @@ function providers(): Provider[] {
       endpoint: "https://api.mistral.ai/v1/chat/completions",
       model: "mistral-small-latest",
       apiKey: process.env["MISTRAL_API_KEY"],
-      supportsJsonMode: true,
-    },
-    {
-      name: "mistral-2",
-      endpoint: "https://api.mistral.ai/v1/chat/completions",
-      model: "mistral-small-latest",
-      apiKey: process.env["MISTRAL_API_KEY_2"],
       supportsJsonMode: true,
     },
     {
